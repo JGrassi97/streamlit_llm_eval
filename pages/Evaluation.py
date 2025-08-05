@@ -134,13 +134,13 @@ with st.form("evaluation_form"):
         uncer_B = st.radio(f"Uncertainty (response B)", options, format_func=options.get, key="uncer_B", horizontal=True)
         action_B = st.radio(f"Actionability (response B)", options, format_func=options.get, key="action_B", horizontal=True)
 
-    submitted = st.form_submit_button("✅ Invia valutazione")
+    submitted = st.form_submit_button("✅ Send Evaluation")
 
 # === Salva le valutazioni ===
 if submitted:
     save_evaluation(st.session_state.user_email, response_id, responses[0]['agent'], rel_A, cred_A, uncer_A, action_A)
     save_evaluation(st.session_state.user_email, response_id, responses[1]['agent'], rel_B, cred_B, uncer_B, action_B)
-    st.success(f"✅ Valutazioni per la domanda {response_id} salvate!")
+    st.success(f"✅ Evaluations for question {response_id} saved!")
 
     for k in ["rel_A", "cred_A", "uncer_A", "action_A", "rel_B", "cred_B", "uncer_B", "action_B", "eval_idx", "responses"]:
         st.session_state.pop(k, None)
