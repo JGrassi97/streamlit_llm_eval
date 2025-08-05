@@ -16,12 +16,19 @@ eval_ws = sh.worksheet("evaluations")  # nuovo
 def hash_password(password):
     return sha256(password.encode()).hexdigest()
 
-def register_user(email, password):
+def register_user(email, password, background, role, wants_updates):
     users = pd.DataFrame(user_ws.get_all_records())
     if email in users["email"].values:
         return False
-    user_ws.append_row([email, hash_password(password)])
+    user_ws.append_row([
+        email,
+        hash_password(password),
+        background,
+        role,
+        "yes" if wants_updates else "no"
+    ])
     return True
+
 
 def login_user(email, password):
     users = pd.DataFrame(user_ws.get_all_records())
@@ -43,10 +50,21 @@ if "user_email" not in st.session_state:
 
 if choice == "Register":
     st.subheader("Create a new account")
+
     email = st.text_input("Email")
     password = st.text_input("Password", type="password")
+
+    background = st.text_area("Tell us a bit about your background (e.g. research field, interest)")
+    role = st.selectbox("Your current role", ["Student", "Researcher", "Policymaker", "NGO", "Private Sector", "Other"])
+    wants_updates = st.checkbox("I would like to receive email updates about this evaluation project")
+
+    st.markdown(
+        ":warning: **Important**: Your password will be encrypted but **we cannot guarantee full security**. "
+        "Please **do not use a password that you use on other services**."
+    )
+
     if st.button("Register"):
-        if register_user(email, password):
+        if register_user(email, password, background, role, wants_updates):
             st.success("Registration successful. You can now log in.")
         else:
             st.error("Email already registered.")
