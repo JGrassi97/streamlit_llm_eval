@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 780,
+  "Lat": 34.0209,
+  "Lon": -6.8416,
+  "QuestionText": "How might projected climate changes alter insurance risk assessments in Rabat, Morocco over the next three decades?",
+  "ResponseText": "### Question  \nHow might projected climate changes alter insurance risk assessments in Rabat, Morocco over the next three decades?\n\n### Short answer (1-line)  \nProjected climate changes may increase insurance risk assessments in Rabat due to heightened flood and drought risks.\n\n### Executive summary (≤ 120 words)  \nOver the next three decades, Rabat is expected to face significant climate changes, including increased temperatures, altered precipitation patterns, and a rising frequency of extreme weather events. These changes are likely to elevate risks for property and agriculture, driving up insurance premiums and influencing policy coverage. Insurers may need to adjust their risk models to account for higher probabilities of flooding, droughts, and heatwaves, necessitating more comprehensive assessments of environmental vulnerabilities. Opportunities may arise for innovative insurance products that reflect the dynamic climate landscape and promote resilience.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Climate changes are projected to increase the frequency of extreme weather events in Rabat. | N/A | N/A | N/A |\n| 2 | Rising temperatures and altered precipitation patterns will raise agricultural and property risks. | N/A | N/A | N/A |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: N/A  \n- Data limitations: Limited local climate projections and regional modeling data available.  \n- Confidence statements: Moderate confidence based on general climate trends in the region.\n\n### Recommendations *(supports actionability)*  \n1. Develop tailored insurance products that address specific climate risks for property and agriculture in Rabat.  \n2. Invest in enhanced data collection and climate modeling to better inform risk assessments and pricing strategies.\n\n### Accessibility notes  \n- \"Risk assessments\": Evaluations to determine the potential for loss or damage.  \n- \"Insurance premiums\": The amount paid for an insurance policy to cover potential risks.  ",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T16:23:51.183367",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 590,
+  "CompletionTokens": 388,
+  "TotalTokens": 978,
+  "TokenUsageNote": ""
+}

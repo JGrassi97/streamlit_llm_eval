@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 583,
+  "Lat": 17.0608,
+  "Lon": -61.7964,
+  "QuestionText": "How will future climate scenarios influence investment risk in the tourism sector of the Caribbean islands by 2035?",
+  "ResponseText": "### Question  \nHow will future climate scenarios influence investment risk in the tourism sector of the Caribbean islands by 2035?\n\n### Short answer (1-line)  \nInvestment risk in Caribbean tourism is likely to increase due to rising temperatures, changes in precipitation patterns, and the increasing frequency of extreme weather events by 2035.\n\n### Executive summary (≤ 120 words)  \nBy 2035, the Caribbean tourism sector faces increased investment risks linked to climate change. Average temperatures are projected to rise, with July temperatures reaching up to 37.8 °C, and precipitation patterns becoming more extreme, increasing annual rainfall during peak months. These changes could intensify severe weather events, making tourism-dependent economies vulnerable. In particular, more frequent hurricanes and rising sea levels threaten coastal infrastructure and habitats, requiring substantial investment in adaptation measures. This could result in a shift in tourist attractions, and without proactive investing, the economic stability of the region may decline.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising temperatures and extreme weather will impact tourism investment | By 2035, July temperatures may reach 37.8 °C, increasing risks of natural hazards | Climate simulations | numeric | \n| 2 | Increased precipitation patterns | Average rainfall in September projected to increase to 59.56 mm/month | Climate simulations | numeric | \n\n### Key uncertainties & assumptions  \n- Scenario / model range: Future predictions until 2050 considering warming and precipitation impacts.  \n- Data limitations: Limited historical data on specific tourism impacts related to climate change; projections based on temperature and precipitation only.  \n- Confidence statements: Moderate confidence based on climate models and trends.\n\n### Recommendations *(supports actionability)*  \n1. Invest in climate-resilient infrastructure for tourism facilities.  \n2. Develop adaptive management strategies that focus on diversifying tourism offerings to mitigate risks associated with environmental changes.  \n\n### Accessibility notes  \n- Extreme weather refers to significant weather events that deviate from the average, including hurricanes and heavy rainfall.  \n- Climate-resilient infrastructure includes buildings and facilities designed to withstand severe weather and environmental changes. ",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T16:54:39.100619",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 13309,
+  "CompletionTokens": 1090,
+  "TotalTokens": 14399,
+  "TokenUsageNote": "Aggregated from 4 internal calls"
+}

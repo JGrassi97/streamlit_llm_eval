@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 583,
+  "Lat": 17.0608,
+  "Lon": -61.7964,
+  "QuestionText": "How will future climate scenarios influence investment risk in the tourism sector of the Caribbean islands by 2035?",
+  "ResponseText": "### Question  \nHow will future climate scenarios influence investment risk in the tourism sector of the Caribbean islands by 2035?  \nLocation: Latitude 17.0608, Longitude -61.7964\n\n### Short answer (1-line)  \nFuture climate scenarios are projected to increase investment risk in the Caribbean tourism sector by 2035 due to greater exposure to extreme weather, sea level rise, and associated disruptions.\n\n### Executive summary (≤ 120 words)  \nBy 2035, the tourism sector in the Caribbean at latitude 17.0608, longitude -61.7964 will likely face increased investment risks as climate models project heightened frequency and severity of hurricanes, higher average temperatures, coastal erosion, and sea level rise. These factors threaten physical infrastructure, insurance costs, visitor flows, and the overall attractiveness of coastal destinations. Investment returns may become more volatile, and adaptation investments will be increasingly necessary to maintain business continuity and protect asset values. There are also potential opportunities for investments in climate-resilient infrastructure and eco-tourism, although these require upfront capital and careful risk management.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Increased frequency/severity of hurricanes raises operational and insurance risks | N/A | N/A | N/A |\n| 2 | Sea level rise threatens coastal tourism infrastructure by 2035 | N/A | N/A | N/A |\n| 3 | Tourist behavior is sensitive to extreme weather and environmental degradation | N/A | N/A | N/A |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: N/A  \n- Data limitations: No specific, directly-cited datasets or studies for this location/time; projections are based on general climate models and sector analyses.  \n- Confidence statements: Moderate confidence in direction of risk (increase), but high uncertainty in magnitude due to local adaptation responses and scenario variation.\n\n### Recommendations *(supports actionability)*  \n1. Invest in climate-resilient infrastructure and incorporate adaptive design for new tourism projects.  \n2. Diversify tourism offerings (e.g., eco-tourism, cultural tourism) away from vulnerable coastal areas.\n\n### Accessibility notes  \n- \"Sea level rise\" = the increase in the average height of the ocean, which can flood or erode coastlines.  \n- \"Investment risk\" = the chance of financial loss or unpredictability for businesses putting money into tourism-related projects.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-08-01T10:21:06.592793",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 592,
+  "CompletionTokens": 504,
+  "TotalTokens": 1096,
+  "TokenUsageNote": ""
+}

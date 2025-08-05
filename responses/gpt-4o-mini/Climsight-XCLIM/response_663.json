@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 663,
+  "Lat": 33.5731,
+  "Lon": -7.5898,
+  "QuestionText": "What are the implications of changing wind directions for off-shore wind energy projects in Casablanca, Morocco throughout 2020-2050?",
+  "ResponseText": "### Question  \nWhat are the implications of changing wind directions for off-shore wind energy projects in Casablanca, Morocco throughout 2020-2050?\n\n### Short answer (1-line)  \nChanging wind directions may pose challenges and necessitate adaptive measures for offshore wind energy projects in Casablanca from 2020-2050.\n\n### Executive summary (≤ 120 words)  \nOffshore wind energy projects in Casablanca, Morocco are impacted by changing wind patterns, particularly from 2020-2050. Projections indicate a decreasing trend in maximum wind speeds, which could affect energy production during peak demand. Additionally, potential shifts in prevailing wind directions necessitate ongoing monitoring and adaptive strategies, such as adjustments in turbine orientations. While minimum wind speeds remain stable, the reliance on wind energy production could be jeopardized due to climate variability. Understanding these dynamics is crucial for investment viability and operational planning in offshore wind energy.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Maximum wind speed is projected to decrease over the medium term (2036-2050). | Mean maximum wind speed: 38.01 m/s (2036-2050); trend slope: -0.07 (not significant). | CMIP6 HighResMIP | numeric |  \n| 2 | Minimum wind speeds show stability but indicate slight variations. | Mean minimum wind speeds remain around 6.38 m/s (2036-2050); stable but varying future predictions. | CMIP6 HighResMIP | numeric | \n\n### Key uncertainties & assumptions  \n- Scenario / model range: Based on multi-model ensemble mean from CMIP6 (historical and future scenarios).  \n- Data limitations: Projections are not statistically significant and should be interpreted cautiously.  \n- Confidence statements: Moderate confidence in established trends but uncertain regarding extreme weather impacts.\n\n### Recommendations *(supports actionability)*  \n1. Implement continuous monitoring of wind patterns to adapt turbine orientations as necessary.  \n2. Develop risk management strategies to address potential challenges arising from reduced wind speed and changing climate variability.\n\n### Accessibility notes  \n- \"Offshore wind energy projects\": Energy generation from turbines located in water, leveraging winds over the ocean.  \n- \"Wind speed\": The measure of how fast the wind is blowing, critical for predicting energy generation potential. ",
+  "Theme": "Renewable Energy and Infrastructure",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:42:07.630730",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 25119,
+  "CompletionTokens": 1252,
+  "TotalTokens": 26371,
+  "TokenUsageNote": "Aggregated from 47 internal calls"
+}

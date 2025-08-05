@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 594,
+  "Lat": 45.9237,
+  "Lon": 6.4176,
+  "QuestionText": "How might a shorter, warmer winter affect the business interruption insurance claims for ski resorts in the French Alps over the next decade?",
+  "ResponseText": "### Question  \nHow might a shorter, warmer winter affect the business interruption insurance claims for ski resorts in the French Alps over the next decade? \n\n### Short answer (1-line)  \nA shorter, warmer winter is likely to increase business interruption insurance claims for ski resorts due to reduced snowfall and operational disruptions.\n\n### Executive summary (≤ 120 words)  \nThe projected trends of shorter and warmer winters in the French Alps are anticipated to significantly impact ski resorts. Specifically, the mean snowfall is expected to decline, leading to less reliable conditions for skiing. Historical data already points to a decrease in solid precipitation, with projections indicating further reductions in snowfall, impacting the operational viability of these resorts. As ski resorts experience increased business interruptions due to insufficient snowfall, they are likely to face higher claims on business interruption insurance, highlighting the need for adaptation and risk management strategies over the next decade.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Shorter and warmer winters are leading to increased risks for ski resorts. | Mean Snowfall is projected to remain critically low with significant declines in solid precipitation. | Climate indicators and projections for 45.9237, 6.4176 | N/A | numeric |\n| 2 | Business interruption risks need to be adjusted due to climate impacts. | Historical trends indicate a significant downward slope in total accumulated solid precipitation over time. | N/A | numeric |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: N/A  \n- Data limitations: Limited projections on specific snowfall trends beyond 2035.  \n- Confidence statements: Moderate confidence in trends based on significant historical data.\n\n### Recommendations *(supports actionability)*  \n1. Ski resorts should enhance their risk management strategies by incorporating climate data into business models to prepare for potential interruptions.  \n2. Consider revising business interruption insurance policies to reflect the risks associated with declining snowfall patterns.\n\n### Accessibility notes  \n- Business interruption insurance: A type of insurance that protects against income loss due to a temporary shutdown of the business.  \n- Solid precipitation: The total amount of snow and other forms of precipitation that occur, essential for skiing activities. ",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "specific",
+  "Timestamp": "2025-07-31T17:32:00.721920",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 16815,
+  "CompletionTokens": 891,
+  "TotalTokens": 17706,
+  "TokenUsageNote": "Aggregated from 38 internal calls"
+}

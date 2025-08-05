@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 543,
+  "Lat": 42.5042,
+  "Lon": 15.2551,
+  "QuestionText": "How is climate change expected to impact the overall health and well-being of communities in the European Mediterranean by 2035?",
+  "ResponseText": "### Question  \nHow is climate change expected to impact the overall health and well-being of communities in the European Mediterranean by 2035?\n\n---\n\n### Short answer (1-line)  \nBy 2035, communities are projected to face significantly more intense heat stress and an increased number of dangerous hot days, heightening risks to public health in the European Mediterranean.\n\n---\n\n### Executive summary (≤ 120 words)  \nBy 2035, the European Mediterranean will experience a substantial rise in both perceived and actual temperature extremes, with the annual mean humidex increasing from 20.2°C (1981–2020) to 21.5°C and the mean number of days with both minimum >22°C and maximum >30°C more than tripling from 1.03 to 3.48 per year. These trends, derived from the CMIP6 HighResMIP ensemble under SSP5-8.5, indicate a significant escalation in heat stress, raising the likelihood of heat-related illnesses, exacerbating cardiovascular and respiratory conditions, and straining healthcare and energy systems. Vulnerable groups, including the elderly, children, and outdoor workers, are at greatest risk.\n\n---\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Annual mean humidex will rise by ~1.3°C by 2035 | Mean humidex increases from 20.2°C (1981–2020) to 21.5°C (2021–2035) | CMIP6 HighResMIP multi-model ensemble mean (7 models, hist‑1950 / highres‑future, SSP5‑8.5) | numeric |\n| 2 | Days with extreme minimum (>22°C) and maximum (>30°C) temperatures will > triple by 2035 | Annual mean events rise from 1.03 (historical) to 3.48 (2021–2035) | CMIP6 HighResMIP multi-model ensemble mean (7 models, hist‑1950 / highres‑future, SSP5‑8.5) | numeric |\n\n---\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Analysis is for high-emission scenario SSP5-8.5; results may differ under lower emission scenarios.\n- Data limitations: Based on multi-model ensemble mean; regional/local variations and extremes may be underestimated.\n- Confidence statements: Very high confidence in the direction (increasing risk), but moderate confidence in exact magnitude due to model spread.\n\n---\n\n### Recommendations *(supports actionability)*  \n1. Develop and implement robust local heat action plans and early-warning systems targeting vulnerable populations.\n2. Upgrade building designs and urban infrastructure with a focus on passive cooling, shade, and efficient cooling systems.\n\n---\n\n### Accessibility notes  \n- **Humidex**: An index combining temperature and humidity to reflect “feels-like” heat stress for humans.\n- **SSP5-8.5**: A climate scenario assuming high greenhouse gas emissions and rapid economic/energy growth.\n\n---",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T14:06:09.330687",
+  "Agent": "XCLIM-AI",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 6343,
+  "CompletionTokens": 294,
+  "TotalTokens": 6637,
+  "TokenUsageNote": "Aggregated from 52 internal calls"
+}

@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 580,
+  "Lat": 25.56813039945868,
+  "Lon": -80.40688292438792,
+  "QuestionText": "What are the broad financial risks posed by climate change to the real estate market in South Florida, USA, over the next 30 years?",
+  "ResponseText": "### Question  \nWhat are the broad financial risks posed by climate change to the real estate market in South Florida, USA, over the next 30 years? \n\n### Short answer (1-line)  \nSouth Florida's real estate market faces significant risks from climate change, including increased flooding, rising temperatures, and heightened insurance costs due to extreme weather events.\n\n### Executive summary (≤ 120 words)  \nOver the next 30 years, South Florida's real estate market is likely to confront severe financial risks associated with climate change, primarily driven by rising sea levels and increased frequency of extreme weather events such as hurricanes and flooding. Projected increases in heat wave frequency and total length may further weaken property values and inflate insurance costs. As coastal populations surge, demand for housing will intensify, potentially exacerbating the vulnerabilities associated with climate risks. Investors and homeowners must be vigilant in addressing these challenges to mitigate financial losses.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising sea levels and frequent flooding are critical risks for real estate | Historical claims from the National Flood Insurance Program show $34.1 billion in costs from 1980-2005 due to weather-related claims. | [Wikipedia](https://en.wikipedia.org/wiki/Climate_change_and_insurance_in_the_United_States) | citation | \n| 2 | Increased heat wave frequency reduces property values | From 1981-2020, the mean total length of heat waves was 72.19 days, with significant upward trends projected. | XCLIM_AI report | numeric | \n\n### Key uncertainties & assumptions  \n- Scenario / model range: Medium-term projections suggest increasing temperatures and heat events with varying impacts on real estate values.  \n- Data limitations: Some climate models may underestimate local flooding risk.  \n- Confidence statements: High confidence in temperature trends; lower confidence in localized flooding predictions.\n\n### Recommendations *(supports actionability)*  \n1. Implement climate-resilient building designs to mitigate flooding and heat impacts.  \n2. Advocate for updated insurance models that reflect the true risk of climate-related events.\n\n### Accessibility notes  \n- Flooding: An overflow of water onto normally dry land, mainly due to heavy rain or rising sea levels.  \n- Heat wave: A prolonged period of excessively hot weather.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T17:09:00.266418",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 28679,
+  "CompletionTokens": 1273,
+  "TotalTokens": 29952,
+  "TokenUsageNote": "Aggregated from 83 internal calls"
+}

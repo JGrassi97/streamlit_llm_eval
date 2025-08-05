@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 780,
+  "Lat": 34.0209,
+  "Lon": -6.8416,
+  "QuestionText": "How might projected climate changes alter insurance risk assessments in Rabat, Morocco over the next three decades?",
+  "ResponseText": "### Question  \nHow might projected climate changes alter insurance risk assessments in Rabat, Morocco over the next three decades? \n\n### Short answer (1-line)  \nProjected climate changes in Rabat are likely to increase insurance risk due to rising temperatures and decreasing precipitation.\n\n### Executive summary (≤ 120 words)  \nRabat, Morocco, is projected to experience increasing temperatures, with a mean daily temperature rise from 1.71°C in the historical period to 1.72°C in the medium-term projections. Simultaneously, liquid precipitation is expected to decrease from 465.24 mm to 359.62 mm, leading to increased drought frequency. These changes elevate risks for agriculture, infrastructure, and health, prompting insurers to reassess policies and pricing models. Increased frequency of extreme weather events may lead to greater claims. Thus, insurers must adopt more adaptive measures and localized risk assessments aligned with future climate scenarios.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Mean daily temperature is projected to rise. | 1.72°C in medium-term (2036-2050) vs. 1.71°C historical (1981-2020) | CMIP6 HighResMIP | numeric |\n| 2 | Total liquid precipitation is expected to decrease. | 359.62 mm in medium-term (2036-2050) vs. 465.24 mm historical (1981-2020) | CMIP6 HighResMIP | numeric |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections based on CMIP6 HighResMIP models for SSP5-8.5 scenario.  \n- Data limitations: Data sourced from multi-model ensemble; local calibration may vary.  \n- Confidence statements: Confidence in trends due to multiple model agreement, but local variability exists.\n\n### Recommendations *(supports actionability)*  \n1. Develop adaptive insurance products that account for increasing variability in climate risks.  \n2. Integrate climate risk assessments into underwriting processes to adjust pricing models effectively.\n\n### Accessibility notes  \n- **Mean Daily Temperature**: Average temperature calculated from daily max and min.  \n- **Liquid Precipitation**: The amount of precipitation measured in liquid form; affected by daily temperatures.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T16:49:36.063459",
+  "Agent": "XCLIM-AI",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 7027,
+  "CompletionTokens": 280,
+  "TotalTokens": 7307,
+  "TokenUsageNote": "Aggregated from 61 internal calls"
+}

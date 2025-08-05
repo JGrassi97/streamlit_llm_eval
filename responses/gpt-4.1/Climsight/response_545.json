@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 545,
+  "Lat": -4.2632,
+  "Lon": 22.9375,
+  "QuestionText": "How will public health systems in sub-Saharan Africa need to adapt to cope with climate-related health threats by 2040?",
+  "ResponseText": "### Question  \nHow will public health systems in sub-Saharan Africa need to adapt to cope with climate-related health threats by 2040?\n\n### Short answer (1-line)  \nPublic health systems must strengthen infrastructure, heat and disease surveillance, and WASH services to address rising climate and disease risks by 2040.\n\n### Executive summary (≤ 120 words)  \nBy 2040, mean annual temperatures in Sankuru, DRC, are projected to increase by up to 2°C, while rainy season precipitation will intensify, raising the risk of heat illness, waterborne and vector-borne diseases, and infrastructure strain. Health systems will need to adapt by expanding heat management capacity, strengthening disease surveillance for malaria and diarrheal diseases, and investing in water, sanitation, and hygiene (WASH) infrastructure. Vulnerabilities are compounded by high poverty, rapid population growth, and environmental degradation, demanding multisectoral strategies to enhance system resilience.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Temperatures are projected to rise by up to 2°C by 2040-2049 | Monthly means increase from ~25°C to ~27°C+ (Jan/Feb: 25.3→27.2°C, June: 27.2→28.2°C) | ClimSight dataset | numeric |\n| 2 | Wet season rainfall is intensifying | Nov-Dec precipitation: ~223 mm (2020s) to 231-240 mm (2040s) | ClimSight dataset | numeric |\n| 3 | Africa is most vulnerable to climate change and health impacts | “The UN Intergovernmental Panel on Climate Change has identified Africa as the continent most vulnerable…” | Wikipedia: Africa | citation |\n| 4 | Poverty, population growth, and land degradation exacerbate health challenges | “81% of the sub-Saharan African population was living on less than $2.50 (PPP) per day in 2005.” | Wikipedia: Africa | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Based on averaged projections for 2020–2049; specific scenarios (RCPs) not disaggregated  \n- Data limitations: Health impact projections and precise disease trends not available for all pathogens or sub-regions  \n- Confidence statements: High confidence in direction of temperature and rainfall change; moderate confidence in specific health impact magnitude\n\n### Recommendations *(supports actionability)*  \n1. Invest in climate-resilient health infrastructure and targeted heat illness programs.  \n2. Strengthen WASH facilities and regional disease surveillance for malaria and diarrheal diseases, especially during intensified rainy seasons.\n\n### Accessibility notes  \n- WASH = Water, sanitation, and hygiene.  \n- Vector-borne diseases = Illnesses transmitted by insects like mosquitoes (e.g., malaria). ",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T14:27:25.948698",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 26977,
+  "CompletionTokens": 1581,
+  "TotalTokens": 28558,
+  "TokenUsageNote": "Aggregated from 4 internal calls"
+}

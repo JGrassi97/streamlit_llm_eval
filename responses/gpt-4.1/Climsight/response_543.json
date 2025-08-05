@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 543,
+  "Lat": 42.5042,
+  "Lon": 15.2551,
+  "QuestionText": "How is climate change expected to impact the overall health and well-being of communities in the European Mediterranean by 2035?",
+  "ResponseText": "ERROR: Failed to generate Climsight response - Error during Climsight execution: cannot access local variable 'output' where it is not associated with a value",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T14:25:31.162307",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

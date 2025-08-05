@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 479,
+  "Lat": 46.8182,
+  "Lon": 8.2275,
+  "QuestionText": "What is the projected impact of changing precipitation patterns on the viability of run-of-the-river hydropower projects in the Alps of Switzerland by 2040?",
+  "ResponseText": "Errore nell'elaborazione della domanda con Climsight-XCLIM: Error during Climsight execution: OPENAI_API_KEY missing for Climsight",
+  "Theme": "Renewable Energy and Infrastructure",
+  "Category": "specific",
+  "Timestamp": "2025-08-05T10:08:29.363150",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

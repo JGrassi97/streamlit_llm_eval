@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 585,
+  "Lat": -33.8688,
+  "Lon": 151.2093,
+  "QuestionText": "How might climate change affect the valuation of long-term infrastructure investments in coastal Australian cities like Sydney by 2040?",
+  "ResponseText": "### Question  \nHow might climate change affect the valuation of long-term infrastructure investments in coastal Australian cities like Sydney by 2040?\n\n### Short answer (1-line)  \nClimate change will likely decrease the valuation of long-term infrastructure investments in Sydney due to increased risks from sea-level rise and extreme weather events.\n\n### Executive summary (≤ 120 words)  \nBy 2040, climate change is expected to significantly impact the valuation of infrastructure investments in Sydney, particularly in coastal areas. Key drivers include rising sea levels, which threaten flood-prone infrastructure, and increased frequency of extreme weather events, leading to greater maintenance costs and potential disruptions. These factors create risks that market participants may factor into investment decisions, potentially lowering asset valuations. Conversely, there are opportunities in investing in climate-resilient infrastructure, which could maintain or increase value despite climate risks.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising sea levels pose a threat to coastal infrastructure. | N/A | N/A | N/A | \n| 2 | Increased extreme weather events will raise maintenance costs. | N/A | N/A | N/A | \n\n### Key uncertainties & assumptions  \n- Scenario / model range: Potential scenarios range from moderate to severe climate change impacts on infrastructure.  \n- Data limitations: Future climate models are inherently uncertain and may not fully capture localized effects.  \n- Confidence statements: Moderate confidence based on existing literature on climate change impacts on infrastructure.\n\n### Recommendations *(supports actionability)*  \n1. Invest in climate-resilient infrastructure to mitigate risks from climate change.  \n2. Conduct regular risk assessments and adjust investment strategies based on updated climate data.\n\n### Accessibility notes  \n- Climate-resilient infrastructure refers to structures designed to withstand climate impacts, such as floods and storms.  \n- Sea-level rise is the increase in the level of the world’s oceans due to climate change effects.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T14:35:10.717270",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 596,
+  "CompletionTokens": 404,
+  "TotalTokens": 1000,
+  "TokenUsageNote": ""
+}

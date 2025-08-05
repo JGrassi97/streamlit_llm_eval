@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 550,
+  "Lat": 41.9028,
+  "Lon": 12.4964,
+  "QuestionText": "How is the geographic range for the Aedes aegypti mosquito, a vector for dengue fever, expected to change in southern Europe due to rising average winter temperatures by 2035, for example near Rome, Italy?",
+  "ResponseText": "### Question  \nHow is the geographic range for the Aedes aegypti mosquito, a vector for dengue fever, expected to change in southern Europe due to rising average winter temperatures by 2035, for example near Rome, Italy?\n\n### Short answer (1-line)  \nThe geographic range of Aedes aegypti is expected to increase near Rome due to rising winter temperatures, leading to a longer active season.\n\n### Executive summary (≤ 120 words)  \nIncreasing winter temperatures in Rome could significantly extend the habitat range of the Aedes aegypti mosquito. Historical data suggests a decrease in freeze-thaw cycles, indicating less winter mortality and a potential increase in suitable habitats for mosquito breeding. This widening range may enhance the transmission of dengue fever, posing public health risks in the region. Ultimately, monitoring climatic shifts and mosquito populations will be critical to understanding and mitigating these risks by 2035.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Aedes aegypti's range is expected to expand due to rising temperatures. | Significant decrease in freeze-thaw cycles, allowing longer active seasons. | N/A | Numeric |\n| 2 | Future projections indicate warmer winters increase suitable habitats for mosquitoes. | Historical data shows a mean freeze-thaw frequency reducing to 4.3 days/year by 2035. | N/A | Numeric |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections until 2050 based on current climate trends.  \n- Data limitations: Errors encountered in precise temperature metrics; further data needed for robust modeling.  \n- Confidence statements: Moderate confidence based on historical trends, but lacking comprehensive future datasets.\n\n### Recommendations *(supports actionability)*  \n1. Establish continuous climate monitoring to assess changes in temperature and precipitation patterns.  \n2. Develop public health initiatives to prepare for potential increases in mosquito-borne diseases.\n\n### Accessibility notes  \n- Aedes aegypti: A mosquito species known for transmitting diseases like dengue fever.  \n- Freeze-thaw cycles: Refers to the number of times temperatures cross freezing, affecting mosquito survival and activity.",
+  "Theme": "Public Health and Climate",
+  "Category": "specific",
+  "Timestamp": "2025-08-05T13:11:29.688329",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 20118,
+  "CompletionTokens": 1137,
+  "TotalTokens": 21255,
+  "TokenUsageNote": "Aggregated from 65 internal calls"
+}

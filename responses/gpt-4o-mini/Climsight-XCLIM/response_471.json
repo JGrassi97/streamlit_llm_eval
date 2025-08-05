@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 471,
+  "Lat": -23.0471,
+  "Lon": -69.2598,
+  "QuestionText": "What is the expected impact of rising average temperatures and subsequent increased air conditioning load on the efficiency of solar farms in the Atacama Desert, Chile, by 2035?",
+  "ResponseText": "Errore nell'elaborazione della domanda con Climsight-XCLIM: Error during Climsight execution: OPENAI_API_KEY missing for Climsight",
+  "Theme": "Renewable Energy and Infrastructure",
+  "Category": "specific",
+  "Timestamp": "2025-08-05T10:08:29.332066",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

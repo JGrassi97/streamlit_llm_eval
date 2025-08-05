@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 548,
+  "Lat": 41.8781,
+  "Lon": -87.6298,
+  "QuestionText": "What are the key public health planning considerations related to climate change for cities in the Great Lakes region of North America?",
+  "ResponseText": "### Question  \nWhat are the key public health planning considerations related to climate change for cities in the Great Lakes region of North America?\n\n### Short answer (1-line)  \nKey considerations include rising temperatures, changing precipitation patterns, heat-related health risks, and vector-borne diseases.\n\n### Executive summary (≤ 120 words)  \nPublic health planning in the Great Lakes region must address the increasing frequency of heat waves and shifts in precipitation, expected to intensify due to climate change. For Chicago, average temperatures are projected to rise from 7.85°C in January 2020-2029 to 8.92°C in January 2040-2049, while precipitation in the same month is expected to decrease from 26.21 mm to 22.5 mm. These changes will heighten risks for heat-related illnesses and the spread of vector-borne diseases while stressing water resources. Effective planning should integrate these climate indicators to protect community health and enhance resilience.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising monthly mean temperatures will increase health risks. | January temperature projected to rise from 7.85°C (2020-2029) to 8.92°C (2040-2049). | N/A | Numeric |\n| 2 | Decreasing precipitation can strain water resources. | January precipitation expected to decrease from 26.21 mm (2020-2029) to 22.5 mm (2040-2049). | N/A | Numeric |\n| 3 | Heat wave occurrences are increasing. | Mean days with temperature >25°C projected to rise from 79.52 days/year (1981-2020) to 101.2 days/year (2036-2050). | N/A | Numeric |\n| 4 | Health risks from vector-borne diseases will escalate. | Rising temperatures and fluctuating precipitation enhance conditions for vectors, leading to higher disease rates. | N/A | Text |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Future projections are from 2020-2049.  \n- Data limitations: Based on existing climate models, trends may vary.  \n- Confidence statements: High confidence in trends based on extensive datasets (p-values < 0.0001).\n\n### Recommendations *(supports actionability)*  \n1. Develop heat action plans to mitigate heat-related health risks, especially for vulnerable populations.  \n2. Integrate climate data into public health infrastructure planning to address potential impacts on water resources.\n\n### Accessibility notes  \n- Heat-related illnesses: Health issues resulting from high temperatures.  \n- Vector-borne diseases: Illnesses transmitted by insects, influenced by climate conditions.  ",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T13:07:29.199404",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 27170,
+  "CompletionTokens": 1171,
+  "TotalTokens": 28341,
+  "TokenUsageNote": "Aggregated from 60 internal calls"
+}

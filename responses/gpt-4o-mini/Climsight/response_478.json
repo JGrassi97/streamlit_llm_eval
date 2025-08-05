@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 478,
+  "Lat": 55.7558,
+  "Lon": 37.6173,
+  "QuestionText": "How could changes in average winter temperatures affect the demand on the power grid for heating in Moscow, Russia, during the 2040-2050 period?",
+  "ResponseText": "ERROR: Failed to generate Climsight response - Error during Climsight execution: OPENAI_API_KEY missing for Climsight",
+  "Theme": "Renewable Energy and Infrastructure",
+  "Category": "specific",
+  "Timestamp": "2025-08-05T10:08:29.311916",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

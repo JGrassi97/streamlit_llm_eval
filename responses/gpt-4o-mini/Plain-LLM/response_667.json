@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 667,
+  "Lat": 36.8065,
+  "Lon": 10.1815,
+  "QuestionText": "What role will future climate variability play in affecting the resilience of coastal energy infrastructure in Tunis, Tunisia in the coming decades?",
+  "ResponseText": "### Question  \nWhat role will future climate variability play in affecting the resilience of coastal energy infrastructure in Tunis, Tunisia in the coming decades?\n\n### Short answer (1-line)  \nFuture climate variability will significantly challenge the resilience of coastal energy infrastructure in Tunis due to increased risks from sea-level rise and extreme weather events.\n\n### Executive summary (≤ 120 words)  \nAs climate variability intensifies, Tunis's coastal energy infrastructure will face heightened risks from sea-level rise and extreme weather events such as storms and flooding. Key drivers include projected temperature increases and shifting precipitation patterns, which are likely to affect the operational capacity and durability of energy facilities. Opportunities could arise from the integration of adaptive technologies and strategic planning; however, without proactive measures, the risks could lead to increased operational costs and potential service disruptions. Developing resilient infrastructure will be essential to maintain energy security in the face of these challenges.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Sea-level rise poses a threat to coastal infrastructure. | Projections estimate a sea-level rise of 0.3 to 1 meter by 2100. | IPCC, 2021 | citation |\n| 2 | Increased frequency of extreme weather events can disrupt energy supply. | Studies indicate increased storm intensity in the Mediterranean region. | World Meteorological Organization, 2022 | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Climate projections vary based on greenhouse gas emission scenarios and regional climate models.  \n- Data limitations: Limited localized studies on specific impacts to Tunis's energy infrastructure.  \n- Confidence statements: Moderate confidence in predictions due to variability in climate models.\n\n### Recommendations *(supports actionability)*  \n1. Implement climate adaptation strategies by retrofitting existing infrastructure to withstand higher sea levels and extreme weather.  \n2. Invest in renewable energy sources to diversify energy supply and reduce reliance on vulnerable coastal infrastructure.\n\n### Accessibility notes  \n- \"Climate variability\" refers to changes in climate patterns such as temperature fluctuations and increased frequency of severe weather.  \n- \"Resilience\" means the ability of infrastructure to withstand and recover from disruptive events.",
+  "Theme": "Renewable Energy and Infrastructure",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:02:32.730426",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 478,
+  "CompletionTokens": 448,
+  "TotalTokens": 926,
+  "TokenUsageNote": ""
+}

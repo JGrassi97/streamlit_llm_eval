@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 548,
+  "Lat": 41.8781,
+  "Lon": -87.6298,
+  "QuestionText": "What are the key public health planning considerations related to climate change for cities in the Great Lakes region of North America?",
+  "ResponseText": "### Question  \nWhat are the key public health planning considerations related to climate change for cities in the Great Lakes region of North America?\n\n### Short answer (1-line)  \nPublic health planning in the Great Lakes region must address extreme heat events, water quality issues, and vector-borne diseases exacerbated by climate change.\n\n### Executive summary (≤ 120 words)  \nCities in the Great Lakes region face significant public health challenges due to climate change, including increased frequency and severity of heatwaves, waterborne diseases from flooding and contaminated water supplies, and the spread of vector-borne illnesses such as Lyme disease and West Nile virus. These factors require comprehensive planning that includes heat action plans, investments in water infrastructure, and public awareness campaigns. Additionally, addressing social vulnerabilities, such as access to cooling centers and healthcare, is essential for effective response strategies. Proactive measures can mitigate health impacts and enhance resilience in urban communities against climate-related threats.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Heatwaves are becoming more frequent and severe in the Great Lakes region. | An increase in average annual temperatures by 1.5°C from 1950-2020. | CMIP6 HighResMIP dataset | numeric |\n| 2 | Vector-borne diseases like Lyme disease are on the rise. | Reports indicate a 300% increase in Lyme disease cases in the Midwest from 2000 to 2017. | CDC | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections based on CMIP6 models indicate variable regional impacts depending on emission scenarios.  \n- Data limitations: Health effect predictions are based on past trends and may not fully capture future dynamics.  \n- Confidence statements: High confidence in temperature and precipitation projections; medium confidence in health outcomes predictions.\n\n### Recommendations *(supports actionability)*  \n1. Implement city-wide heat action plans that include establishing more cooling centers and public health alerts during heatwaves.  \n2. Upgrade water infrastructure to prevent contamination from flooding and improve water safety monitoring.\n\n### Accessibility notes  \n- Heat action plans: strategies that ensure safety during extremely hot weather by providing cooling stations and health warnings.  \n- Vector-borne diseases: illnesses transmitted by insects, like mosquitoes and ticks, which can spread more easily due to climate change.",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:20:43.456683",
+  "Agent": "XCLIM-AI",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 7825,
+  "CompletionTokens": 546,
+  "TotalTokens": 8371,
+  "TokenUsageNote": "Aggregated from 79 internal calls"
+}

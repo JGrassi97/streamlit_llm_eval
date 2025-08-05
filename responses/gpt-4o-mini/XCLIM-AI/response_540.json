@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 540,
+  "Lat": 22.5726,
+  "Lon": 88.3639,
+  "QuestionText": "What are the anticipated public health consequences of climate change in the Bay of Bengal region over the next 30 years?",
+  "ResponseText": "### Question  \nWhat are the anticipated public health consequences of climate change in the Bay of Bengal region over the next 30 years?\n\n### Short answer (1-line)  \nClimate change will likely increase heatwaves and extreme humidity in the Bay of Bengal, exacerbating health issues such as heat stress, respiratory diseases, and vector-borne illnesses.\n\n### Executive summary (≤ 120 words)  \nOver the next 30 years, the Bay of Bengal region is expected to experience heightened temperatures and humidity, leading to increased public health risks. The anticipated rise in heatwaves could cause a surge in heat-related mortality, particularly among vulnerable populations. The humidex indicates a growing discomfort level, which can exacerbate pre-existing health conditions and lead to respiratory problems. Vector-borne diseases like malaria and dengue may also see increased transmission rates due to altered ecosystems. Adapting public health strategies and investing in heat resilience will be essential to mitigate these risks.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Increase in heatwave days anticipated to rise with gradual temperature increases. | Current average of 324 heatwave days expected to increase up to 334 days by 2050. | “CMIP6 HighResMIP multi-model ensemble mean (7 models, hist‑1950 / highres‑future, SSP5‑8.5).” | numerical |\n| 2 | Rising humidex levels indicate increased humidity-related health risks. | Historical average of 35.5 humidex expected to rise to 37.6 by 2050. | “CMIP6 HighResMIP multi-model ensemble mean (7 models, hist‑1950 / highres‑future, SSP5‑8.5).” | numerical |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections assume continued high emission scenarios (SSP5-8.5) with model uncertainties.  \n- Data limitations: Projections are based on a limited range of climate models and may not capture local variability.  \n- Confidence statements: Moderate confidence in trends based on ensemble mean analyses over 30 years.  \n\n### Recommendations *(supports actionability)*  \n1. Increase health service capacity to manage heat stress and vector-borne disease outbreaks.  \n2. Implement public awareness campaigns about climate health risks and encourage adaptation strategies.\n\n### Accessibility notes  \n- Heatwaves: extended periods of excessively hot weather, often accompanied by high humidity.  \n- Humidex: a measure that combines temperature and humidity to represent the perceived temperature.",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:14:09.924346",
+  "Agent": "XCLIM-AI",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 2155,
+  "CompletionTokens": 65,
+  "TotalTokens": 2220,
+  "TokenUsageNote": "Aggregated from 12 internal calls"
+}

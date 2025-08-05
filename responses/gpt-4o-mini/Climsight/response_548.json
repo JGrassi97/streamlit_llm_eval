@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 548,
+  "Lat": 41.8781,
+  "Lon": -87.6298,
+  "QuestionText": "What are the key public health planning considerations related to climate change for cities in the Great Lakes region of North America?",
+  "ResponseText": "### Question  \nWhat are the key public health planning considerations related to climate change for cities in the Great Lakes region of North America?\n\n### Short answer (1-line)  \nKey public health considerations include rising temperatures, increased precipitation, flooding risks, and impacts on food security.\n\n### Executive summary (≤ 120 words)  \nThe Great Lakes region faces significant public health planning challenges due to climate change, including increasing temperatures that result in higher occurrences of heat-related illnesses. Elevated precipitation levels lead to exacerbated flooding, which impacts public health through the spread of waterborne diseases and stresses existing infrastructure. Vulnerable communities, particularly the underprivileged and children, are disproportionately affected, necessitating targeted interventions. Furthermore, changing climate conditions threaten food security as they alter temperature and rainfall patterns essential for agriculture, affecting crops like corn, which has specific requirements for optimal growth. \n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising temperatures correlate with increased heat stress. | Average temperatures have risen by 1.1 °C. | N/A | citation |\n| 2 | Higher precipitation levels are linked to increased flooding and public health risks. | Increased flooding affects vulnerable populations disproportionately. | N/A | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: N/A  \n- Data limitations: Limited quantitative assessments available. \n- Confidence statements: Moderate confidence based on existing literature.\n\n### Recommendations *(supports actionability)*  \n1. Develop targeted heat action plans for vulnerable populations to mitigate risks of heat stress.  \n2. Implement infrastructure upgrades and maintenance strategies to effectively manage increased flooding and protect public health.\n\n### Accessibility notes  \n- Vulnerable populations refer to groups at higher risk of health impacts, including low-income or marginalized communities.\n- Public health planning considerations include strategies to address specific health risks like heat-related illnesses and issues stemming from agricultural changes impacting nutrition. ",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:34:06.953071",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 20411,
+  "CompletionTokens": 1016,
+  "TotalTokens": 21427,
+  "TokenUsageNote": "Aggregated from 4 internal calls"
+}

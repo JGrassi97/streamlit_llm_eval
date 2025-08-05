@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 789,
+  "Lat": 30.4278,
+  "Lon": -9.5981,
+  "QuestionText": "How will climate change affect the long-term risk projections for infrastructure investments in Agadir, Morocco by 2050?",
+  "ResponseText": "### Question  \nHow will climate change affect the long-term risk projections for infrastructure investments in Agadir, Morocco by 2050?\n\n### Short answer (1-line)  \nClimate change is projected to increase risks to infrastructure in Agadir due to rising temperatures, increased heat wave frequency, and changing precipitation patterns.\n\n### Executive summary (≤ 120 words)  \nBy 2050, Agadir is expected to face significant climate impacts including increased average temperatures and more frequent heat waves, with heat wave maximum lengths potentially rising to over 12 days. The Simple Daily Intensity Index indicates a slight cooling mean precipitation trend; thus, increased heat coupled with changing precipitation patterns may endanger infrastructure resilience and performance. Proactive investment in climate-resilient infrastructure is crucial, as well as enhanced long-term planning to mitigate these growing risks.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Heat wave maximum length is projected to increase significantly. | Maximum length expected to be over 12 days by 2050. | XCLIM_AI | numeric |\n| 2 | Increased risks due to heat wave frequency and changing precipitation. | Frequency of heat waves and changes in precipitation dynamics noted. | XCLIM_AI | numeric |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections based on CMIP6 models  \n- Data limitations: Specific local data on infrastructure resilience are limited  \n- Confidence statements: High confidence in temperature and heat wave projections; lower in precipitation impacts.\n\n### Recommendations *(supports actionability)*  \n1. Invest in climate-resilient infrastructure to withstand increased heat and precipitation variability.  \n2. Develop adaptive management strategies incorporating climate forecasts into long-term urban planning.\n\n### Accessibility notes  \n- \"Heat wave\": A prolonged period of excessively hot weather, which can lead to increased stress on infrastructure.  \n- \"Infrastructure resilience\": The capacity of infrastructure to absorb, adapt, and recover from climate impacts.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-08-01T13:50:08.086346",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 28488,
+  "CompletionTokens": 1208,
+  "TotalTokens": 29696,
+  "TokenUsageNote": "Aggregated from 59 internal calls"
+}

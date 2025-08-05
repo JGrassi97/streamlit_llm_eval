@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 547,
+  "Lat": 41.2995,
+  "Lon": 69.2401,
+  "QuestionText": "How might climate change influence the burden of disease in Central Asian nations over the next 20 to 30 years?",
+  "ResponseText": "### Question  \nHow might climate change influence the burden of disease in Central Asian nations over the next 20 to 30 years?\n\n### Short answer (1-line)  \nClimate change is expected to exacerbate health burdens in Central Asia through increased heat-related illnesses and challenges related to water availability.\n\n### Executive summary (≤ 120 words)  \nOver the next 20 to 30 years, climate change is likely to significantly impact health in Central Asia, particularly through rising temperatures and altered precipitation patterns. The Heat Wave Index indicates an increase in heatwave days, projected to rise from approximately 131 days (historical) to nearly 147 days by 2050. While total precipitation shows limited significant trends, water availability may become increasingly problematic due to anticipated droughts and floods. Vulnerable populations will face heightened health risks, necessitating improved health systems and infrastructure responses to climate-induced challenges.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Heatwave days are increasing in Tashkent. | Historical mean of 131.4 days rising to 146.92 days by 2050. | XCLIM | citation |\n| 2 | Water challenges are evident though precipitation trends are stable. | Precipitation means: historical 553.97 mm, projected 536.72 mm by 2050. | XCLIM | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections based on CMIP6 HighResMIP models.  \n- Data limitations: Limited historical data may affect modeling accuracy.  \n- Confidence statements: Moderate confidence based on available projections.\n\n### Recommendations *(supports actionability)*  \n1. Invest in heat-health action plans to mitigate risks from increasing heatwave days.  \n2. Enhance water management strategies to address potential shortages from climate variability.\n\n### Accessibility notes  \n- \"Heatwave\": A prolonged period of excessively hot weather.  \n- \"CPMI6 HighResMIP\": Climate model simulation data used for projections. ",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T13:05:32.057119",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 30403,
+  "CompletionTokens": 1208,
+  "TotalTokens": 31611,
+  "TokenUsageNote": "Aggregated from 101 internal calls"
+}

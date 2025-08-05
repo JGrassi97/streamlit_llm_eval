@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 788,
+  "Lat": 34.0181,
+  "Lon": -5.0078,
+  "QuestionText": "What implications do rising temperatures have on risk assessments for the agricultural insurance sector in Fez, Morocco by 2040?",
+  "ResponseText": "### Question  \nWhat implications do rising temperatures have on risk assessments for the agricultural insurance sector in Fez, Morocco by 2040?\n\n### Short answer (1-line)  \nRising temperatures in Fez are likely to increase agricultural risks, impacting crop yields and insurance costs by 2040.\n\n### Executive summary (≤ 120 words)  \nBy 2040, rising temperatures in Fez, Morocco, may lead to greater agricultural risks due to declining precipitation and increased extreme weather events. Current trends suggest that mean temperatures will rise, while total accumulated precipitation is projected to decline, which is likely to reduce crop yields significantly. This poses challenges for agricultural insurance sectors, as rising risks translate into higher premiums. The agricultural insurance sector must reevaluate risk models to adapt to these changes, ensuring sustainable crop production and coverage.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising temperatures will likely increase agricultural risk | Fez's annual temperatures are projected to rise, affecting crop yields. Historical data indicate declining total precipitation. | N/A | citation |\n| 2 | Total accumulated precipitation is expected to decrease | Historical reports show a mean of 504.71 mm, with forecasts predicting a drop to 424.81 mm by 2040. | CMIP6 HighResMIP multi-model ensemble | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Trends indicate a decline in precipitation, which may not be statistically significant but suggests caution in predictions.  \n- Data limitations: Projections are based on historical trends, which may not account for future anomalies.  \n- Confidence statements: Moderate confidence in the projections provided, as trends are observed over time.\n\n### Recommendations *(supports actionability)*  \n1. Update agricultural insurance models to incorporate anticipated impacts of climate variability by 2040.  \n2. Develop contingency plans for extreme weather events to manage potential crop losses effectively.\n\n### Accessibility notes  \n- Agricultural insurance: A type of insurance designed to cover loss of crops due to various factors including adverse weather.  \n- Total accumulated precipitation: The total rainfall amount over a specified period, critical for assessing agricultural productivity. ",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-08-01T13:47:39.807277",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 29399,
+  "CompletionTokens": 960,
+  "TotalTokens": 30359,
+  "TokenUsageNote": "Aggregated from 74 internal calls"
+}

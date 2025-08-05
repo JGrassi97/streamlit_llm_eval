@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 580,
+  "Lat": 25.56813039945868,
+  "Lon": -80.40688292438792,
+  "QuestionText": "What are the broad financial risks posed by climate change to the real estate market in South Florida, USA, over the next 30 years?",
+  "ResponseText": "### Question  \nWhat are the broad financial risks posed by climate change to the real estate market in South Florida, USA, over the next 30 years?\n\n### Short answer (1-line)  \nClimate change poses risks such as increased flooding, rising insurance premiums, and decreased property values in South Florida's real estate market.\n\n### Executive summary (≤ 120 words)  \nThe real estate market in South Florida faces significant financial risks over the next 30 years due to climate change, particularly from rising sea levels and increased flooding, which threaten property values and insurability. Natural hazards such as hurricanes are expected to become more frequent and intense, driving up insurance costs and reducing market attractiveness. Additionally, the region's population growth puts more pressure on housing demand, complicating the impact of these climate risks. Real estate stakeholders should prepare for these challenges to mitigate potential financial losses.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Increasing sea-level rise impacts property values. | \"Approximately three-quarters of Florida's population lives in the state’s 35 coastal counties, where elevation is often below 10 feet above sea level.\" | Wikipedia URL: [climate change and insurance](https://en.wikipedia.org/wiki/Climate_change_and_insurance_in_the_United_States) | text |\n| 2 | Rising insurance premiums due to natural hazards. | \"Research indicated that high wind speeds during hurricanes can cause extensive damage to properties, influencing insurance premiums.\" | Wikipedia URL: [climate change and insurance](https://en.wikipedia.org/wiki/Climate_change_and_insurance_in_the_United_States) | text |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: N/A  \n- Data limitations: Limited to available climate models and historical data.  \n- Confidence statements: Moderate confidence based on trends and observations from climate data.\n\n### Recommendations *(supports actionability)*  \n1. Implement resilient building practices to withstand extreme weather events.  \n2. Advocate for policies that promote sustainable urban development in vulnerable areas.\n\n### Accessibility notes  \n- \"Insurability\" refers to whether a property can be insured and at what cost based on risk factors like climate change.  \n- \"Elevation\" is the height of a location above sea level, which affects flooding risk.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T16:52:40.586678",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 21367,
+  "CompletionTokens": 936,
+  "TotalTokens": 22303,
+  "TokenUsageNote": "Aggregated from 4 internal calls"
+}

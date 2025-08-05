@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 789,
+  "Lat": 30.4278,
+  "Lon": -9.5981,
+  "QuestionText": "How will climate change affect the long-term risk projections for infrastructure investments in Agadir, Morocco by 2050?",
+  "ResponseText": "### Question  \nHow will climate change affect the long-term risk projections for infrastructure investments in Agadir, Morocco by 2050?\n\n### Short answer (1-line)  \nClimate change will likely increase the risk of flooding, water scarcity, and heat stress, negatively impacting infrastructure investments in Agadir by 2050.\n\n### Executive summary (≤ 120 words)  \nBy 2050, climate change is expected to elevate the risk of extreme weather events in Agadir, Morocco, primarily due to rising temperatures and altered precipitation patterns. Increased flooding risks from intense rainfall, along with prolonged droughts, may threaten water supply and infrastructure resilience. Additionally, heat stress could impact construction materials and energy demands. However, there are opportunities for investment in green infrastructure and water management systems that could mitigate these risks and enhance adaptive capacity.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Climate change is projected to increase drought and flooding risks in Morocco. | IPCC 2021 Assessment Report highlights increased climate variability in North Africa. | IPCC 2021 | Citation |\n| 2 | Agadir's infrastructure is vulnerable to climate impacts. | Local studies indicate that urban areas face increased risks due to poor drainage systems and high heat levels. | N/A | Text |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: This analysis assumes continued trends in global warming and changes in regional climate patterns.  \n- Data limitations: Specific local data on Agadir's infrastructure conditions and climate adaptation measures are limited.  \n- Confidence statements: Moderate confidence in projected climate impacts based on existing regional climate models.\n\n### Recommendations *(supports actionability)*  \n1. Invest in flood management systems and urban planning to enhance infrastructure resilience.  \n2. Implement sustainable water resource management practices to address drought risks.  \n\n### Accessibility notes  \n- Green infrastructure refers to systems that use natural processes for managing water and improving environmental quality.  \n- Urban planning is the process of designing and regulating how land is used in cities to promote safety, accessibility, and sustainability.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-08-01T12:15:29.803231",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 476,
+  "CompletionTokens": 433,
+  "TotalTokens": 909,
+  "TokenUsageNote": ""
+}

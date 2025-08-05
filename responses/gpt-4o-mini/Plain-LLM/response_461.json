@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 461,
+  "Lat": 30.9843,
+  "Lon": -91.9623,
+  "QuestionText": "What is the projected impact of climate change on energy infrastructure resilience in coastal Louisiana, USA, over the next two decades?",
+  "ResponseText": "### Question  \nWhat is the projected impact of climate change on energy infrastructure resilience in coastal Louisiana, USA, over the next two decades?\n\n### Short answer (1-line)  \nClimate change will increase risks to energy infrastructure in coastal Louisiana due to rising sea levels, extreme weather events, and soil erosion.\n\n### Executive summary (≤ 120 words)  \nIn the next two decades, coastal Louisiana's energy infrastructure will face significant challenges due to climate change, primarily driven by rising sea levels and the increasing frequency of hurricanes. This will weaken existing structures and disrupt supply chains. Opportunities exist to enhance resilience through investment in robust infrastructure and renewable energy sources. However, risks are high, with potential flooding and severe weather events leading to increased operational costs and economic losses. Immediate attention to adaptive strategies and building codes is critical to ensure energy security and resilience in the region.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising sea levels are projected to threaten energy infrastructure by 2040. | Sea level rise by 1-2 feet is expected by mid-century. | NOAA Report 2022 | Citation |\n| 2 | Increased hurricane activity poses a critical risk to energy systems. | A 20% increase in hurricane intensity is projected in the Gulf of Mexico. | IPCC Special Report 2021 | Citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections are based on moderate emission scenarios.  \n- Data limitations: Localized data on infrastructure vulnerability may be incomplete.  \n- Confidence statements: Medium confidence in projected impacts based on current models.\n\n### Recommendations *(supports actionability)*  \n1. Invest in climate-resilient infrastructure and upgrade existing energy facilities to withstand severe weather.  \n2. Implement and enforce updated building codes that address flood risks and promote sustainable energy practices.\n\n### Accessibility notes  \n- \"Resilience\" refers to the ability of infrastructure to withstand shocks and continue functioning.  \n- \"Investment in renewable energy\" means allocating resources to sources like solar and wind power which are less affected by climate change.",
+  "Theme": "Renewable Energy and Infrastructure",
+  "Category": "general",
+  "Timestamp": "2025-08-01T12:15:46.459069",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 478,
+  "CompletionTokens": 437,
+  "TotalTokens": 915,
+  "TokenUsageNote": ""
+}

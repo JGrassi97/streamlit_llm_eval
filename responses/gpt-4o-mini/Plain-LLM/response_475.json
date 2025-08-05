@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 475,
+  "Lat": 23.3134,
+  "Lon": 74.2179,
+  "QuestionText": "What is the expected impact of changing monsoon wind patterns on the site selection for new onshore wind farms in western India by 2035?",
+  "ResponseText": "### Question  \nWhat is the expected impact of changing monsoon wind patterns on the site selection for new onshore wind farms in western India by 2035?\n\n### Short answer (1-line)  \nChanging monsoon wind patterns may lead to less optimal conditions for onshore wind farms in western India, necessitating new site evaluations.\n\n### Executive summary (≤ 120 words)  \nBy 2035, anticipated changes in monsoon wind patterns in western India—such as shifts in wind direction and speed—could significantly influence the site selection for new onshore wind farms. A reduction in consistent wind patterns during the monsoon season may limit energy generation potential. Conversely, emerging wind hotspots may arise in regions previously deemed less favorable. Evaluating these patterns will be critical to optimizing site selection and ensuring sustainable energy production. Risks include underperformance of newly established sites and economic implications for investment in renewable infrastructure.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Monsoon wind patterns are projected to change significantly by 2035. | Climate models indicate variations in wind patterns due to climate change. | IPCC Report 2021 | citation |\n| 2 | Current sites may become less optimal due to changing conditions. | Historical data shows decreased wind consistency during altered monsoon periods. | Local meteorological studies | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projected changes based on current climate models.  \n- Data limitations: Ongoing research and regional studies may vary; localized data availability is limited.  \n- Confidence statements: Moderate confidence in projected climate model outcomes.\n\n### Recommendations *(supports actionability)*  \n1. Conduct detailed wind resource assessments in potential new sites to factor in projected changes in wind patterns.  \n2. Invest in adaptive technologies that can optimize energy capture under varying wind conditions.\n\n### Accessibility notes  \n- Monsoon: A seasonal wind pattern that brings heavy rains; important for India's climate.  \n- Wind resource assessments: Evaluation of wind speed and direction to determine the best sites for wind farms.",
+  "Theme": "Renewable Energy and Infrastructure",
+  "Category": "specific",
+  "Timestamp": "2025-08-05T10:29:14.233027",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 488,
+  "CompletionTokens": 434,
+  "TotalTokens": 922,
+  "TokenUsageNote": ""
+}

@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 549,
+  "Lat": 28.6139,
+  "Lon": 77.209,
+  "QuestionText": "How will the health impacts of climate change differ between urban and rural populations in India by 2040?",
+  "ResponseText": "### Question  \nHow will the health impacts of climate change differ between urban and rural populations in India by 2040?\n\n### Short answer (1-line)  \nUrban areas will face compounded health risks from higher temperatures and extreme weather events, while rural populations will struggle with agricultural impacts and water scarcity.\n\n### Executive summary (≤ 120 words)  \nBy 2040, climate change will manifest health impacts differently for urban and rural populations in India. Urban areas will experience severe heatwaves, the urban heat island effect, and increased exposure to natural disasters, leading to greater health risks, especially among vulnerable groups such as the elderly and children. Conversely, rural populations will be affected by deteriorating agricultural conditions, resulting in food insecurity and malnutrition due to changing precipitation patterns and extreme weather events. The interplay of these factors will pose significant risks to public health across India.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Urban heat exposure has tripled since 1983, increasing health vulnerabilities. | Rising extreme heat exposure statistics | N/A | numeric |\n| 2 | Changes in precipitation are leading to increased floods affecting public health. | Insights on natural hazards and health risks | N/A | text |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: N/A  \n- Data limitations: Limited specific data on rural health impacts; general trends referenced instead.  \n- Confidence statements: High confidence in urban health risks due to direct evidence; lower for rural due to lack of specific data. \n\n### Recommendations *(supports actionability)*  \n1. Develop targeted heat risk management strategies for urban populations, including community cooling centers.  \n2. Implement agricultural resilience programs in rural areas to address food security and health impacts driven by climate change.\n\n### Accessibility notes  \n- Urban heat island effect: This is the phenomenon where urban areas become significantly warmer than the rural surroundings due to human activities.  \n- Food insecurity: This refers to the lack of reliable access to sufficient quantities of affordable, nutritious food. ",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:34:45.272228",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 16292,
+  "CompletionTokens": 846,
+  "TotalTokens": 17138,
+  "TokenUsageNote": "Aggregated from 4 internal calls"
+}

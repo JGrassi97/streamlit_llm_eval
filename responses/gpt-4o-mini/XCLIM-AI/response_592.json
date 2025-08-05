@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 592,
+  "Lat": 29.7604,
+  "Lon": -95.3698,
+  "QuestionText": "How will an increase in the frequency of intense rainfall events affect flood insurance premiums for residential properties in Houston, Texas, by 2035?",
+  "ResponseText": "### Question  \nHow will an increase in the frequency of intense rainfall events affect flood insurance premiums for residential properties in Houston, Texas, by 2035?  \n\n### Short answer (1-line)  \nIncreased intense rainfall events are likely to lead to higher flood insurance premiums in Houston due to increased risk exposure and potential losses.\n\n### Executive summary (≤ 120 words)  \nBy 2035, projections indicate an increase in the frequency of intense rainfall events in Houston, with annual maximum 5-day precipitation expected to rise from a historical average of 181.67 mm to approximately 184.59 mm. Moreover, wet spell frequency shows a minor increase, suggesting prolonged periods of significant rain. These trends increase the risk of flooding, leading to more claims and financial losses for insurers, prompting them to raise premiums. Therefore, homeowners should prepare for higher costs associated with flood insurance as the climate continues to shift.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Maximum 5-day precipitation is expected to increase. | Historical average of 181.67 mm (2021-2035 average is 184.59 mm). | CMIP6 HighResMIP dataset | numeric |\n| 2 | Wet spell frequency shows a minor increase. | Short-term mean wet spell frequency projected at 19.78 days. | CMIP6 HighResMIP dataset | numeric |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections based on historical climate model data and assumptions of future climate conditions.  \n- Data limitations: Models may not fully capture local variations or extremes; reliance on historical data may overlook future changes.  \n- Confidence statements: Moderate confidence in projected increases but high variability expected.\n\n### Recommendations *(supports actionability)*  \n1. Homeowners should review and update their flood insurance coverage to reflect increasing flood risks.  \n2. Insurers should incorporate climate models in underwriting processes to assess premium adjustments accurately.\n\n### Accessibility notes  \n- Flood insurance: Insurance that covers property damage due to flooding.  \n- Precipitation: The amount of rain or melted snow that falls to the ground, measured over a specific period.  \n- CMIP6: The Coupled Model Intercomparison Project Phase 6, which provides data from climate models used to project future climate changes.  ",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "specific",
+  "Timestamp": "2025-07-31T16:39:52.493889",
+  "Agent": "XCLIM-AI",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 5801,
+  "CompletionTokens": 293,
+  "TotalTokens": 6094,
+  "TokenUsageNote": "Aggregated from 36 internal calls"
+}

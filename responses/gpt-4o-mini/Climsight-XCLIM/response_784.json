@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 784,
+  "Lat": 33.5731,
+  "Lon": -7.5898,
+  "QuestionText": "What is the anticipated impact of wind speed changes on the insurance sector in Casablanca, Morocco by mid-century?",
+  "ResponseText": "### Question  \nWhat is the anticipated impact of wind speed changes on the insurance sector in Casablanca, Morocco by mid-century?  \n\n### Short answer (1-line)  \nWind speed changes are likely to have a limited and stable impact on the insurance sector in Casablanca by mid-century.\n\n### Executive summary (≤ 120 words)  \nProjections indicate minimal changes in wind speed for Casablanca, with slight increases in wind speeds short-term but stability in the long-term trends. The insurance sector may face implications from climate changes affecting storm intensity; however, current trends suggest that wind speed fluctuations are not significant enough to radically change risk assessments or premiums by mid-century. Insurers should focus on monitoring climate variables closely and consider investing in further research to understand any correlations between wind speeds and other climatic risks.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Wind speed is projected to remain stable with slight increases. | Mean historical wind speed: 9.77 m/s; slight growth indicated short-term but stable medium-term. | XCLIM Data | numeric |\n| 2 | Wind risk parameters are unlikely to drastically change based on current trends. | Trends analysis shows statistically insignificant changes over time for insurance assessment. | XCLIM Data | numeric |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Trends are based on historical data and short-term forecasts; medium-term implications are uncertain.  \n- Data limitations: Limited specific data on wind insurance impacts; reliance on wind speed trends may overlook other climate factors.  \n- Confidence statements: Medium confidence in current projections based on stable historical data trends.\n\n### Recommendations *(supports actionability)*  \n1. Conduct further studies to investigate the relationship between wind speeds and the intensity of storms for more accurate risk assessments.  \n2. Develop adaptive insurance products that can cater to potential future changes in natural disaster patterns.\n\n### Accessibility notes  \n- \"Wind speed\" refers to how fast the air is moving in a specific area; it impacts the likelihood and severity of storms.  \n- \"Statistical significance\" indicates whether a result is likely to be true or just due to random chance. ",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T18:05:54.187794",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 28381,
+  "CompletionTokens": 1207,
+  "TotalTokens": 29588,
+  "TokenUsageNote": "Aggregated from 65 internal calls"
+}

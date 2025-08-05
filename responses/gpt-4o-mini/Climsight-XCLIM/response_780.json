@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 780,
+  "Lat": 34.0209,
+  "Lon": -6.8416,
+  "QuestionText": "How might projected climate changes alter insurance risk assessments in Rabat, Morocco over the next three decades?",
+  "ResponseText": "### Question  \nHow might projected climate changes alter insurance risk assessments in Rabat, Morocco over the next three decades?\n\n### Short answer (1-line)  \nProjected climate changes, including increased heatwaves and decreased precipitation, will heighten risks and necessitate reevaluated insurance assessments in Rabat.\n\n### Executive summary (≤ 120 words)  \nClimate projections for Rabat indicate declining rainfall and rising temperatures, resulting in significant implications for insurance risk assessments. A projected reduction in total precipitation from a mean of 451.74 mm (1981-2020) to 359.62 mm (2036-2050) suggests increased drought risks affecting agricultural productivity. Concurrently, the frequency of heat waves is expected to rise from an average of 1.69 occurrences per year to 3.31 by 2050, heightening health risks and infrastructure strain. Insurers in Rabat must adapt their models to incorporate these changing risks, especially concerning agricultural damage and public health incidents.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Total annual precipitation is projected to decrease significantly over the next three decades. | Historical mean of 451.74 mm decreasing to 359.62 mm by 2050. | Climate indicators for Rabat | Numeric |  \n| 2 | The frequency of heat waves is expected to rise significantly, impacting health and urban resilience. | Heat wave occurrences projected to increase from 1.69 to 3.31 per year by 2050. | Climate indicators for Rabat | Numeric |  \n\n### Key uncertainties & assumptions  \n- Scenario / model range: Climate models such as CMIP6 ensembles.  \n- Data limitations: Variability in climate projections and short time series may affect robustness.  \n- Confidence statements: High confidence in trends based on robust climate modeling data.\n\n### Recommendations *(supports actionability)*  \n1. Update insurance risk models to reflect increased drought and heat wave frequencies, adjusting coverage for agricultural sectors.  \n2. Implement policies to mitigate urban heat and stress on infrastructure, promoting resilience in urban planning.\n\n### Accessibility notes  \n- Precipitation: The amount of rain that falls in a specific area over a specific time.  \n- Heat wave: A prolonged period of excessively hot weather, which can pose health risks and strain resources.  ",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T18:01:42.499081",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 27166,
+  "CompletionTokens": 1352,
+  "TotalTokens": 28518,
+  "TokenUsageNote": "Aggregated from 50 internal calls"
+}

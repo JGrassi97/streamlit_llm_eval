@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 585,
+  "Lat": -33.8688,
+  "Lon": 151.2093,
+  "QuestionText": "How might climate change affect the valuation of long-term infrastructure investments in coastal Australian cities like Sydney by 2040?",
+  "ResponseText": "### Question  \nHow might climate change affect the valuation of long-term infrastructure investments in coastal Australian cities like Sydney by 2040? \n\n### Short answer (1-line)  \nClimate change, particularly rising sea levels and extreme weather events, may significantly depreciate infrastructure values in Sydney by 2040.\n\n### Executive summary (≤ 120 words)  \nBy 2040, climate change is anticipated to significantly affect the valuation of long-term infrastructure in Sydney due to rising sea levels and increased frequency of extreme weather events. Coastal infrastructure may face heightened risks of flooding and damage, necessitating higher maintenance costs and reduced asset lifespans. Infrastructure valuations could decline as the perceived risks increase, potentially leading to lower investments and property values. Additionally, the shifting climate conditions may open opportunities for resilient infrastructure investments but could also impose stringent regulatory and financial demands on existing assets.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising sea levels will affect coastal infrastructure value. | The melting of the West Antarctic ice sheet could contribute to 5+ metres of sea level rise, impacting low-lying cities like Sydney. | N/A | numeric |\n| 2 | Increased frequency of extreme weather events leads to higher risks. | Climate change increases risks of natural disasters, including floods, which can deteriorate infrastructure integrity. | N/A | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: N/A  \n- Data limitations: The impact of specific climate models may vary, affecting projections.  \n- Confidence statements: N/A\n\n### Recommendations *(supports actionability)*  \n1. Invest in climate-resilient infrastructure designs to reduce long-term risk.  \n2. Establish regular assessments and updates of infrastructure valuations based on climate projections.\n\n### Accessibility notes  \n- Climate resilience refers to the ability of infrastructure to withstand the effects of adverse climate events. ",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T14:50:25.012150",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 20672,
+  "CompletionTokens": 853,
+  "TotalTokens": 21525,
+  "TokenUsageNote": "Aggregated from 4 internal calls"
+}

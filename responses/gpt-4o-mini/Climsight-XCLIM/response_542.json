@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 542,
+  "Lat": 34.0522,
+  "Lon": -118.2437,
+  "QuestionText": "What are the primary climate-related health risks for populations in Southern California, USA, through 2050?",
+  "ResponseText": "### Question  \nWhat are the primary climate-related health risks for populations in Southern California, USA, through 2050?\n\n### Short answer (1-line)  \nRising temperatures, increased heatwave frequency, and altered precipitation patterns significantly heighten climate-related health risks in Southern California through 2050.\n\n### Executive summary (≤ 120 words)  \nSouthern California faces considerable climate-related health risks through 2050, primarily due to rising temperatures, increased heatwave occurrences, and changes in precipitation patterns. Projections indicate more days with severe heat exposure, particularly affecting vulnerable populations. The frequency and duration of heatwaves are expected to rise sharply, leading to increased risks of heat stress and mortality. Coupled with demographic changes and urbanization, these risks emphasize the urgent need for public health measures and urban planning strategies to mitigate the impact of extreme temperatures and ensure community resilience.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising temperatures will lead to increased health risks. | Expected average of 115.67 heatwave days by 2050. | XCLIM_AI analysis | numeric |\n| 2 | Heatwave frequency and maximum length are increasing. | Projected frequency of heatwaves will rise to about 3.54 events by 2050. | XCLIM_AI analysis | numeric |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: CMIP6 HighResMIP multi-model ensemble projections (SSP5-8.5).  \n- Data limitations: Variability in projections and lack of localized long-term health impact studies.  \n- Confidence statements: High confidence based on multiple climate models supporting these trends.\n\n### Recommendations *(supports actionability)*  \n1. Implement community awareness programs focusing on heat stress prevention and response.  \n2. Establish cooling centers and accessible healthcare services during peak heat periods.\n\n### Accessibility notes  \n- **Heat stress**: A medical condition arising from prolonged exposure to high temperatures, leading to health complications.  \n- **Urban heat island effect**: The phenomenon where urban areas experience higher temperatures than their rural surroundings due to human activities.  ",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:57:50.021977",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 18894,
+  "CompletionTokens": 1498,
+  "TotalTokens": 20392,
+  "TokenUsageNote": "Aggregated from 65 internal calls"
+}

@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 546,
+  "Lat": -12.41023439087012,
+  "Lon": 130.89453483552376,
+  "QuestionText": "What are the projected impacts of climate change on the health of vulnerable populations in Northern Australia by mid-century?",
+  "ResponseText": "### Question  \nWhat are the projected impacts of climate change on the health of vulnerable populations in Northern Australia by mid-century?\n\n### Short answer (1-line)  \nClimate change is expected to exacerbate health risks in vulnerable populations in Northern Australia through increased heat stress, vector-borne diseases, and food and water insecurity.\n\n### Executive summary (≤ 120 words)  \nBy mid-century, climate change is projected to severely impact the health of vulnerable populations in Northern Australia. Key drivers include rising temperatures leading to increased heat stress, alterations in the distribution of vector-borne diseases such as dengue and Ross River virus, and food and water insecurity from extreme weather events. Indigenous populations, the elderly, and low-income communities are particularly at risk due to pre-existing health disparities and limited access to healthcare. Opportunities lie in adapting healthcare infrastructure and implementing targeted public health initiatives to mitigate these risks.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Increased temperatures will lead to higher incidences of heat-related illnesses among vulnerable groups. | Projections indicate a rise in temperature by 2-3°C, exposing populations to extreme heat. | N/A | numeric |\n| 2 | Climate factors will alter the patterns and prevalence of vector-borne diseases. | Increases in rainfall and temperature correlate with dengue outbreaks in the region. | N/A | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections based on moderate emissions scenarios; uncertainty in precise temperature and weather patterns.  \n- Data limitations: Limited historical data on specific health outcomes linked to climate variables in Northern Australia.  \n- Confidence statements: Moderate confidence in projections due to variability in climate models.\n\n### Recommendations *(supports actionability)*  \n1. Develop targeted public health campaigns to educate vulnerable populations about heat stress and preventive measures.  \n2. Invest in infrastructure improvements to ensure access to clean water and nutritious food, especially during extreme weather events.\n\n### Accessibility notes  \n- Vulnerable populations refer to groups that are at higher risk of health issues due to social, economic, or environmental factors, such as Indigenous communities and the elderly.  \n- Vector-borne diseases are illnesses transmitted by vectors, such as mosquitoes, which can spread pathogens leading to infections.",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:04:12.368071",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 478,
+  "CompletionTokens": 470,
+  "TotalTokens": 948,
+  "TokenUsageNote": ""
+}

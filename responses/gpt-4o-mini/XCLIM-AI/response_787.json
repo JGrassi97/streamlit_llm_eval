@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 787,
+  "Lat": 18.0735,
+  "Lon": -15.9582,
+  "QuestionText": "How might future temperature conditions influence the stability of financial markets in Nouakchott, Mauritania over the coming decades?",
+  "ResponseText": "### Question  \nHow might future temperature conditions influence the stability of financial markets in Nouakchott, Mauritania over the coming decades?\n\n### Short answer (1-line)  \nFuture temperature rises are likely to adversely impact agricultural yields and increase climate-related financial risks, impacting market stability.\n\n### Executive summary (≤ 120 words)  \nTemperature projections for Nouakchott show an increase in the number of tropical nights and average maximum temperatures, signaling potential economic instability. The historical average of tropical nights was around 233 days, expected to rise to approximately 277 days by 2050, indicating more extreme heat conditions. Accompanying this, daily temperature range variability displays minimal change, suggesting that sustained high temperatures prevail. These climatic alterations threaten agricultural outputs, especially for crops, heightening market risks associated with food supply and economic resilience. Additionally, infrastructure may face challenges under sustained temperature increases, necessitating adaptation investments.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | The number of tropical nights is projected to increase significantly. | Current mean = 232.94, projected mean by 2050 = 276.83 tropical nights. | CMIP6 HighResMIP multi-model ensemble mean (7 models, hist‑1950 / highres‑future, SSP5‑8.5). | numeric |\n| 2 | Average maximum temperature shows an increasing trend, intensifying heat-related impacts. | Historical mean = 318.71, projected mean by 2050 = 341.95 °C. | CMIP6 HighResMIP multi-model ensemble mean (7 models, hist‑1950 / highres‑future, SSP5‑8.5). | numeric |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections based on SSP5-8.5 scenario, representing high greenhouse gas emissions.  \n- Data limitations: Reliance on model outputs with variable regional representativeness.  \n- Confidence statements: Moderate confidence in temperature models and trends given historical data accuracy.\n\n### Recommendations *(supports actionability)*  \n1. Invest in climate-resilient agricultural practices to mitigate the impact of heat on crop yields.  \n2. Strengthen infrastructure and urban planning to withstand increased temperatures and extreme heat events.\n\n### Accessibility notes  \n- **Tropical nights:** Nights where the temperature remains above 20°C, relevant for agricultural productivity and health risks.  \n- **CMIP6:** Climate Model Intercomparison Project Phase 6, vital for robust climate scenario assessments in research and policy.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-08-01T12:19:39.834406",
+  "Agent": "XCLIM-AI",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 7623,
+  "CompletionTokens": 306,
+  "TotalTokens": 7929,
+  "TokenUsageNote": "Aggregated from 79 internal calls"
+}

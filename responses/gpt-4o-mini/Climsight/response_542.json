@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 542,
+  "Lat": 34.0522,
+  "Lon": -118.2437,
+  "QuestionText": "What are the primary climate-related health risks for populations in Southern California, USA, through 2050?",
+  "ResponseText": "### Question  \nWhat are the primary climate-related health risks for populations in Southern California, USA, through 2050?\n\n### Short answer (1-line)  \nRising temperatures, increased heatwaves, and worsened air quality pose significant climate-related health risks for Southern California populations through 2050.\n\n### Executive summary (≤ 120 words)  \nBy 2050, Southern California is expected to face serious climate-related health challenges, primarily due to rising temperatures and increased frequency of heatwaves, which can lead to heat-related illnesses, particularly among vulnerable populations such as the elderly and low-income groups. Additional risks include heightened respiratory illnesses driven by worsened air quality—exacerbated by climate-induced wildfires. Unpredictable precipitation patterns may also lead to waterborne disease outbreaks and mental health issues linked to climate stressors. Urgent measures are needed to enhance community resilience and adapt to these evolving risks.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising temperatures will exacerbate heat-related illnesses. | \"2024 is projected to be the warmest year on record\" | Wikipedia: Climate Change | Citation | \n| 2 | Increased respiratory illnesses stemming from air quality issues. | \"Climate change is increasing the frequency and severity of natural hazards\" | Wikipedia: Climate Change | Citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections suggest rising temperatures and erratic weather patterns leading up to 2050.  \n- Data limitations: Local health impacts may differ and precise data for smaller communities is not always available.  \n- Confidence statements: High confidence based on observed climate trends and their known health implications.\n\n### Recommendations *(supports actionability)*  \n1. Launch public health campaigns focused on heat safety, emphasizing preventive measures against heat-related illnesses.  \n2. Invest in community infrastructure and resources to support vulnerable populations, particularly during extreme weather events.\n\n### Accessibility notes  \n- \"Heat-related illnesses\" refer to health conditions triggered or worsened by extreme heat, such as dehydration, heat exhaustion, and heat stroke.  \n- \"Respiratory problems\" include conditions like asthma and chronic bronchitis that can be made worse by poor air quality and pollution sources influenced by climate change.  ",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:31:19.297847",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 21982,
+  "CompletionTokens": 868,
+  "TotalTokens": 22850,
+  "TokenUsageNote": "Aggregated from 4 internal calls"
+}

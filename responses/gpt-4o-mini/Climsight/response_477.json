@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 477,
+  "Lat": 64.0817,
+  "Lon": -21.8211,
+  "QuestionText": "What role will projected increases in average temperature play in the performance and cooling requirements of geothermal power plants in Iceland through 2040?",
+  "ResponseText": "ERROR: Failed to generate Climsight response - Error during Climsight execution: OPENAI_API_KEY missing for Climsight",
+  "Theme": "Renewable Energy and Infrastructure",
+  "Category": "specific",
+  "Timestamp": "2025-08-05T10:08:29.307820",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

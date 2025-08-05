@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 586,
+  "Lat": 41.5868,
+  "Lon": -93.6213,
+  "QuestionText": "What are the systemic financial risks that climate change poses to the agricultural lending portfolios of banks in the US Midwest?",
+  "ResponseText": "### Question  \nWhat are the systemic financial risks that climate change poses to the agricultural lending portfolios of banks in the US Midwest?\n\n### Short answer (1-line)  \nClimate change increases agricultural lending risks due to heightened extremes, affecting yields and loan repayment capabilities.\n\n### Executive summary (≤ 120 words)  \nClimate change poses systemic financial risks to banks in the US Midwest by increasing the frequency and intensity of weather extremes such as heatwaves and droughts, which threaten crop yields and farmers' ability to repay loans. For instance, annual corn heat units are projected to increase by approximately 0.3 units per year, indicating hotter growing seasons and potential adverse impacts on food production. Moreover, higher precipitation variability, evidenced by an average of 236.3 mm of annual rainfall with increasing trends, alters water availability, making it difficult for farmers to manage resources effectively. Collectively, these factors create heightened credit risks within agricultural loan portfolios.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Annual corn heat units are increasing, affecting crop yields. | Increase from 13.38 units in historical data (1981-2020) to 14.42 in the short term (2021-2035). | N/A | numeric |\n| 2 | Average total precipitation is increasing, affecting farming resilience. | Average rainfall projected at 236.29 mm in historical data (1981-2020), with an upward trend observed. | N/A | numeric |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Ranges from the historical period (1981-2020) to future projections (2036-2050).  \n- Data limitations: Reliance on model outputs from CMIP6 HighResMIP, which may not capture local microclimates or specific agricultural practices.  \n- Confidence statements: Moderate confidence in projected trends, but high variability exists due to unexpected climate events.\n\n### Recommendations *(supports actionability)*  \n1. Enhance credit assessment models to account for climate-related risks by incorporating weather extremes and their impacts on agricultural yields.\n2. Develop insurance offerings that address climate risks, providing farmers with more resilience against crop failures.\n\n### Accessibility notes  \n- Heat units: A measure of temperature accumulation over time used to assess the suitability of conditions for crop growth.  \n- Credit risk: The likelihood of a borrower failing to meet loan obligations due to adverse economic conditions or personal circumstances.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T16:32:12.556551",
+  "Agent": "XCLIM-AI",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 7588,
+  "CompletionTokens": 461,
+  "TotalTokens": 8049,
+  "TokenUsageNote": "Aggregated from 70 internal calls"
+}

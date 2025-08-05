@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 540,
+  "Lat": 22.5726,
+  "Lon": 88.3639,
+  "QuestionText": "What are the anticipated public health consequences of climate change in the Bay of Bengal region over the next 30 years?",
+  "ResponseText": "### Question  \nWhat are the anticipated public health consequences of climate change in the Bay of Bengal region over the next 30 years?\n\n### Short answer (1-line)  \nRising temperatures and increased extreme weather events are expected to exacerbate public health issues such as heat stress, vector-borne diseases, and waterborne illnesses.\n\n### Executive summary (≤ 120 words)  \nClimate change in the Bay of Bengal region is projected to significantly impact public health over the next 30 years. Key drivers include rising temperatures, increased rainfall leading to flooding, and the spread of vector-borne diseases like malaria and dengue fever. Risks from heat stress may increase, particularly among vulnerable populations. Opportunities lie in strengthening health systems and enhancing community awareness about climate impacts. Overall, the region may experience elevated health risks due to its geographic susceptibility to extreme weather events and existing health challenges.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising temperatures will exacerbate health issues. | A 1°C increase in temperature is linked to public health concerns. | N/A | citation |\n| 2 | Increased flooding from climate change will affect health outcomes. | Bangladesh has experienced extreme weather events and flooding which impacts health. | [Wikipedia](https://en.wikipedia.org/wiki/Climate_change_in_Bangladesh) | text |\n\n### Key uncertainties & assumptions  \n- Scenario/model range: N/A  \n- Data limitations: Limited comprehensive data specifically on public health impacts due to climate change in the Bay of Bengal region.  \n- Confidence statements: Moderate confidence based on existing climate and health data trends.\n\n### Recommendations *(supports actionability)*  \n1. Strengthen local health systems to better prepare for climate-related health impacts.  \n2. Increase public awareness and education on the health risks associated with climate change.\n\n### Accessibility notes  \n- Public health refers to the health of the population as a whole, especially concerning disease prevention and health promotion.  \n- Vector-borne diseases are illnesses caused by pathogens transmitted by vectors such as mosquitoes.",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:29:54.031635",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 14678,
+  "CompletionTokens": 786,
+  "TotalTokens": 15464,
+  "TokenUsageNote": "Aggregated from 4 internal calls"
+}

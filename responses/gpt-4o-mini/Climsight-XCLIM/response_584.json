@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 584,
+  "Lat": 13.7563,
+  "Lon": 100.5018,
+  "QuestionText": "What are the expected financial risks to supply chains originating from manufacturing hubs in Southeast Asia due to climate change?",
+  "ResponseText": "### Question  \nWhat are the expected financial risks to supply chains originating from manufacturing hubs in Southeast Asia due to climate change?\n\n### Short answer (1-line)  \nRising extreme weather events and consistent precipitation patterns in Southeast Asia expose supply chains to significant risks, particularly in logistics and infrastructure.\n\n### Executive summary (≤ 120 words)  \nManufacturing hubs in Southeast Asia, particularly in Bangkok, are increasingly vulnerable to financial risks from climate change. The projected increases in temperature range from 2.5 to 2.9 °C by the century's end and patterns of heavy precipitation can lead to localized flooding, impacting logistics and infrastructure. These conditions could pose operational challenges affecting manufacturing processes and worker safety. As rainfall intensifies, infrastructure that is not resilient may suffer from significant damage. Investing in resilient infrastructure and proactive climate monitoring could mitigate these risks and ensure the stability of supply chains.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Stable precipitation levels indicate flooding risks remain significant. | Mean SDII 9.34 mm/day; minimal fluctuation trends noted | XCLIM_AI | numeric |\n| 2 | Extreme heat can impact manufacturing processes. | Projected increase in temperatures to 2.5-2.9 °C by century's end | Wikipedia | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Forecasts for 2036-2050 indicate minimal changes in precipitation patterns.  \n- Data limitations: Dependence on historical data may not fully capture future climate variability.  \n- Confidence statements: Moderate confidence in trends given stable precipitation patterns, but extreme weather variability remains a concern.\n\n### Recommendations *(supports actionability)*  \n1. Invest in infrastructure improvements to handle increased flooding and strengthen drainage systems.  \n2. Implement heat management protocols to protect workforce productivity and manufacturing processes.\n\n### Accessibility notes  \n- SDII: Simple Daily Intensity Index is a measure of daily rainfall intensity.  \n- Resilient infrastructure refers to systems designed to withstand the impacts of extreme weather events.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T17:16:13.545337",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 28555,
+  "CompletionTokens": 1367,
+  "TotalTokens": 29922,
+  "TokenUsageNote": "Aggregated from 56 internal calls"
+}

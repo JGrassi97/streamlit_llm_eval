@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 475,
+  "Lat": 23.3134,
+  "Lon": 74.2179,
+  "QuestionText": "What is the expected impact of changing monsoon wind patterns on the site selection for new onshore wind farms in western India by 2035?",
+  "ResponseText": "ERROR: Failed to generate Climsight response - Error during Climsight execution: OPENAI_API_KEY missing for Climsight",
+  "Theme": "Renewable Energy and Infrastructure",
+  "Category": "specific",
+  "Timestamp": "2025-08-05T10:08:29.298990",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

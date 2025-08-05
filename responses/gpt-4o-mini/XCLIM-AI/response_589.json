@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 589,
+  "Lat": 4.8133,
+  "Lon": -75.756,
+  "QuestionText": "How do projected climate shifts alter the risk profile for investors in the global coffee market over the next 20 years?",
+  "ResponseText": "### Question  \nHow do projected climate shifts alter the risk profile for investors in the global coffee market over the next 20 years?\n\n### Short answer (1-line)  \nProjected climate shifts significantly increase risks in the global coffee market due to altered growing seasons, temperature ranges, and precipitation patterns affecting yields.\n\n### Executive summary (≤ 120 words)  \nClimate shifts over the next 20 years will likely destabilize the global coffee market, increasing risks for investors. Metrics reveal a potential increase in average daily maximum temperatures by approximately 2.23°C and changing patterns in precipitation, leading to a reduction in favorable growing conditions. The variability of daily temperature ranges is also projected to rise, further complicating cultivation. Reduced growing season lengths and increased incidences of drought and extreme weather events can jeopardize yields, making investment in coffee increasingly uncertain. Stakeholders must consider these climatic impacts to strategize adaptation and mitigation measures.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Projected increase in daily maximum temperature will affect yields. | Average daily maximum temperatures show a mean increase of approximately 2.23°C by 2050. | \"CMIP6 HighResMIP multi-model ensemble mean (7 models, hist‑1950 / highres‑future, SSP5‑8.5)\" | Numeric |\n| 2 | Increased variability of daily temperature ranges can jeopardize coffee cultivation. | Daily temperature range variability is projected to increase, with current mean diurnal variability at 2.20°C, indicating potential stress on coffee plants. | \"CMIP6 HighResMIP multi-model ensemble mean (7 models, hist‑1950 / highres‑future, SSP5‑8.5)\" | Numeric |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Climate models indicate variability due to changing global conditions but do not predict exact impacts.  \n- Data limitations: The accuracy of projections depends on the models used and their assumptions about future emissions.  \n- Confidence statements: Medium confidence in projections based on ensemble modeling approaches.\n\n### Recommendations *(supports actionability)*  \n1. Develop and invest in sustainable farming practices to enhance resilience against climate impacts.  \n2. Diversify coffee sourcing strategies to include regions potentially less affected by climate change.\n\n### Accessibility notes  \n- \"Growing seasons\" refer to the periods in which climate conditions are suitable for coffee cultivation.  \n- \"Diurnal temperature\" signifies the range between the daily maximum and minimum temperatures.  \n",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T16:35:58.572488",
+  "Agent": "XCLIM-AI",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 7077,
+  "CompletionTokens": 400,
+  "TotalTokens": 7477,
+  "TokenUsageNote": "Aggregated from 61 internal calls"
+}

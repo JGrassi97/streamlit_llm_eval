@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 547,
+  "Lat": 41.2995,
+  "Lon": 69.2401,
+  "QuestionText": "How might climate change influence the burden of disease in Central Asian nations over the next 20 to 30 years?",
+  "ResponseText": "### Question  \nHow might climate change influence the burden of disease in Central Asian nations over the next 20 to 30 years?\n\n### Short answer (1-line)  \nClimate change is likely to increase the burden of infectious and non-communicable diseases in Central Asian nations due to rising temperatures, water scarcity, and extreme weather events.\n\n### Executive summary (≤ 120 words)  \nIn Central Asia, climate change is projected to exacerbate health issues through increased heat-related illnesses, respiratory disorders from air pollution, and waterborne diseases linked to fluctuating water supplies. Rising temperatures may lead to higher incidences of vector-borne diseases such as malaria and dengue fever. Additionally, extreme weather events can disrupt healthcare infrastructure and agricultural productivity, resulting in food insecurity and malnutrition. Mitigation and adaptation strategies, including improved water management and health systems strengthening, represent critical opportunities to reduce health risks associated with climate change in this region.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Climate change will lead to increased vector-borne diseases due to rising temperatures. | \"Temperature increases may expand the habitat for vectors such as mosquitoes.\" | N/A | citation |\n| 2 | Water scarcity can increase the prevalence of waterborne diseases. | \"Drought and water shortages are linked with outbreaks of diseases like cholera.\" | N/A | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections are based on IPCC climate models.  \n- Data limitations: Lack of localized, long-term health impact studies in Central Asia.  \n- Confidence statements: Moderate confidence due to varied climate and health data availability.\n\n### Recommendations *(supports actionability)*  \n1. Develop and implement integrated surveillance systems for tracking climate-related health trends.  \n2. Invest in healthcare infrastructure to enhance resiliency against climate impacts.\n\n### Accessibility notes  \n- \"Vector-borne diseases\" are illnesses caused by pathogens transmitted through vectors like mosquitoes, which are sensitive to climate.  \n- \"Waterborne diseases\" are infections caused by consuming contaminated water, often exacerbated by lack of water supply.",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:04:22.811306",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 476,
+  "CompletionTokens": 444,
+  "TotalTokens": 920,
+  "TokenUsageNote": ""
+}

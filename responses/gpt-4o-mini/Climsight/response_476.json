@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 476,
+  "Lat": 6.299,
+  "Lon": 0.0594,
+  "QuestionText": "How will reduced average rainfall affect the reservoir levels and power generation capacity of the Akosombo Dam in Ghana by mid-century?",
+  "ResponseText": "ERROR: Failed to generate Climsight response - Error during Climsight execution: OPENAI_API_KEY missing for Climsight",
+  "Theme": "Renewable Energy and Infrastructure",
+  "Category": "specific",
+  "Timestamp": "2025-08-05T10:08:29.303577",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

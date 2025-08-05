@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 541,
+  "Lat": -23.5505,
+  "Lon": -46.6333,
+  "QuestionText": "How might climate trends challenge public health infrastructure in the major urban centers of Brazil by 2040?",
+  "ResponseText": "### Question  \nHow might climate trends challenge public health infrastructure in the major urban centers of Brazil by 2040?\n\n### Short answer (1-line)  \nClimate trends, including increased temperatures and extreme weather events, will likely strain Brazil's public health infrastructure by raising disease prevalence and resource demands.\n\n### Executive summary (≤ 120 words)  \nBy 2040, major urban centers in Brazil will face significant public health challenges due to climate trends. Rising temperatures may exacerbate heat-related illnesses and vector-borne diseases like dengue fever and Zika virus. Extreme weather events such as floods and droughts can disrupt health services, drainage systems, and access to clean water, posing additional risks to communities. Vulnerable populations, particularly in informal settlements, will be disproportionately affected. Investment in resilient health infrastructure and proactive disease surveillance systems offers opportunities to mitigate these challenges.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising temperatures contribute to the spread of vector-borne diseases. | According to WHO, climate change is expected to increase the incidence of dengue and Zika. | WHO Climate Change and Health report | citation |\n| 2 | Extreme weather impacts public health services and infrastructure. | The Intergovernmental Panel on Climate Change (IPCC) notes that extreme weather events can disrupt health services significantly. | IPCC Climate Change Report | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Future climate scenarios are based on various emissions trajectories which could influence health outcomes differently.  \n- Data limitations: Data on local health impact assessments under climate scenarios may be limited.  \n- Confidence statements: High confidence based on reviewed literature regarding climate impacts on health.\n\n### Recommendations *(supports actionability)*  \n1. Develop an integrated climate-resilient health infrastructure plan that includes emergency preparedness for extreme weather.  \n2. Implement community health education programs focusing on vector control and heat-related illness prevention.  \n\n### Accessibility notes  \n- \"Vector-borne diseases\": Illnesses transmitted by organisms (vectors) such as mosquitoes; examples include dengue and Zika.  \n- \"Climate-resilient infrastructure\": Buildings, roads, and services designed to withstand climate-related changes and events.",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:03:15.531658",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 470,
+  "CompletionTokens": 462,
+  "TotalTokens": 932,
+  "TokenUsageNote": ""
+}

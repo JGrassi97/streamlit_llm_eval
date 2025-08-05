@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 475,
+  "Lat": 23.3134,
+  "Lon": 74.2179,
+  "QuestionText": "What is the expected impact of changing monsoon wind patterns on the site selection for new onshore wind farms in western India by 2035?",
+  "ResponseText": "### Question  \nWhat is the expected impact of changing monsoon wind patterns on the site selection for new onshore wind farms in western India by 2035?\n\n### Short answer (1-line)  \nShifts in monsoon wind patterns may reduce the suitability of sites for onshore wind farms due to decreased maximum wind speeds and increased variability.\n\n### Executive summary (≤ 120 words)  \nBy 2035, anticipated changes in monsoon wind patterns in western India could significantly influence the site selection for new onshore wind farms. Data indicates a decrease in maximum wind speeds over the coming years, with the historical average of maximum wind speeds dropping from approximately 35.13 m/s (1981-2020) to 34.52 m/s (2021-2035). Additionally, increased variability in wind conditions may pose risks to operational efficiency, potentially necessitating site relocations or technological advancements to optimize performance. This evolving landscape underscores the need for adaptive strategies in planning and developing wind energy projects.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Expected decrease in maximum wind speeds may affect site suitability. | Historical mean max wind speed 35.13 m/s (1981-2020) to 34.52 m/s (2021-2035). | \"CMIP6 HighResMIP multi-model ensemble mean (7 models, hist‑1950 / highres‑future, SSP5‑8.5)\" | numeric |\n| 2 | Increasing variability in wind conditions presents operational risks. | Std. deviation of max wind speeds is projected to be 2.99 m/s (2021-2035). | \"CMIP6 HighResMIP multi-model ensemble mean (7 models, hist‑1950 / highres‑future, SSP5‑8.5)\" | numeric |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections are based on the SSP5-8.5 scenario.  \n- Data limitations: Model agreement and local geographical variations may influence accuracy.  \n- Confidence statements: Moderate confidence in trends due to the complexity of climatic interactions.\n\n### Recommendations *(supports actionability)*  \n1. Conduct ongoing assessments of wind speed patterns and site performance regularly to ensure optimal energy production.\n2. Develop adaptive management strategies that can respond to changing wind conditions, including technology investments.\n\n### Accessibility notes  \n- **Monsoon wind patterns**: Seasonal winds that significantly influence weather and climate in South Asia, critical for renewable energy forecasts.\n- **Maximum wind speeds**: The highest wind speed recorded over a set period, essential for evaluating wind farm viability.",
+  "Theme": "Renewable Energy and Infrastructure",
+  "Category": "specific",
+  "Timestamp": "2025-08-05T10:04:26.817067",
+  "Agent": "XCLIM-AI",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 5299,
+  "CompletionTokens": 404,
+  "TotalTokens": 5703,
+  "TokenUsageNote": "Aggregated from 28 internal calls"
+}

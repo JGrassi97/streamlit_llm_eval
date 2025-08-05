@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 787,
+  "Lat": 18.0735,
+  "Lon": -15.9582,
+  "QuestionText": "How might future temperature conditions influence the stability of financial markets in Nouakchott, Mauritania over the coming decades?",
+  "ResponseText": "### Question  \nHow might future temperature conditions influence the stability of financial markets in Nouakchott, Mauritania over the coming decades?\n\n### Short answer (1-line)  \nRising temperatures may increase economic and financial risks in Nouakchott due to heightened climate vulnerability, potentially affecting market stability over time.\n\n### Executive summary (≤ 120 words)  \nOver the coming decades, projected temperature increases in Nouakchott are likely to exacerbate existing vulnerabilities, especially in sectors critical to the Mauritanian economy such as fisheries, agriculture, and infrastructure. Heightened heat and climate extremes could lead to supply shocks, rising operational costs, and reduced investor confidence, all of which threaten the stability of local financial markets. Key risks include physical asset damage, productivity losses, and increased insurance or credit default risks. However, proactive climate adaptation, economic diversification, and investment in resilience could mitigate these threats and help sustain market confidence.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising temperatures projected for Mauritania | IPCC estimates West Africa may see temperature increases of 3–6°C by 2100 under high-emission scenarios | IPCC AR6 Regional Fact Sheet—Africa (2021) | citation |\n| 2 | Economic sectors exposed to climate risk | Mauritania's economy is highly dependent on climate-sensitive sectors like fisheries and agriculture | World Bank Mauritania Country Overview (2023) | citation |\n| 3 | Financial sector stability can be affected by climate-induced shocks | Climate risks can negatively impact credit and value of financial assets in vulnerable regions | IMF \"Climate Change and Financial Stability\" (2020) | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Based on global and regional climate models (e.g. IPCC high-emission pathways)  \n- Data limitations: Limited long-term temperature and financial sector impact data specific to Nouakchott  \n- Confidence statements: Moderate confidence in trend direction; less certainty about precise local financial impacts\n\n### Recommendations *(supports actionability)*  \n1. Strengthen financial sector climate risk assessments and contingency planning.  \n2. Promote investment in resilient infrastructure and economic diversification to reduce market exposure to climate shocks.\n\n### Accessibility notes  \n- Climate vulnerability: refers to how likely a sector is to be harmed by climate events (like extreme heat or storms).  \n- Emission scenario: a projected future pathway for greenhouse gas emissions, which affects temperature predictions.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-08-01T13:01:17.402539",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 478,
+  "CompletionTokens": 515,
+  "TotalTokens": 993,
+  "TokenUsageNote": ""
+}

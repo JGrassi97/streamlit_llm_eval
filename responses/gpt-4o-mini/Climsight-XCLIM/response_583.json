@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 583,
+  "Lat": 17.0608,
+  "Lon": -61.7964,
+  "QuestionText": "How will future climate scenarios influence investment risk in the tourism sector of the Caribbean islands by 2035?",
+  "ResponseText": "### Question  \nHow will future climate scenarios influence investment risk in the tourism sector of the Caribbean islands by 2035? \n\n### Short answer (1-line)  \nFuture climate scenarios pose significant investment risks in the Caribbean tourism sector due to increased temperatures, variable precipitation, and heightened extreme weather events.\n\n### Executive summary (≤ 120 words)  \nBy 2035, the Caribbean islands are projected to experience a rise in average temperatures along with an increase in extremities such as heat events and variable precipitation patterns. These changes threaten the tourism sector through potential damage to infrastructure and alterations in visitor experiences caused by more frequent extreme weather and heatwaves, which are projected to impact the occupancy rates and overall attractiveness of these locations. Investment risks are significant as operational costs are likely to increase and tourist perceptions may shift, compelling stakeholders to adopt adaptive strategies and sustainable practices in order to mitigate these risks.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Increased maximum temperatures may affect tourism risk. | Mean number of days above 34°C remains at 0.0 days/year historically, with projected increases. | XCLIM_AI report | numeric | \n| 2 | Variability in precipitation patterns can disrupt tourism. | Projected mean annual precipitation shifts from 789.78 mm/year to 841.71 mm/year (2021-2035). | XCLIM_AI report | numeric | \n\n### Key uncertainties & assumptions  \n- Scenario / model range: Assumed consistent climate models within the SSP5-8.5 scenario.  \n- Data limitations: Lack of significant trend over time for some indicators.  \n- Confidence statements: Moderate confidence due to variability in climate responses.\n\n### Recommendations *(supports actionability)*  \n1. Develop adaptive infrastructure strategies to withstand higher temperatures and storm impacts.  \n2. Implement water management practices to address precipitation variability and protect tourism assets.\n\n### Accessibility notes  \n- **Average temperature**: The mean temperature across a specified period.  \n- **Variation in precipitation**: Fluctuations in rainfall amounts over time, affecting water availability and infrastructure. ",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T17:14:32.055561",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 26202,
+  "CompletionTokens": 1143,
+  "TotalTokens": 27345,
+  "TokenUsageNote": "Aggregated from 66 internal calls"
+}

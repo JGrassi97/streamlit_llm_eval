@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 594,
+  "Lat": 45.9237,
+  "Lon": 6.4176,
+  "QuestionText": "How might a shorter, warmer winter affect the business interruption insurance claims for ski resorts in the French Alps over the next decade?",
+  "ResponseText": "### Question  \nHow might a shorter, warmer winter affect the business interruption insurance claims for ski resorts in the French Alps over the next decade?\n\n### Short answer (1-line)  \nA shorter, warmer winter is likely to increase business interruption insurance claims for ski resorts due to reduced snow cover and a shorter ski season.\n\n### Executive summary (≤ 120 words)  \nWarmer winters in the French Alps can lead to diminished snowfall and a shorter ski season, which may significantly impact ski resort revenues. As ski resorts become less viable during the prime winter season, claims for business interruption insurance are expected to rise. Factors such as reduced visitor numbers, ancillary service impacts, and increased operational costs will drive this trend. Mitigating actions like diversified offerings may reduce claims but the overall insurance landscape will become increasingly complex as climatic changes progress.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Warmer winters lead to shorter ski seasons, affecting revenue. | Studies indicate a correlation between rising temperatures and snowfall reduction. | N/A | citation | \n| 2 | Increased claims due to reduced operations and visitor numbers. | Historical claims data shows spikes during poor snow years. | N/A | citation | \n\n### Key uncertainties & assumptions  \n- Scenario / model range: Warmer winter predictions are variable and not uniform; they depend on specific climate models.  \n- Data limitations: Lack of precise future snowfall data for the French Alps may limit predictions of business impacts.  \n- Confidence statements: Level of confidence in predictions is moderate, reflecting variables in climate change impacts.\n\n### Recommendations *(supports actionability)*  \n1. Develop diversified revenue streams for ski resorts, such as summer activities or off-season events.  \n2. Invest in snow-making technology to help mitigate the effects of lower natural snowfall.\n\n### Accessibility notes  \n- Business interruption insurance: Insurance that covers loss of income due to disruptions in business operations, often related to natural events.  \n- Snowmaking technology: Equipment used to produce artificial snow to supplement natural snowfall.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "specific",
+  "Timestamp": "2025-07-31T16:22:59.880862",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 600,
+  "CompletionTokens": 429,
+  "TotalTokens": 1029,
+  "TokenUsageNote": ""
+}

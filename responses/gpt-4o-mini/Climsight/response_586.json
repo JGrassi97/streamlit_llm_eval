@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 586,
+  "Lat": 41.5868,
+  "Lon": -93.6213,
+  "QuestionText": "What are the systemic financial risks that climate change poses to the agricultural lending portfolios of banks in the US Midwest?",
+  "ResponseText": "### Question  \nWhat are the systemic financial risks that climate change poses to the agricultural lending portfolios of banks in the US Midwest?\n\n### Short answer (1-line)  \nClimate change increases systemic financial risks to agricultural lending portfolios due to extreme weather events, changing precipitation patterns, and temperature fluctuations affecting crop yields.\n\n### Executive summary (≤ 120 words)  \nSystemic financial risks from climate change to agricultural lending portfolios in the US Midwest include heightened vulnerability to extreme weather, variable precipitation, and increased temperatures, all leading to reduced agricultural productivity and economic instability. These shifts can result in significant financial stress for banks due to heightened default risks on loans and changing land values. As crop yields become less reliable, agricultural lenders may face liquidity issues and an increase in non-performing loans, notably when compounded by ongoing climatic unpredictability.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Climate change leads to increased weather variability impacting agriculture | Altered precipitation patterns and rising temperatures affect crop yields | N/A | text |\n| 2 | Financial stress on banks due to agricultural loan defaults | Increased risk of default if agricultural productivity declines | N/A | text |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: N/A  \n- Data limitations: N/A  \n- Confidence statements: N/A\n\n### Recommendations *(supports actionability)*  \n1. Develop adaptive risk assessment frameworks to evaluate lending portfolios against climate change impacts.  \n2. Implement insurance products tailored to mitigate losses from extreme weather events affecting agriculture.\n\n### Accessibility notes  \n- \"Systemic financial risks\" refer to the widespread impact that climate-related changes can have on financial stability across the banking sector.  \n- \"Non-performing loans\" are loans in which the borrower is not making the scheduled payments, posing a risk to lenders.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-07-31T16:55:51.274017",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 21633,
+  "CompletionTokens": 707,
+  "TotalTokens": 22340,
+  "TokenUsageNote": "Aggregated from 4 internal calls"
+}

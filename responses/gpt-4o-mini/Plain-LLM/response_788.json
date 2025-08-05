@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 788,
+  "Lat": 34.0181,
+  "Lon": -5.0078,
+  "QuestionText": "What implications do rising temperatures have on risk assessments for the agricultural insurance sector in Fez, Morocco by 2040?",
+  "ResponseText": "### Question  \nWhat implications do rising temperatures have on risk assessments for the agricultural insurance sector in Fez, Morocco by 2040?\n\n### Short answer (1-line)  \nRising temperatures will increase risk levels for crop yields in Fez, Morocco, significantly impacting agricultural insurance assessments by 2040.\n\n### Executive summary (≤ 120 words)  \nRising temperatures in Fez, Morocco, are expected to negatively affect agricultural productivity due to heat stress, altered rainfall patterns, and increased pest and disease prevalence. These factors lead to greater variability in crop yields, resulting in heightened risks for the agricultural insurance sector. Insurers may need to adjust their models to account for these climate-related changes, posing both challenges and opportunities, such as the development of new insurance products tailored to climate resilience. Enhanced data collection and partnerships with agricultural stakeholders will be crucial for effective risk assessments.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising temperatures will lead to reduced crop yields in Fez. | Studies show that heat stress can reduce yields by up to 30%. | N/A | citation |\n| 2 | Increased variability in climate conditions leads to insurance risk. | Historical data correlates rising temperatures with crop loss variability. | N/A | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Models predicting temperature increases in the Mediterranean region.  \n- Data limitations: Limited access to localized agricultural data and long-term climate forecasts.  \n- Confidence statements: Moderate confidence based on current climate projections.\n\n### Recommendations *(supports actionability)*  \n1. Develop adaptive insurance products that account for climate variability and provide incentives for sustainable farming practices.  \n2. Encourage farmers to adopt climate-resilient crops and practices to mitigate risks associated with rising temperatures.\n\n### Accessibility notes  \n- Climate resilience: The ability to withstand and adapt to changing climate conditions.  \n- Heat stress: Physiological impact on plants caused by excessively high temperatures affecting growth and yield.",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "general",
+  "Timestamp": "2025-08-01T12:15:22.001934",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 478,
+  "CompletionTokens": 418,
+  "TotalTokens": 896,
+  "TokenUsageNote": ""
+}

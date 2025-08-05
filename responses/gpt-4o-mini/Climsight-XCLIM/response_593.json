@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 593,
+  "Lat": -22.5693,
+  "Lon": 147.5645,
+  "QuestionText": "What is the expected impact of rising temperatures on the financial viability of cattle farming operations in Queensland, Australia, due to increased costs for water and feed by 2040?",
+  "ResponseText": "### Question  \nWhat is the expected impact of rising temperatures on the financial viability of cattle farming operations in Queensland, Australia, due to increased costs for water and feed by 2040? \n\n### Short answer (1-line)  \nRising temperatures are expected to increase costs for water and feed, potentially threatening the financial viability of cattle farming in Queensland by 2040.\n\n### Executive summary (≤ 120 words)  \nAs temperatures rise, the financial viability of cattle farming in Queensland faces significant threats from increased costs associated with water and feed. Projections indicate that while the average number of days exceeding 30°C may decrease, farmers may still encounter high extremes, leading to intensified competition for water resources and rising feed prices. The expected shift in climate dynamics, combined with variability in precipitation, adds pressure to operational costs, necessitating proactive measures to sustain farming productivity and profitability in this changing environment.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Rising temperatures threaten cattle farming viability due to increased costs. | Average days over 30°C trending downward, yet still significant for operational costs. | N/A | text |\n| 2 | Climate projections highlight the need for sustainable practices. | Average first day above 30°C shown and impacts discussed. | N/A | text |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Future climate projections based on historical temperature data.  \n- Data limitations: Incomplete access to comprehensive climate data affecting precise estimations.  \n- Confidence statements: Moderate confidence due to existing climate trends but uncertain economic impacts.\n\n### Recommendations *(supports actionability)*  \n1. Implement water conservation strategies and feed efficiency improvements.  \n2. Invest in temperature-resilient cattle breeds and agricultural practices.\n\n### Accessibility notes  \n- “Sustained high temperatures” refers to days when temperatures exceed a critical threshold (30°C), affecting cattle health and productivity.  \n- “Financial viability” concerns the ability of farming operations to remain profitable amidst changing environmental conditions.  ",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "specific",
+  "Timestamp": "2025-07-31T17:30:27.761651",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 25539,
+  "CompletionTokens": 976,
+  "TotalTokens": 26515,
+  "TokenUsageNote": "Aggregated from 83 internal calls"
+}

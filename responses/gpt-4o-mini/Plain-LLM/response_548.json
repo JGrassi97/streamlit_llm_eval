@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 548,
+  "Lat": 41.8781,
+  "Lon": -87.6298,
+  "QuestionText": "What are the key public health planning considerations related to climate change for cities in the Great Lakes region of North America?",
+  "ResponseText": "### Question  \nWhat are the key public health planning considerations related to climate change for cities in the Great Lakes region of North America?\n\n### Short answer (1-line)  \nPublic health planning must address water quality, extreme weather events, heat-related illnesses, and vector-borne diseases due to climate change.\n\n### Executive summary (≤ 120 words)  \nCities in the Great Lakes region face significant public health challenges from climate change, including deteriorating water quality, increased frequency of flooding, and heatwaves. These factors raise risks of waterborne diseases, heat-related illnesses, and the spread of diseases transmitted by insects. Effective public health planning must incorporate adaptive strategies such as improving infrastructure resilience, enhancing water management practices, and continuous monitoring of climate impacts on health. Opportunities exist in creating green spaces to mitigate heat, improving emergency response systems, and fostering community engagement to enhance preparedness.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Climate change increases waterborne disease risks in the Great Lakes. | \"Inconsistent weather patterns contribute to a rise in pathogens.\" | \"N/A\" | citation |\n| 2 | Heatwaves have become more frequent, increasing heat-related health issues. | \"The number of heatwave days has increased over the past decade.\" | \"N/A\" | citation |\n\n### Key uncertainties & assumptions  \n- Scenario / model range: Future climate models predict increased temperatures and variable precipitation patterns.  \n- Data limitations: Limited historical health data correlating climate factors directly to public health outcomes in cities.  \n- Confidence statements: Medium confidence in the correlation between climate impacts and public health trends; further localized research needed.\n\n### Recommendations *(supports actionability)*  \n1. Implement comprehensive water quality monitoring and risk assessment programs.  \n2. Develop urban heat action plans, including creating shaded areas and cooling centers.\n\n### Accessibility notes  \n- \"Water quality\" refers to the conditions of water affecting human health, including contamination levels.  \n- \"Vector-borne diseases\" are illnesses transmitted by insects like mosquitoes and ticks, influenced by climate conditions.",
+  "Theme": "Public Health and Climate",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:04:33.256131",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 476,
+  "CompletionTokens": 436,
+  "TotalTokens": 912,
+  "TokenUsageNote": ""
+}

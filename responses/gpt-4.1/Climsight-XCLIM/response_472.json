@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 472,
+  "Lat": 47.9557,
+  "Lon": -118.9818,
+  "QuestionText": "How will changes in seasonal precipitation and snowmelt affect the annual electricity generation of the Grand Coulee Dam in Washington, USA, by 2040?",
+  "ResponseText": "Errore nell'elaborazione della domanda con Climsight-XCLIM: Error during Climsight execution: list index out of range",
+  "Theme": "Renewable Energy and Infrastructure",
+  "Category": "specific",
+  "Timestamp": "2025-08-05T11:11:11.243706",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

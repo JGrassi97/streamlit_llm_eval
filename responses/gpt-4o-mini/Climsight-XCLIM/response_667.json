@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 667,
+  "Lat": 36.8065,
+  "Lon": 10.1815,
+  "QuestionText": "What role will future climate variability play in affecting the resilience of coastal energy infrastructure in Tunis, Tunisia in the coming decades?",
+  "ResponseText": "### Question  \nWhat role will future climate variability play in affecting the resilience of coastal energy infrastructure in Tunis, Tunisia in the coming decades?\n\n### Short answer (1-line)  \nFuture climate variability will significantly challenge the resilience of coastal energy infrastructure in Tunis, marked by increasing heat waves, unpredictable precipitation, and extreme weather events.\n\n### Executive summary (≤ 120 words)  \nClimate variability in the coming decades will significantly impact coastal energy infrastructure in Tunis. Projections indicate an **increase in heat waves**, with an average of **61.7 days per year** expected by **2036-2050**, and heightened maximum temperatures averaging over **25°C for up to 166.35 days** annually. Additionally, the likelihood of **severe weather events** and flooding is anticipated to intensify, posing risks to structural integrity and operational reliability. Adapting to these changes will be essential for ensuring the resilience of energy systems against climate-induced disruptions, ultimately safeguarding energy security for the region.\n\n### Evidence & sources *(supports credibility)*  \n| # | Statement | Evidence supporting the statement | Source | Type | \n|---|-----------|-----------------------------------|--------|------|\n| 1 | Heat wave frequency will increase. | Average of **61.7 days** expected by **2036-2050**. | XCLIM_AI | numeric | \n| 2 | Maximum temperature above 25°C will rise. | Average of **166.35 days** expected annually by **2036-2050**. | XCLIM_AI | numeric | \n\n### Key uncertainties & assumptions  \n- Scenario / model range: Projections based on **CMIP6 HighResMIP** multi-model ensemble mean.  \n- Data limitations: Limited historical data on specific impacts on energy infrastructure; projections subject to variations in climate models.  \n- Confidence statements: Moderate confidence in temperature projections; lower confidence in precipitation trends.\n\n### Recommendations *(supports actionability)*  \n1. Invest in **adaptive infrastructure designs** that can withstand extreme weather conditions and fluctuating temperatures.  \n2. Implement **continuous monitoring systems** to assess the stress on energy infrastructure regularly.\n\n### Accessibility notes  \n- Climate variability refers to changes in weather patterns over time, affecting temperature and precipitation.  \n- Coastal infrastructure includes energy facilities located near shorelines that are vulnerable to climate impacts like rising sea levels and storms.",
+  "Theme": "Renewable Energy and Infrastructure",
+  "Category": "general",
+  "Timestamp": "2025-08-05T12:49:08.400222",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4o-mini",
+  "PromptTokens": 27303,
+  "CompletionTokens": 1192,
+  "TotalTokens": 28495,
+  "TokenUsageNote": "Aggregated from 92 internal calls"
+}
