@@ -64,7 +64,4 @@ Once logged in:
 
 ---
 
-### 🔒 Privacy and Data
-
-All evaluations are stored anonymously and used exclusively for academic research purposes on AI effectiveness in climate services.
 """)
