@@ -116,7 +116,7 @@ if st.session_state.user_email:
 
         def load_response(agent, idx):
             import os, json
-            path = os.path.join("responses/gpt-4o-mini", agent, f"response_{idx}.json")
+            path = os.path.join("responses/gpt-4.1", agent, f"response_{idx}.json")
             with open(path) as f:
                 return json.load(f)
 
