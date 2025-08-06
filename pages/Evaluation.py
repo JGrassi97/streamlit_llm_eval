@@ -217,12 +217,12 @@ with col3:
 
 # Valutazioni Uncertainty
 st.markdown("##### Rate the uncertainty communication of each response:")
-col1, col2 = st.columns([1, 1])
+col1, col2, col3 = st.columns([8, 1, 8])
 
 with col1:
     uncer_A = st.radio("Response A - Uncertainty", options, format_func=options.get, key="uncer_A", horizontal=True)
 
-with col2:
+with col3:
     uncer_B = st.radio("Response B - Uncertainty", options, format_func=options.get, key="uncer_B", horizontal=True)
 
 st.markdown("---")
@@ -231,7 +231,7 @@ st.markdown("---")
 st.header("🎯 Actionability")
 st.markdown("*Usefulness of the response for decision-making or planning*")
 
-col1, col2 = st.columns([1, 1])
+col1, col2, col3 = st.columns([8, 1, 8])
 
 with col1:
     st.markdown("#### Response A")
@@ -239,7 +239,7 @@ with col1:
         st.markdown("##### Actionability")
         st.markdown(sections_A.get("Actionability", "*No actionability section found.*"))
 
-with col2:
+with col3:
     st.markdown("#### Response B")
     with st.container(border=True):
         st.markdown("##### Actionability")
@@ -247,12 +247,12 @@ with col2:
 
 # Valutazioni Actionability
 st.markdown("##### Rate the actionability of each response:")
-col1, col2 = st.columns([1, 1])
+col1, col2, col3 = st.columns([8, 1, 8])
 
 with col1:
     action_A = st.radio("Response A - Actionability", options, format_func=options.get, key="action_A", horizontal=True)
 
-with col2:
+with col3:
     action_B = st.radio("Response B - Actionability", options, format_func=options.get, key="action_B", horizontal=True)
 
 st.markdown("---")
