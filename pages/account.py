@@ -96,3 +96,5 @@ elif choice == "Logout":
     st.session_state.user_email = None
     st.session_state.user_id = None
     st.success("Logged out successfully.")
+
+
