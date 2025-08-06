@@ -141,7 +141,7 @@ options = {
 st.header("📊 Relevance")
 st.markdown("*How well does each response address the given question?*")
 
-col1, col2 = st.columns([1, 1])
+col1, col2, col3 = st.columns([8, 1, 8])
 
 with col1:
     st.markdown("#### Response A")
@@ -149,7 +149,7 @@ with col1:
         st.markdown("##### Executive Summary")
         st.markdown(sections_A.get("Executive summary", "*No summary found.*"))
 
-with col2:
+with col3:
     st.markdown("#### Response B") 
     with st.container(border=True):
         st.markdown("##### Executive Summary")
@@ -157,12 +157,12 @@ with col2:
 
 # Valutazioni Relevance
 st.markdown("##### Rate the relevance of each response:")
-col1, col2 = st.columns([1, 1])
+col1, col2, col3 = st.columns([8, 1, 8])
 
 with col1:
     rel_A = st.radio("Response A - Relevance", options, format_func=options.get, key="rel_A", horizontal=True)
 
-with col2:
+with col3:
     rel_B = st.radio("Response B - Relevance", options, format_func=options.get, key="rel_B", horizontal=True)
 
 st.markdown("---")
@@ -171,7 +171,7 @@ st.markdown("---")
 st.header("🔬 Credibility")
 st.markdown("*Scientific accuracy and plausibility of the information*")
 
-col1, col2 = st.columns([1, 1])
+col1, col2, col3 = st.columns([8, 1, 8])
 
 with col1:
     st.markdown("#### Response A")
@@ -179,7 +179,7 @@ with col1:
         st.markdown("##### Credibility")
         st.markdown(sections_A.get("Credibility", "*No credibility section found.*"))
 
-with col2:
+with col3:
     st.markdown("#### Response B")
     with st.container(border=True):
         st.markdown("##### Credibility")  
@@ -187,12 +187,12 @@ with col2:
 
 # Valutazioni Credibility
 st.markdown("##### Rate the credibility of each response:")
-col1, col2 = st.columns([1, 1])
+col1, col2, col3 = st.columns([8, 1, 8])
 
 with col1:
     cred_A = st.radio("Response A - Credibility", options, format_func=options.get, key="cred_A", horizontal=True)
 
-with col2:
+with col3:
     cred_B = st.radio("Response B - Credibility", options, format_func=options.get, key="cred_B", horizontal=True)
 
 st.markdown("---")
