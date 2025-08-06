@@ -123,103 +123,155 @@ question_text = load_response("Plain-LLM", idx)["QuestionText"]
 
 st.markdown(f"### Question {response_id}")
 st.markdown(f"**{question_text}**")
+st.markdown("---")
 
-col1, col2, col3 = st.columns([10, 1, 10])
-col1, col2, col3 = st.columns([10, 1, 10])
-with col1:
-    with st.container(border=True):
-        st.markdown("#### Response A")
+# Ottieni le sezioni per entrambe le risposte
+sections_A = split_sections(responses[0]["content"])
+sections_B = split_sections(responses[1]["content"])
 
-        sections_A = split_sections(responses[0]["content"])
-
-        options = {
-            1: "Not at all",
-            2: "Slightly",
-            3: "Moderately",
-            4: "Very",
-            5: "Extremely"
-        }
-
-        st.markdown("##### Executive Summary")
-        with st.container(border=True):
-            st.markdown(sections_A.get("Executive summary", "*No summary found.*"))
-        rel_A = st.radio("Relevance (A)", options, format_func=options.get, key="rel_A", horizontal=True)
-        st.markdown("-----")
-
-        st.markdown("##### Credibility")
-        with st.container(border=True):
-            st.markdown(sections_A.get("Credibility", "*No credibility section found.*"))
-        cred_A = st.radio("Credibility (A)", options, format_func=options.get, key="cred_A", horizontal=True)
-        st.markdown("-----")
-
-        st.markdown("##### Uncertainty")
-        with st.container(border=True):
-            st.markdown(sections_A.get("Uncertainty", "*No uncertainty section found.*"))
-        uncer_A = st.radio("Uncertainty (A)", options, format_func=options.get, key="uncer_A", horizontal=True)
-        st.markdown("-----")
-
-        st.markdown("##### Actionability")
-        with st.container(border=True):
-            st.markdown(sections_A.get("Actionability", "*No actionability section found.*"))
-        action_A = st.radio("Actionability (A)", options, format_func=options.get, key="action_A", horizontal=True)
-        st.markdown("-----")
-
-with col3:
-    with st.container(border=True):
-        st.markdown("#### Response B")
-
-        sections_B = split_sections(responses[1]["content"])
-
-        st.markdown("##### Executive Summary")
-        with st.container(border=True):
-            st.markdown(sections_B.get("Executive summary", "*No summary found.*"))
-        rel_B = st.radio("Relevance (B)", options, format_func=options.get, key="rel_B", horizontal=True)
-        st.markdown("-----")
-
-        st.markdown("##### Credibility")
-        with st.container(border=True):
-            st.markdown(sections_B.get("Credibility", "*No credibility section found.*"))
-        cred_B = st.radio("Credibility (B)", options, format_func=options.get, key="cred_B", horizontal=True)
-        st.markdown("-----")
-
-        st.markdown("##### Uncertainty")
-        with st.container(border=True):
-            st.markdown(sections_B.get("Uncertainty", "*No uncertainty section found.*"))
-        uncer_B = st.radio("Uncertainty (B)", options, format_func=options.get, key="uncer_B", horizontal=True)
-        st.markdown("-----")
-
-        st.markdown("##### Actionability")
-        with st.container(border=True):
-            st.markdown(sections_B.get("Actionability", "*No actionability section found.*"))
-        action_B = st.radio("Actionability (B)", options, format_func=options.get, key="action_B", horizontal=True)
-        st.markdown("-----")
-
-# === Valutazione senza form ===
 options = {
     1: "Not at all",
-    2: "Slightly",
+    2: "Slightly", 
     3: "Moderately",
     4: "Very",
     5: "Extremely"
 }
 
-# Radio per Response A (già definiti sopra nei blocchi)
-# rel_A, cred_A, uncer_A, action_A
+# === RELEVANCE SECTION ===
+st.header("📊 Relevance")
+st.markdown("*How well does each response address the given question?*")
 
-# Radio per Response B (già definiti sopra nei blocchi)
-# rel_B, cred_B, uncer_B, action_B
+col1, col2 = st.columns([1, 1])
 
-# Bottone di invio fuori da qualsiasi form
-if st.button("✅ Send Evaluation"):
-    save_evaluation(st.session_state.user_id, response_id, responses[0]['agent'], rel_A, cred_A, uncer_A, action_A)
-    save_evaluation(st.session_state.user_id, response_id, responses[1]['agent'], rel_B, cred_B, uncer_B, action_B)
-    st.success(f"✅ Evaluations for question {response_id} saved!")
+with col1:
+    st.markdown("#### Response A")
+    with st.container(border=True):
+        st.markdown("##### Executive Summary")
+        st.markdown(sections_A.get("Executive summary", "*No summary found.*"))
 
-    for k in [
-        "rel_A", "cred_A", "uncer_A", "action_A",
-        "rel_B", "cred_B", "uncer_B", "action_B",
-        "eval_idx", "responses"
-    ]:
-        st.session_state.pop(k, None)
+with col2:
+    st.markdown("#### Response B") 
+    with st.container(border=True):
+        st.markdown("##### Executive Summary")
+        st.markdown(sections_B.get("Executive summary", "*No summary found.*"))
 
-    st.rerun()
+# Valutazioni Relevance
+st.markdown("##### Rate the relevance of each response:")
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    rel_A = st.radio("Response A - Relevance", options, format_func=options.get, key="rel_A", horizontal=True)
+
+with col2:
+    rel_B = st.radio("Response B - Relevance", options, format_func=options.get, key="rel_B", horizontal=True)
+
+st.markdown("---")
+
+# === CREDIBILITY SECTION ===
+st.header("🔬 Credibility")
+st.markdown("*Scientific accuracy and plausibility of the information*")
+
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    st.markdown("#### Response A")
+    with st.container(border=True):
+        st.markdown("##### Credibility")
+        st.markdown(sections_A.get("Credibility", "*No credibility section found.*"))
+
+with col2:
+    st.markdown("#### Response B")
+    with st.container(border=True):
+        st.markdown("##### Credibility")  
+        st.markdown(sections_B.get("Credibility", "*No credibility section found.*"))
+
+# Valutazioni Credibility
+st.markdown("##### Rate the credibility of each response:")
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    cred_A = st.radio("Response A - Credibility", options, format_func=options.get, key="cred_A", horizontal=True)
+
+with col2:
+    cred_B = st.radio("Response B - Credibility", options, format_func=options.get, key="cred_B", horizontal=True)
+
+st.markdown("---")
+
+# === UNCERTAINTY SECTION ===
+st.header("❓ Uncertainty Communication")
+st.markdown("*Clarity in expressing limitations or confidence levels*")
+
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    st.markdown("#### Response A")
+    with st.container(border=True):
+        st.markdown("##### Uncertainty")
+        st.markdown(sections_A.get("Uncertainty", "*No uncertainty section found.*"))
+
+with col2:
+    st.markdown("#### Response B")
+    with st.container(border=True):
+        st.markdown("##### Uncertainty")
+        st.markdown(sections_B.get("Uncertainty", "*No uncertainty section found.*"))
+
+# Valutazioni Uncertainty
+st.markdown("##### Rate the uncertainty communication of each response:")
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    uncer_A = st.radio("Response A - Uncertainty", options, format_func=options.get, key="uncer_A", horizontal=True)
+
+with col2:
+    uncer_B = st.radio("Response B - Uncertainty", options, format_func=options.get, key="uncer_B", horizontal=True)
+
+st.markdown("---")
+
+# === ACTIONABILITY SECTION ===
+st.header("🎯 Actionability")
+st.markdown("*Usefulness of the response for decision-making or planning*")
+
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    st.markdown("#### Response A")
+    with st.container(border=True):
+        st.markdown("##### Actionability")
+        st.markdown(sections_A.get("Actionability", "*No actionability section found.*"))
+
+with col2:
+    st.markdown("#### Response B")
+    with st.container(border=True):
+        st.markdown("##### Actionability")
+        st.markdown(sections_B.get("Actionability", "*No actionability section found.*"))
+
+# Valutazioni Actionability
+st.markdown("##### Rate the actionability of each response:")
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    action_A = st.radio("Response A - Actionability", options, format_func=options.get, key="action_A", horizontal=True)
+
+with col2:
+    action_B = st.radio("Response B - Actionability", options, format_func=options.get, key="action_B", horizontal=True)
+
+st.markdown("---")
+
+# === Submit Evaluation ===
+st.header("📝 Submit Your Evaluation")
+
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    if st.button("✅ Send Evaluation", type="primary", use_container_width=True):
+        save_evaluation(st.session_state.user_id, response_id, responses[0]['agent'], rel_A, cred_A, uncer_A, action_A)
+        save_evaluation(st.session_state.user_id, response_id, responses[1]['agent'], rel_B, cred_B, uncer_B, action_B)
+        st.success(f"✅ Evaluations for question {response_id} saved!")
+
+        for k in [
+            "rel_A", "cred_A", "uncer_A", "action_A",
+            "rel_B", "cred_B", "uncer_B", "action_B",
+            "eval_idx", "responses"
+        ]:
+            st.session_state.pop(k, None)
+
+        st.rerun()
