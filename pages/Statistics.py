@@ -16,12 +16,19 @@ def check_password():
     
     def password_entered():
         """Checks whether a password entered by the user is correct."""
-        if (st.session_state["username"] == st.secrets["stats_auth"]["username"] and 
-            st.session_state["password"] == st.secrets["stats_auth"]["password"]):
-            st.session_state["password_correct"] = True
-            del st.session_state["password"]  # don't store password
-            del st.session_state["username"]  # don't store username
+        # Check if both username and password exist in session_state
+        if ("username" in st.session_state and "password" in st.session_state and 
+            st.session_state["username"] and st.session_state["password"]):
+            
+            if (st.session_state["username"] == st.secrets["stats_auth"]["username"] and 
+                st.session_state["password"] == st.secrets["stats_auth"]["password"]):
+                st.session_state["password_correct"] = True
+                del st.session_state["password"]  # don't store password
+                del st.session_state["username"]  # don't store username
+            else:
+                st.session_state["password_correct"] = False
         else:
+            # If username or password is empty, mark as incorrect
             st.session_state["password_correct"] = False
 
     if "password_correct" not in st.session_state:
