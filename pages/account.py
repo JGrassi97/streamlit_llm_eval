@@ -3,6 +3,7 @@ import pandas as pd
 import gspread
 from google.oauth2.service_account import Credentials
 from hashlib import sha256
+import uuid
 
 # === Setup Google Sheets ===
 scope = ["https://www.googleapis.com/auth/spreadsheets"]
@@ -19,25 +20,30 @@ def hash_password(password):
 def register_user(email, password, background, role, wants_updates):
     users = pd.DataFrame(user_ws.get_all_records())
     if email in users["email"].values:
-        return False
+        return False, None
+    
+    # Genera un ID univoco per il valutatore
+    user_id = str(uuid.uuid4())[:8]  # Usa solo i primi 8 caratteri per semplicità
+    
     user_ws.append_row([
+        user_id,
         email,
         hash_password(password),
         background,
         role,
         "yes" if wants_updates else "no"
     ])
-    return True
+    return True, user_id
 
 
 def login_user(email, password):
     users = pd.DataFrame(user_ws.get_all_records())
     row = users[users.email == email]
     if row.empty:
-        return None
+        return None, None
     if row.iloc[0]["password"] == hash_password(password):
-        return email
-    return None
+        return email, row.iloc[0]["user_id"]
+    return None, None
 
 # === UI ===
 st.title("Account Management")
@@ -47,6 +53,8 @@ choice = st.selectbox("Action", menu)
 
 if "user_email" not in st.session_state:
     st.session_state.user_email = None
+if "user_id" not in st.session_state:
+    st.session_state.user_id = None
 
 if choice == "Register":
     st.subheader("Create a new account")
@@ -64,8 +72,10 @@ if choice == "Register":
     )
 
     if st.button("Register"):
-        if register_user(email, password, background, role, wants_updates):
-            st.success("Registration successful. You can now log in.")
+        success, user_id = register_user(email, password, background, role, wants_updates)
+        if success:
+            st.success(f"Registration successful! Your evaluator ID is: **{user_id}**")
+            st.info("Please save your evaluator ID for reference. You can now log in.")
         else:
             st.error("Email already registered.")
 
@@ -74,15 +84,17 @@ elif choice == "Login":
     email = st.text_input("Email")
     password = st.text_input("Password", type="password")
     if st.button("Login"):
-        user_email = login_user(email, password)
+        user_email, user_id = login_user(email, password)
         if user_email:
             st.session_state.user_email = user_email
-            st.success(f"Logged in as: {user_email}")
+            st.session_state.user_id = user_id
+            st.success(f"Logged in as: {user_email} (ID: {user_id})")
         else:
             st.error("Invalid credentials.")
 
 elif choice == "Logout":
     st.session_state.user_email = None
+    st.session_state.user_id = None
     st.success("Logged out successfully.")
 
 # === Visualizza valutazioni dell'utente ===
@@ -90,11 +102,11 @@ if st.session_state.user_email:
     st.subheader("📊 Your past evaluations")
 
     @st.cache_data(ttl=60)
-    def load_user_evaluations(email):
+    def load_user_evaluations(user_id):
         df = pd.DataFrame(eval_ws.get_all_records())
-        return df[df["email"] == email] if not df.empty else pd.DataFrame()
+        return df[df["user_id"] == user_id] if not df.empty else pd.DataFrame()
 
-    user_evals = load_user_evaluations(st.session_state.user_email)
+    user_evals = load_user_evaluations(st.session_state.user_id)
 
     st.subheader("📁 Review individual responses")
 
@@ -157,7 +169,7 @@ if st.session_state.user_email:
 
             to_keep = [
                 row for row in rows
-                if not (row[0] == st.session_state.user_email and row[1] == selected_qid)
+                if not (row[0] == st.session_state.user_id and row[1] == selected_qid)
             ]
 
             eval_ws.clear()

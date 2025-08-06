@@ -1,1 +1,5 @@
 gspread
+streamlit
+pandas
+numpy
+plotly
