@@ -201,7 +201,7 @@ st.markdown("---")
 st.header("❓ Uncertainty Communication")
 st.markdown("*Clarity in expressing limitations or confidence levels*")
 
-col1, col2 = st.columns([1, 1])
+col1, col2, col3 = st.columns([8, 1, 8])
 
 with col1:
     st.markdown("#### Response A")
@@ -209,7 +209,7 @@ with col1:
         st.markdown("##### Uncertainty")
         st.markdown(sections_A.get("Uncertainty", "*No uncertainty section found.*"))
 
-with col2:
+with col3:
     st.markdown("#### Response B")
     with st.container(border=True):
         st.markdown("##### Uncertainty")
