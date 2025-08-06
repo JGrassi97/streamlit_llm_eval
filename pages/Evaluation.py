@@ -8,7 +8,7 @@ import os
 import random
 import re
 
-RESPONSE_BASE_PATH = "responses/gpt-4o-mini"
+RESPONSE_BASE_PATH = "responses/gpt-4.1-mini"
 
 # Set wide layout
 st.set_page_config(layout="wide", page_title="AI for Climate Adaptation – Evaluation")
