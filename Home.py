@@ -37,7 +37,7 @@ To start evaluating:
    - Secure password
    - Professional background (e.g., researcher, student, professional)
    - Specific role (e.g., climatologist, engineer, policy maker)
-   - Preference for receiving updates on study results
+   - Institution/Organization (e.g., university, company, government agency)
 
 #### 2️⃣ **Evaluation Process**
 

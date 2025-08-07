@@ -17,7 +17,7 @@ eval_ws = sh.worksheet("evaluations")  # nuovo
 def hash_password(password):
     return sha256(password.encode()).hexdigest()
 
-def register_user(username, password, background, role, wants_updates):
+def register_user(username, password, background, role, institution):
     users = pd.DataFrame(user_ws.get_all_records())
     if username in users["username"].values:
         return False, None
@@ -31,7 +31,7 @@ def register_user(username, password, background, role, wants_updates):
         hash_password(password),
         background,
         role,
-        "yes" if wants_updates else "no"
+        institution
     ])
     return True, user_id
 
@@ -64,7 +64,7 @@ if choice == "Register":
 
     background = st.text_area("Tell us a bit about your background (e.g. research field, interest)")
     role = st.selectbox("Your current role", ["Student", "Researcher", "Policymaker", "NGO", "Private Sector", "Other"])
-    wants_updates = st.checkbox("I would like to receive updates about this evaluation project")
+    institution = st.text_input("Institution/Organization (e.g. University, Company, Government Agency)")
 
     st.markdown(
         ":warning: **Important**: Your password will be encrypted but **we cannot guarantee full security**. "
@@ -72,7 +72,7 @@ if choice == "Register":
     )
 
     if st.button("Register"):
-        success, user_id = register_user(username, password, background, role, wants_updates)
+        success, user_id = register_user(username, password, background, role, institution)
         if success:
             st.success(f"Registration successful! Your evaluator ID is: **{user_id}**")
             st.info("Please save your evaluator ID for reference. You can now log in.")

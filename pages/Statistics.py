@@ -239,6 +239,42 @@ try:
             )
             st.plotly_chart(fig_roles, use_container_width=True)
     
+    # === Analisi per istituto ===
+    if not user_df.empty and 'institution' in user_df.columns:
+        st.subheader("🏛️ Evaluators by Institution")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            # Top istituzioni per numero di valutatori
+            institution_user_counts = user_df['institution'].value_counts().head(10)
+            if not institution_user_counts.empty:
+                fig_inst_users = px.bar(
+                    x=institution_user_counts.values,
+                    y=institution_user_counts.index,
+                    orientation='h',
+                    title="Top 10 Institutions by Number of Evaluators",
+                    labels={'x': 'Number of Evaluators', 'y': 'Institution'}
+                )
+                st.plotly_chart(fig_inst_users, use_container_width=True)
+        
+        with col2:
+            # Merge user data with evaluation data per analizzare valutazioni per istituto
+            if 'user_id' in eval_df.columns and 'user_id' in user_df.columns:
+                eval_with_inst = eval_df.merge(user_df[['user_id', 'institution']], on='user_id', how='left')
+                
+                if 'institution' in eval_with_inst.columns:
+                    institution_eval_counts = eval_with_inst['institution'].value_counts().head(10)
+                    if not institution_eval_counts.empty:
+                        fig_inst_evals = px.bar(
+                            x=institution_eval_counts.values,
+                            y=institution_eval_counts.index,
+                            orientation='h',
+                            title="Top 10 Institutions by Number of Evaluations",
+                            labels={'x': 'Number of Evaluations', 'y': 'Institution'}
+                        )
+                        st.plotly_chart(fig_inst_evals, use_container_width=True)
+    
     st.markdown("---")
     
     # === Matrice di correlazione ===
