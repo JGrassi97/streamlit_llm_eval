@@ -17,9 +17,9 @@ eval_ws = sh.worksheet("evaluations")  # nuovo
 def hash_password(password):
     return sha256(password.encode()).hexdigest()
 
-def register_user(email, password, background, role, wants_updates):
+def register_user(username, password, background, role, wants_updates):
     users = pd.DataFrame(user_ws.get_all_records())
-    if email in users["email"].values:
+    if username in users["username"].values:
         return False, None
     
     # Genera un ID univoco per il valutatore
@@ -27,7 +27,7 @@ def register_user(email, password, background, role, wants_updates):
     
     user_ws.append_row([
         user_id,
-        email,
+        username,
         hash_password(password),
         background,
         role,
@@ -36,13 +36,13 @@ def register_user(email, password, background, role, wants_updates):
     return True, user_id
 
 
-def login_user(email, password):
+def login_user(username, password):
     users = pd.DataFrame(user_ws.get_all_records())
-    row = users[users.email == email]
+    row = users[users.username == username]
     if row.empty:
         return None, None
     if row.iloc[0]["password"] == hash_password(password):
-        return email, row.iloc[0]["user_id"]
+        return username, row.iloc[0]["user_id"]
     return None, None
 
 # === UI ===
@@ -51,20 +51,20 @@ st.title("Account Management")
 menu = ["Login", "Register", "Logout"]
 choice = st.selectbox("Action", menu)
 
-if "user_email" not in st.session_state:
-    st.session_state.user_email = None
+if "user_username" not in st.session_state:
+    st.session_state.user_username = None
 if "user_id" not in st.session_state:
     st.session_state.user_id = None
 
 if choice == "Register":
     st.subheader("Create a new account")
 
-    email = st.text_input("Email")
+    username = st.text_input("Username")
     password = st.text_input("Password", type="password")
 
     background = st.text_area("Tell us a bit about your background (e.g. research field, interest)")
     role = st.selectbox("Your current role", ["Student", "Researcher", "Policymaker", "NGO", "Private Sector", "Other"])
-    wants_updates = st.checkbox("I would like to receive email updates about this evaluation project")
+    wants_updates = st.checkbox("I would like to receive updates about this evaluation project")
 
     st.markdown(
         ":warning: **Important**: Your password will be encrypted but **we cannot guarantee full security**. "
@@ -72,28 +72,28 @@ if choice == "Register":
     )
 
     if st.button("Register"):
-        success, user_id = register_user(email, password, background, role, wants_updates)
+        success, user_id = register_user(username, password, background, role, wants_updates)
         if success:
             st.success(f"Registration successful! Your evaluator ID is: **{user_id}**")
             st.info("Please save your evaluator ID for reference. You can now log in.")
         else:
-            st.error("Email already registered.")
+            st.error("Username already registered.")
 
 elif choice == "Login":
     st.subheader("Login")
-    email = st.text_input("Email")
+    username = st.text_input("Username")
     password = st.text_input("Password", type="password")
     if st.button("Login"):
-        user_email, user_id = login_user(email, password)
-        if user_email:
-            st.session_state.user_email = user_email
+        user_username, user_id = login_user(username, password)
+        if user_username:
+            st.session_state.user_username = user_username
             st.session_state.user_id = user_id
-            st.success(f"Logged in as: {user_email} (ID: {user_id})")
+            st.success(f"Logged in as: {user_username} (ID: {user_id})")
         else:
             st.error("Invalid credentials.")
 
 elif choice == "Logout":
-    st.session_state.user_email = None
+    st.session_state.user_username = None
     st.session_state.user_id = None
     st.success("Logged out successfully.")
 

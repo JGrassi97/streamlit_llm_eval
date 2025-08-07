@@ -81,11 +81,11 @@ def save_evaluation(user_id, question_id, agent, relevance, credibility, uncerta
 # === UI iniziale ===
 st.title("Evaluation")
 
-if "user_email" not in st.session_state or not st.session_state.user_email:
+if "user_username" not in st.session_state or not st.session_state.user_username:
     st.warning("Please log in first on the 'Account Management' page.")
     st.stop()
 
-st.success(f"You are logged in as: {st.session_state.user_email} (ID: {st.session_state.user_id})")
+st.success(f"You are logged in as: {st.session_state.user_username} (ID: {st.session_state.user_id})")
 
 # === Carica valutazioni precedenti dell'utente ===
 @st.cache_data(ttl=60)

@@ -33,7 +33,7 @@ To start evaluating:
 1. **Go to "Account Management"** page via the sidebar
 2. **Select "Register"** to create a new account or "Login" if you're already registered
 3. **Fill in the required information**:
-   - Email (will be your unique identifier)
+   - Username (will be your unique identifier)
    - Secure password
    - Professional background (e.g., researcher, student, professional)
    - Specific role (e.g., climatologist, engineer, policy maker)
