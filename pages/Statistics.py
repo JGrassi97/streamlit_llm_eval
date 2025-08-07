@@ -6,6 +6,11 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import gspread
 from google.oauth2.service_account import Credentials
+import os
+import glob
+from scipy.stats import pearsonr, spearmanr
+from sklearn.metrics import mean_absolute_error, mean_squared_error
+from sklearn.linear_model import LinearRegression
 
 # Set page config
 st.set_page_config(layout="wide", page_title="Statistics - AI Climate Evaluation")
@@ -106,7 +111,7 @@ try:
         st.info("No evaluation data available yet.")
         st.stop()
     
-    # Converte le colonne numeriche
+    # Converte le colonne numeriche per dati umani
     numeric_cols = ['relevance', 'credibility', 'uncertainty', 'actionability']
     for col in numeric_cols:
         if col in eval_df.columns:
@@ -160,7 +165,7 @@ try:
         polar=dict(
             radialaxis=dict(
                 visible=True,
-                range=[0, 5]
+                range=[0, 10]  # Cambiato per la nuova scala 1-10
             )),
         showlegend=True,
         title="Average Scores by AI Agent",
