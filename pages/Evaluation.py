@@ -161,10 +161,10 @@ def render_relevance_sliders():
     col1, col2, col3 = st.columns([8, 1, 8])
     
     with col1:
-        rel_A = st.slider("Response A - Relevance", 0, 10, value=st.session_state.get("rel_A", 0), key="rel_A", help="0 = Not selected, 1-10 = Rating scale")
+        rel_A = st.slider("Response A - Relevance", 0, 10, key="rel_A", help="0 = Not selected, 1-10 = Rating scale")
     
     with col3:
-        rel_B = st.slider("Response B - Relevance", 0, 10, value=st.session_state.get("rel_B", 0), key="rel_B", help="0 = Not selected, 1-10 = Rating scale")
+        rel_B = st.slider("Response B - Relevance", 0, 10, key="rel_B", help="0 = Not selected, 1-10 = Rating scale")
     
     return rel_A, rel_B
 
@@ -174,10 +174,10 @@ def render_credibility_sliders():
     col1, col2, col3 = st.columns([8, 1, 8])
     
     with col1:
-        cred_A = st.slider("Response A - Credibility", 0, 10, value=st.session_state.get("cred_A", 0), key="cred_A", help="0 = Not selected, 1-10 = Rating scale")
+        cred_A = st.slider("Response A - Credibility", 0, 10, key="cred_A", help="0 = Not selected, 1-10 = Rating scale")
     
     with col3:
-        cred_B = st.slider("Response B - Credibility", 0, 10, value=st.session_state.get("cred_B", 0), key="cred_B", help="0 = Not selected, 1-10 = Rating scale")
+        cred_B = st.slider("Response B - Credibility", 0, 10, key="cred_B", help="0 = Not selected, 1-10 = Rating scale")
     
     return cred_A, cred_B
 
@@ -187,10 +187,10 @@ def render_uncertainty_sliders():
     col1, col2, col3 = st.columns([8, 1, 8])
     
     with col1:
-        uncer_A = st.slider("Response A - Uncertainty", 0, 10, value=st.session_state.get("uncer_A", 0), key="uncer_A", help="0 = Not selected, 1-10 = Rating scale")
+        uncer_A = st.slider("Response A - Uncertainty", 0, 10, key="uncer_A", help="0 = Not selected, 1-10 = Rating scale")
     
     with col3:
-        uncer_B = st.slider("Response B - Uncertainty", 0, 10, value=st.session_state.get("uncer_B", 0), key="uncer_B", help="0 = Not selected, 1-10 = Rating scale")
+        uncer_B = st.slider("Response B - Uncertainty", 0, 10, key="uncer_B", help="0 = Not selected, 1-10 = Rating scale")
     
     return uncer_A, uncer_B
 
@@ -200,10 +200,10 @@ def render_actionability_sliders():
     col1, col2, col3 = st.columns([8, 1, 8])
     
     with col1:
-        action_A = st.slider("Response A - Actionability", 0, 10, value=st.session_state.get("action_A", 0), key="action_A", help="0 = Not selected, 1-10 = Rating scale")
+        action_A = st.slider("Response A - Actionability", 0, 10, key="action_A", help="0 = Not selected, 1-10 = Rating scale")
     
     with col3:
-        action_B = st.slider("Response B - Actionability", 0, 10, value=st.session_state.get("action_B", 0), key="action_B", help="0 = Not selected, 1-10 = Rating scale")
+        action_B = st.slider("Response B - Actionability", 0, 10, key="action_B", help="0 = Not selected, 1-10 = Rating scale")
     
     return action_A, action_B
 
