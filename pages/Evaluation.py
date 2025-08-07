@@ -42,13 +42,18 @@ def split_sections(response_text):
     return sections
 
 # === Caricamento risposte ===
+@st.cache_data
 def load_response(agent_name, idx):
     path = os.path.join(RESPONSE_BASE_PATH, agent_name, f"response_{idx}.json")
     with open(path, "r") as f:
         return json.load(f)
 
+@st.cache_data
+def get_available_indices():
+    return [f.split("_")[1].split(".")[0] for f in os.listdir(os.path.join(RESPONSE_BASE_PATH, "Plain-LLM"))]
+
 def get_random_evaluation_pair(already_done):
-    indices = [f.split("_")[1].split(".")[0] for f in os.listdir(os.path.join(RESPONSE_BASE_PATH, "Plain-LLM"))]
+    indices = get_available_indices()
     random.shuffle(indices)
     others = ["Climsight", "Climsight-XCLIM", "XCLIM-AI"]
 
@@ -70,8 +75,8 @@ gc = gspread.authorize(credentials)
 sh = gc.open_by_url(st.secrets["gspread"]["sheet_url"])
 eval_ws = sh.worksheet("evaluations")
 
-def save_evaluation(user_id, question_id, agent, relevance, credibility, usability, actionability):
-    eval_ws.append_row([user_id, question_id, agent, relevance, credibility, usability, actionability])
+def save_evaluation(user_id, question_id, agent, relevance, credibility, uncertainty, actionability):
+    eval_ws.append_row([user_id, question_id, agent, relevance, credibility, uncertainty, actionability])
 
 # === UI iniziale ===
 st.title("Evaluation")
@@ -96,6 +101,7 @@ col_refresh, _ = st.columns([1, 5])
 with col_refresh:
     if st.button("🔄 Change question"):
         st.session_state.force_refresh = True
+        st.rerun()
 
 # === Genera nuova domanda se serve
 if "eval_idx" not in st.session_state or st.session_state.get("force_refresh", False):
@@ -113,6 +119,15 @@ if "eval_idx" not in st.session_state or st.session_state.get("force_refresh", F
     st.session_state.eval_idx = idx
     st.session_state.responses = responses
     st.session_state.force_refresh = False  # reset flag
+    
+    # Rimuovi le chiavi degli slider per resettarli alla prossima inizializzazione
+    slider_keys = [
+        "rel_A", "cred_A", "uncer_A", "action_A",
+        "rel_B", "cred_B", "uncer_B", "action_B"
+    ]
+    for k in slider_keys:
+        if k in st.session_state:
+            del st.session_state[k]
 
 
 # === Mostra domanda e risposte ===
@@ -129,13 +144,68 @@ st.markdown("---")
 sections_A = split_sections(responses[0]["content"])
 sections_B = split_sections(responses[1]["content"])
 
-options = {
-    1: "Not at all",
-    2: "Slightly", 
-    3: "Moderately",
-    4: "Very",
-    5: "Extremely"
-}
+# Inizializza gli slider se non esistono
+slider_keys = [
+    "rel_A", "cred_A", "uncer_A", "action_A",
+    "rel_B", "cred_B", "uncer_B", "action_B"
+]
+
+for key in slider_keys:
+    if key not in st.session_state:
+        st.session_state[key] = 0
+
+# Funzione per gestire gli slider in un fragment per ridurre il lag
+@st.fragment
+def render_relevance_sliders():
+    st.markdown("##### Rate the relevance of each response:")
+    col1, col2, col3 = st.columns([8, 1, 8])
+    
+    with col1:
+        rel_A = st.slider("Response A - Relevance", 0, 10, value=st.session_state.get("rel_A", 0), key="rel_A", help="0 = Not selected, 1-10 = Rating scale")
+    
+    with col3:
+        rel_B = st.slider("Response B - Relevance", 0, 10, value=st.session_state.get("rel_B", 0), key="rel_B", help="0 = Not selected, 1-10 = Rating scale")
+    
+    return rel_A, rel_B
+
+@st.fragment
+def render_credibility_sliders():
+    st.markdown("##### Rate the credibility of each response:")
+    col1, col2, col3 = st.columns([8, 1, 8])
+    
+    with col1:
+        cred_A = st.slider("Response A - Credibility", 0, 10, value=st.session_state.get("cred_A", 0), key="cred_A", help="0 = Not selected, 1-10 = Rating scale")
+    
+    with col3:
+        cred_B = st.slider("Response B - Credibility", 0, 10, value=st.session_state.get("cred_B", 0), key="cred_B", help="0 = Not selected, 1-10 = Rating scale")
+    
+    return cred_A, cred_B
+
+@st.fragment
+def render_uncertainty_sliders():
+    st.markdown("##### Rate the uncertainty communication of each response:")
+    col1, col2, col3 = st.columns([8, 1, 8])
+    
+    with col1:
+        uncer_A = st.slider("Response A - Uncertainty", 0, 10, value=st.session_state.get("uncer_A", 0), key="uncer_A", help="0 = Not selected, 1-10 = Rating scale")
+    
+    with col3:
+        uncer_B = st.slider("Response B - Uncertainty", 0, 10, value=st.session_state.get("uncer_B", 0), key="uncer_B", help="0 = Not selected, 1-10 = Rating scale")
+    
+    return uncer_A, uncer_B
+
+@st.fragment
+def render_actionability_sliders():
+    st.markdown("##### Rate the actionability of each response:")
+    col1, col2, col3 = st.columns([8, 1, 8])
+    
+    with col1:
+        action_A = st.slider("Response A - Actionability", 0, 10, value=st.session_state.get("action_A", 0), key="action_A", help="0 = Not selected, 1-10 = Rating scale")
+    
+    with col3:
+        action_B = st.slider("Response B - Actionability", 0, 10, value=st.session_state.get("action_B", 0), key="action_B", help="0 = Not selected, 1-10 = Rating scale")
+    
+    return action_A, action_B
 
 # === RELEVANCE SECTION ===
 st.header("📊 Relevance")
@@ -156,14 +226,7 @@ with col3:
         st.markdown(sections_B.get("Executive summary", "*No summary found.*"))
 
 # Valutazioni Relevance
-st.markdown("##### Rate the relevance of each response:")
-col1, col2, col3 = st.columns([8, 1, 8])
-
-with col1:
-    rel_A = st.radio("Response A - Relevance", options, format_func=options.get, key="rel_A", horizontal=True)
-
-with col3:
-    rel_B = st.radio("Response B - Relevance", options, format_func=options.get, key="rel_B", horizontal=True)
+rel_A, rel_B = render_relevance_sliders()
 
 st.markdown("---")
 
@@ -186,14 +249,7 @@ with col3:
         st.markdown(sections_B.get("Credibility", "*No credibility section found.*"))
 
 # Valutazioni Credibility
-st.markdown("##### Rate the credibility of each response:")
-col1, col2, col3 = st.columns([8, 1, 8])
-
-with col1:
-    cred_A = st.radio("Response A - Credibility", options, format_func=options.get, key="cred_A", horizontal=True)
-
-with col3:
-    cred_B = st.radio("Response B - Credibility", options, format_func=options.get, key="cred_B", horizontal=True)
+cred_A, cred_B = render_credibility_sliders()
 
 st.markdown("---")
 
@@ -216,14 +272,7 @@ with col3:
         st.markdown(sections_B.get("Uncertainty", "*No uncertainty section found.*"))
 
 # Valutazioni Uncertainty
-st.markdown("##### Rate the uncertainty communication of each response:")
-col1, col2, col3 = st.columns([8, 1, 8])
-
-with col1:
-    uncer_A = st.radio("Response A - Uncertainty", options, format_func=options.get, key="uncer_A", horizontal=True)
-
-with col3:
-    uncer_B = st.radio("Response B - Uncertainty", options, format_func=options.get, key="uncer_B", horizontal=True)
+uncer_A, uncer_B = render_uncertainty_sliders()
 
 st.markdown("---")
 
@@ -246,14 +295,7 @@ with col3:
         st.markdown(sections_B.get("Actionability", "*No actionability section found.*"))
 
 # Valutazioni Actionability
-st.markdown("##### Rate the actionability of each response:")
-col1, col2, col3 = st.columns([8, 1, 8])
-
-with col1:
-    action_A = st.radio("Response A - Actionability", options, format_func=options.get, key="action_A", horizontal=True)
-
-with col3:
-    action_B = st.radio("Response B - Actionability", options, format_func=options.get, key="action_B", horizontal=True)
+action_A, action_B = render_actionability_sliders()
 
 st.markdown("---")
 
@@ -263,15 +305,17 @@ st.header("📝 Submit Your Evaluation")
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     if st.button("✅ Send Evaluation", type="primary", use_container_width=True):
-        save_evaluation(st.session_state.user_id, response_id, responses[0]['agent'], rel_A, cred_A, uncer_A, action_A)
-        save_evaluation(st.session_state.user_id, response_id, responses[1]['agent'], rel_B, cred_B, uncer_B, action_B)
-        st.success(f"✅ Evaluations for question {response_id} saved!")
+        # Verifica che tutti i valori siano diversi da 0
+        if all([rel_A > 0, cred_A > 0, uncer_A > 0, action_A > 0, rel_B > 0, cred_B > 0, uncer_B > 0, action_B > 0]):
+            save_evaluation(st.session_state.user_id, response_id, responses[0]['agent'], rel_A, cred_A, uncer_A, action_A)
+            save_evaluation(st.session_state.user_id, response_id, responses[1]['agent'], rel_B, cred_B, uncer_B, action_B)
+            st.success(f"✅ Evaluations for question {response_id} saved!")
 
-        for k in [
-            "rel_A", "cred_A", "uncer_A", "action_A",
-            "rel_B", "cred_B", "uncer_B", "action_B",
-            "eval_idx", "responses"
-        ]:
-            st.session_state.pop(k, None)
+            # Rimuovi le chiavi della sessione per generare nuova domanda e resettare slider
+            for k in ["eval_idx", "responses"] + slider_keys:
+                if k in st.session_state:
+                    del st.session_state[k]
 
-        st.rerun()
+            st.rerun()
+        else:
+            st.error("⚠️ Please rate all criteria with values from 1 to 10 before submitting.")
