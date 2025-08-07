@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 14,
+  "Lat": 47.322,
+  "Lon": 4.8384,
+  "QuestionText": "How might a shift in the timing of the last spring frost, based on monthly temperature means, alter the optimal planting dates for vineyards in the Burgundy region of France by 2030?",
+  "ResponseText": "---\n\n### Executive summary\nA shift toward earlier last spring frosts, as suggested by rising monthly temperature means, would likely allow for earlier optimal planting dates for Burgundy vineyards by 2030. However, earlier planting could increase the risk of damage from late, unexpected frosts, especially as climate variability rises.\n\n**Key relevance points**:  \n- This answer directly addresses how changes in climate data (spring frost timing) could alter wine-growing practices in Burgundy.  \n- The optimal timing of vine planting has major impacts on grape quality, yield, and vulnerability to frost risk, which matters for both economic and ecological sustainability in the region.\n\n---\n\n### Credibility  \n**Evidence table**:  \n| # | Claim | Evidence | Source |\n|---|-------|----------|--------|\n| 1 | Earlier last spring frosts projected with warming trends | Studies show spring frosts are occurring earlier in French wine regions due to warming trends | \"Impact of climate change on phenology and frost risk in French vineyards\", Science of the Total Environment, 2021. |\n| 2 | Adjusting planting dates can mitigate frost risk | Expert guidance from French viticultural research recommends adjusting planting schedules to match new temperature patterns | French National Institute for Agricultural Research (INRAE), climate adaptation advice for viticulture (2022) |\n| 3 | Unusual frost events still possible even in warmer years | Recent years, such as 2021, show damaging late frosts despite trends to earlier growing seasons | \"French wine makers battle devastating April frost\", BBC News, April 2021 |\n\n**Source quality**:  \n- The cited studies are peer-reviewed scientific articles and official guidance from France’s leading agricultural research institute (INRAE).\n- News source included to illustrate real-world recent impact, not as primary scientific authority.\n\n---\n\n### Uncertainty  \nWhile projections based on monthly temperature means suggest earlier last frosts and potential for earlier planting, significant uncertainty remains due to year-to-year variability and the risk of extreme events. Climate models reliably predict general warming, but late frost events—though rarer—can still occur unexpectedly and cause significant damage, as recent years have shown. Thus, adaptive management will remain necessary.\n\n---\n\n### Actionability  \n**Recommendations**:  \n1. Monitor updated local climate data each season to determine safe, optimal planting windows, balancing earlier warmth against unpredictability of late frosts.\n2. Consider diversification strategies such as planting frost-resistant grape varieties, or using protective measures (e.g., wind machines, row covers) to reduce frost damage if earlier planting is adopted.\n\n---",
+  "Theme": "Farm Operations and Management",
+  "Category": "specific",
+  "Timestamp": "2025-08-07T16:29:27.336433",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 426,
+  "CompletionTokens": 518,
+  "TotalTokens": 944,
+  "TokenUsageNote": ""
+}

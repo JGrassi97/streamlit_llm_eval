@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 36,
+  "Lat": 46.8182,
+  "Lon": 8.2275,
+  "QuestionText": "How could changes in the timing of snowmelt affect the start of the high-altitude summer grazing season for dairy cows in the Swiss Alps by 2030?",
+  "ResponseText": "ERROR: Failed to generate Climsight response - Error during Climsight execution: list index out of range",
+  "Theme": "Livestock and Pastoralism",
+  "Category": "specific",
+  "Timestamp": "2025-08-07T16:36:44.100863",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}
