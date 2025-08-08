@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 124,
+  "Lat": 51.2721,
+  "Lon": -0.749,
+  "QuestionText": "How will future climate conditions alter the suitability of southern England for growing new types of horticultural crops, including vineyards?",
+  "ResponseText": "---\n\n### Executive summary\nFuture climate conditions are likely to make southern England, including the area at 51.2721°N, -0.749°W, increasingly suitable for growing new horticultural crops such as vineyards. Warmer temperatures, longer growing seasons, and fewer frost days are predicted, enabling cultivation of crops previously limited by cooler weather, particularly certain wine grape varieties.\n\n**Key relevance points**:  \n- Directly addresses the changes in crop suitability specific to southern England’s climate trends.  \n- Important for local growers, planners, and businesses considering alternative crops to adapt to and capitalize on climate change.\n\n---\n\n### Credibility  \n**Evidence table**:  \n| # | Claim | Evidence | Source |\n|---|-------|----------|--------|\n| 1 | Southern England's suitability for vineyards is improving due to warming. | UK climate projections show increased average temperatures and decreased frost risk; English wine production has expanded rapidly since 2000. | Met Office (UKCP18); WineGB industry reports |\n| 2 | Longer growing seasons will allow for new horticultural crops. | Climate models project longer frost-free periods by mid-century. | Met Office UKCP18; Royal Horticultural Society (RHS) |\n| 3 | Specific new varieties (e.g., Chardonnay, Pinot Noir) already thriving in southern England. | Industry data and crop trial results show increased yields and expansion of vineyard acreage. | WineGB; RHS |\n\n**Source quality**:  \n- Met Office UKCP18 and Royal Horticultural Society data are peer-reviewed and model-based.\n- WineGB industry reports are expert-reviewed, using real production statistics.\n\n---\n\n### Uncertainty  \nThere is moderate uncertainty about the exact pace and extent of suitability increases, mainly due to variability in localized weather, extreme events (such as late frosts or droughts), and the influence of climate change on pests and diseases. While climate models are robust on broad warming trends, microclimate effects and year-to-year variability can affect crop performance. Additionally, other factors such as soil, water availability, and market adaptation play roles that are harder to predict.\n\n---\n\n### Actionability  \n**Recommendations**:  \n1. Conduct site-specific assessments and trials for new horticultural crops—especially wine grapes—considering both climate projections and local soil/water factors.  \n2. Monitor ongoing climate trends and adapt crop management practices (e.g., investment in frost protection, irrigation systems) as conditions evolve.\n\n---",
+  "Theme": "Horticulture and Specialty Crops",
+  "Category": "general",
+  "Timestamp": "2025-08-08T10:51:57.657476",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 412,
+  "CompletionTokens": 499,
+  "TotalTokens": 911,
+  "TokenUsageNote": ""
+}

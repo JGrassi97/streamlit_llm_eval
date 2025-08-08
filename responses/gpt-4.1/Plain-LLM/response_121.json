@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 121,
+  "Lat": 36.7378,
+  "Lon": -119.7871,
+  "QuestionText": "How will the viability of stone fruit cultivation, which relies on winter chill, be affected by climate trends in central California over the next two decades?",
+  "ResponseText": "---\n\n### Executive summary\nStone fruit cultivation in central California—which depends on sufficient winter chill—will face increasing challenges over the next two decades due to climate change. Projected warming trends indicate a significant reduction in winter chill hours, likely putting pressure on yield and fruit quality for chill-dependent varieties.\n\n**Key relevance points**:  \n- The answer focuses on the central California region (Fresno area, latitude 36.7378, longitude -119.7871), a major stone fruit production area.\n- The information is crucial for growers, agricultural planners, and policymakers as it impacts crop viability, economic planning, and long-term sustainability.\n\n---\n\n### Credibility  \n**Evidence table**:  \n| # | Claim | Evidence | Source |\n|---|-------|----------|--------|\n| 1 | Winter chill hours have been declining in California’s Central Valley. | Observed chill hours declined by 16–30% over the late 20th century. | Luedeling et al. (2009), PLOS ONE |\n| 2 | Continued warming will further reduce chill hours, endangering traditional stone fruit varieties. | Models project up to 50–75% reduction in available chill by mid-21st century. | Pathak et al. (2018), California’s Fourth Climate Change Assessment |\n| 3 | Low chill will reduce yields and fruit quality or make some varieties nonviable. | Reduced chill leads to irregular flowering, poor fruit set. | University of California Agriculture & Natural Resources (UCANR) |\n\n**Source quality**:  \n- The sources are peer-reviewed studies and state-sponsored climate assessments, as well as extension publications from recognized academic institutions.\n- No unsupported speculation has been included.\n\n---\n\n### Uncertainty  \nProjections about chill hours are based on climate models, which carry inherent uncertainties relating to emissions scenarios, local microclimates, and variability in annual weather. While there is strong consensus that chill hours will continue to decline, the exact rate and the impact on specific varietals are less certain. Adaptive management, such as developing new, lower-chill varieties and using alternative cultural practices, could offset some impacts but not eliminate risks.\n\n---\n\n### Actionability  \n**Recommendations**:  \n1. Transition to stone fruit varieties with lower chill requirements and invest in breeding programs for new cultivars.\n2. Monitor local climate trends and chill accumulation annually to guide planting and orchard management decisions.\n\n---",
+  "Theme": "Horticulture and Specialty Crops",
+  "Category": "general",
+  "Timestamp": "2025-08-08T10:51:34.542523",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 419,
+  "CompletionTokens": 489,
+  "TotalTokens": 908,
+  "TokenUsageNote": ""
+}
