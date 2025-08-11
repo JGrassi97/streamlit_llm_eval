@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 132,
+  "Lat": 38.2988,
+  "Lon": -122.2869,
+  "QuestionText": "How will hotter summer temperatures affect the accumulation of sugar and acids, and thus the quality, of wine grapes in the Napa Valley, California, by 2035?",
+  "ResponseText": "Errore nell'elaborazione della domanda con Climsight-XCLIM: Error during Climsight execution: list index out of range",
+  "Theme": "Horticulture and Specialty Crops",
+  "Category": "specific",
+  "Timestamp": "2025-08-08T12:08:42.400363",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 594,
+  "Lat": 45.9237,
+  "Lon": 6.4176,
+  "QuestionText": "How might a shorter, warmer winter affect the business interruption insurance claims for ski resorts in the French Alps over the next decade?",
+  "ResponseText": "ERROR: Failed to generate Climsight response - Error during Climsight execution: OPENAI_API_KEY missing for Climsight",
+  "Theme": "Financial and Insurance Risk",
+  "Category": "specific",
+  "Timestamp": "2025-08-11T13:45:35.338296",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

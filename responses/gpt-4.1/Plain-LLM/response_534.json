@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 534,
+  "Lat": 44.8378,
+  "Lon": -0.5792,
+  "QuestionText": "Will the Bordeaux wine region in France be able to sustainably produce its traditional grape varietals under the temperature projections for 2050?",
+  "ResponseText": "---\n\n### Executive summary\nIt is unlikely that the Bordeaux wine region will be able to sustainably produce all its traditional grape varietals (such as Merlot and Cabernet Sauvignon) in the same way under projected 2050 temperatures. Climate model projections and recent research suggest higher average temperatures and increased risk of drought, which will challenge the viability and quality of these traditional varietals. Adaptations may be necessary, either by shifting to more heat-tolerant grape varieties or changing vineyard practices, to maintain sustainable wine production in the region.\n\n**Key relevance points**:  \n- Answer directly considers Bordeaux’s projected climate around 2050 and its well-known traditional grape types.\n- The information is crucial for vintners, investors, and policy-makers to plan for sustainability and preserve terroir and economic value.\n\n---\n\n### Credibility  \n**Evidence table**:  \n| # | Claim | Evidence | Source |\n|---|-------|----------|--------|\n| 1 | Bordeaux will face higher average temperatures and more extreme weather by 2050. | IPCC and World Bank climate projections for SW France. | IPCC AR6 (2021), World Bank Climate Data |\n| 2 | Traditional varietals like Merlot may experience stress, lower yields, and quality changes by mid-century. | Peer-reviewed studies modeling grape suitability under future climate scenarios. | Hannah et al., PNAS (2013); Santos et al., OENO One (2020) |\n| 3 | Bordeaux Appellation authorities are already allowing new, more heat-tolerant varieties in response to warming. | Policy change officially recognizing additional varieties. | CIVB (Bordeaux Wine Council), Decanter Magazine (2021) |\n\n**Source quality**:  \n- Sources include peer-reviewed scientific journals, official climate model projections (IPCC), and statements from Bordeaux wine regulatory authorities.\n- Evidence is model-based and has been expert-reviewed.\n\n---\n\n### Uncertainty  \nAlthough there is consensus that temperatures in Bordeaux will rise significantly by 2050, precise impacts on grape varietals depend on local microclimates, adaptation strategies, and annual weather variability. Models project stress for traditional grapes, but the extent of wine quality and yield reduction is uncertain, especially considering potential innovations (e.g., canopy management, irrigation, new varieties). The timeline and severity of climate impacts may shift if global emissions scenarios change.\n\n---\n\n### Actionability  \n**Recommendations**:  \n1. Accelerate trials and planting of alternative, heat- and drought-tolerant grape varieties approved by regulatory bodies.\n2. Invest in adaptive viticulture practices (e.g., soil management, canopy shading, improved water efficiency) to mitigate climate stress.\n\n---",
+  "Theme": "Long-Term Sustainability",
+  "Category": "specific",
+  "Timestamp": "2025-08-11T10:01:58.800219",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 416,
+  "CompletionTokens": 535,
+  "TotalTokens": 951,
+  "TokenUsageNote": ""
+}

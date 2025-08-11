@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 534,
+  "Lat": 44.8378,
+  "Lon": -0.5792,
+  "QuestionText": "Will the Bordeaux wine region in France be able to sustainably produce its traditional grape varietals under the temperature projections for 2050?",
+  "ResponseText": "---\n\n### Executive summary\nN/A\n\n**Key relevance points**:  \n- N/A  \n- N/A\n\n---\n\n### Credibility  \n**Evidence table**:  \n| # | Claim | Evidence | Source |\n|---|-------|----------|--------|\n| 1 | N/A | N/A | N/A |\n\n**Source quality**:  \n- N/A\n\n---\n\n### Uncertainty  \nN/A\n\n---\n\n### Actionability  \n**Recommendations**:  \n1. N/A  \n2. N/A  \n\n---\n\n",
+  "Theme": "Long-Term Sustainability",
+  "Category": "specific",
+  "Timestamp": "2025-08-11T10:07:43.418578",
+  "Agent": "XCLIM-AI",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 5879,
+  "CompletionTokens": 415,
+  "TotalTokens": 6294,
+  "TokenUsageNote": "Aggregated from 43 internal calls"
+}

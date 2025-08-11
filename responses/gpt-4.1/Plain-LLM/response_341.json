@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 341,
+  "Lat": 36.7465,
+  "Lon": -119.7726,
+  "QuestionText": "What are the projected impacts of changing climate patterns on the businesses that provide pollination services for California's almond industry?",
+  "ResponseText": "---\n\n### Executive summary\nChanging climate patterns—characterized by warmer winters, increased drought, and greater weather variability—are expected to significantly affect businesses providing pollination services to California’s almond industry. These impacts include disrupted flowering schedules, mismatches between bee activity and bloom, increased costs of maintaining healthy bee colonies, and heightened risks of crop pollination failures.\n\n**Key relevance points**:  \n- Directly ties climate shifts (temperature, precipitation, extreme events) to commercial pollination success.  \n- Highlights operational and financial risks to both beekeepers and almond growers, informing decision-making in a key agricultural region.\n\n---\n\n### Credibility  \n**Evidence table**:  \n| # | Claim | Evidence | Source |\n|---|-------|----------|--------|\n| 1 | Climate change disrupts almond bloom timing and pollinator synchrony. | Research indicates warming may advance almond bloom before bees are active. | California Agriculture, 2018 review by Brittain & Kremen |\n| 2 | Heat/drought stress increases bee colony losses and costs for beekeepers. | Observed bee colony losses are connected with drought and poor forage conditions. | Scientific Reports, 2019 (Steinhauer et al.) |\n| 3 | Extreme weather events create unpredictability for pollination businesses. | Interviews with California beekeepers describe increased management challenges from extreme weather. | USDA Climate Hubs, 2021 |\n\n**Source quality**:  \n- Sources include peer-reviewed scientific journals, university-led reports, and USDA expert guidance. Evidence is drawn from empirical research and stakeholder interviews.\n\n---\n\n### Uncertainty  \nWhile there is strong consensus that climate patterns are shifting in California and affecting both crop phenology and bee health, the precise magnitude and timing of these impacts remain uncertain. Projections rely on climate models and observations over recent decades, but future weather volatility and adaptive responses by both almond growers and pollination businesses are difficult to forecast. There are also knowledge gaps regarding how commercial bee management can fully offset mismatches between bloom and pollinator activity.\n\n---\n\n### Actionability  \n**Recommendations**:  \n1. Encourage businesses and growers to actively monitor bloom times and bee activities, adjusting hive placement and timing accordingly.  \n2. Invest in diversified forage resources and drought-resilient practices to support bee health during and beyond the almond bloom season.\n\n---",
+  "Theme": "Beekeeping and Pollination Services",
+  "Category": "general",
+  "Timestamp": "2025-08-08T13:25:34.516316",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 413,
+  "CompletionTokens": 470,
+  "TotalTokens": 883,
+  "TokenUsageNote": ""
+}

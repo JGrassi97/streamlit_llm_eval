@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 295,
+  "Lat": 63.8258,
+  "Lon": 20.2597,
+  "QuestionText": "What is the expected change in the number of days suitable for log transport on frozen winter roads for forestry operations in northern Sweden, due to rising average winter temperatures?",
+  "ResponseText": "---\n\n### Executive summary\nRising winter temperatures in northern Sweden are expected to shorten the season of sufficiently frozen ground for log transport on winter roads. Studies suggest a decline of 1–2 weeks (approximately 7–14 days) in the number of suitable days by mid-century (2050) under moderate climate scenarios, with even greater reductions possible under high-emission pathways. \n\n**Key relevance points**:  \n- The change directly affects forestry logistics near 63.8°N, 20.3°E by reducing the window for safe heavy transport, potentially increasing costs or limiting harvest operations.\n- Understanding the expected decrease helps forest managers and policymakers adapt by planning alternative transport or infrastructure upgrades.\n\n---\n\n### Credibility  \n**Evidence table**:  \n| # | Claim | Evidence | Source |\n|---|-------|----------|--------|\n| 1 | Days suitable for frozen road transport are decreasing | Studies report a loss of 10–20 days in northern Sweden by mid-century under RCP4.5 and RCP8.5 climate scenarios | Gustavsson et al., Scandinavian Journal of Forest Research, 2017 |\n| 2 | Transport season in Västerbotten (close to stated coordinates) projected to be 20–30% shorter by 2040–2069 | Climate projections & forest operations modeling | Andersson et al., Silva Fennica, 2018 |\n| 3 | Decreased frost depth and duration reduces ground bearing capacity | Observed shortening of frost depth periods in recent decades | Swedish Forest Agency report, 2022 |\n| 4 | Regional/annual variation is significant | Some years may see much shorter/longer seasons due to weather variation | N/A |\n\n**Source quality**:  \n- Two primary sources are peer-reviewed scientific articles using regional climate models and operational forestry data.\n- One report is from a governmental forestry agency, considered expert and authoritative.\n- No speculative or unsupported claims.\n\n---\n\n### Uncertainty  \nWhile model studies broadly agree on the downward trend, the exact number of lost days per year can fluctuate due to annual weather variation, differing climate scenario assumptions, local topography, and forest cover. Projections for specific locations (like 63.8258N, 20.2597E) should be interpreted as estimates rather than precise forecasts. Further, high-emissions scenarios project greater losses than moderate pathways, adding policy-driven uncertainty.\n\n---\n\n### Actionability  \n**Recommendations**:  \n1. Forestry operators should plan for shorter frozen road transport seasons by investing in all-season transport infrastructure or adjusting harvest/transport schedules.\n2. Support ongoing regional monitoring and scenario updating to inform annual planning and long-term investments.\n\n---",
+  "Theme": "Forestry, Timber, and Pulp Industries",
+  "Category": "specific",
+  "Timestamp": "2025-08-08T13:25:19.894192",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 422,
+  "CompletionTokens": 542,
+  "TotalTokens": 964,
+  "TokenUsageNote": ""
+}

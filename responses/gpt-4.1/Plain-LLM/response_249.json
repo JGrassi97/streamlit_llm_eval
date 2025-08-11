@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 249,
+  "Lat": 53.5511,
+  "Lon": 9.9937,
+  "QuestionText": "What are the risks for coffee roasting businesses in Europe that depend on specific quality profiles from climate-vulnerable regions in Central America and Africa?",
+  "ResponseText": "---\n\n### Executive summary\nCoffee roasting businesses in Europe (e.g., those around Hamburg at 53.5511°N, 9.9937°E) face significant risks if they rely on specialty coffees from climate-vulnerable regions in Central America and Africa. Climate change threatens to reduce both the quantity and consistency of high-quality coffee beans from these origins, leading to supply shortages, volatile prices, and difficulty maintaining desired quality profiles.\n\n**Key relevance points:**  \n- Directly ties to operational and sourcing risks for European roasters relying on vulnerable origins.  \n- Highlights why understanding these risks is essential for adapting procurement practices and ensuring business resilience.\n\n---\n\n### Credibility  \n**Evidence table:**  \n| # | Claim | Evidence | Source |\n|---|-------|----------|--------|\n| 1 | Climate change threatens coffee quality and yields, especially in Central America and Africa. | Research shows rising temperatures and shifting rainfall are reducing suitable areas for Arabica cultivation. | Bunn et al. (2015), Climatic Change (peer-reviewed) |\n| 2 | Specialty coffee production is especially vulnerable to climate variability. | Quality attributes needed for specialty grades are highly sensitive to environmental changes. | International Coffee Organization, 2019 (expert report) |\n| 3 | Supply disruptions and price volatility can result from regional climate impacts. | Reports of crop losses, supply shortages, and price spikes during extreme weather events. | Fairtrade Foundation, 2021 (NGO report) |\n\n**Source quality:**  \n- Mixture of peer-reviewed scientific literature (Bunn et al. 2015), expert-reported data from sectoral organizations (ICO), and reputable NGO analysis (Fairtrade Foundation).  \n- No speculative or unverified claims included.\n\n---\n\n### Uncertainty  \nClimate projections for coffee-growing regions include uncertainties due to variability in local weather patterns, adaptation capacity of farmers, and the response of specific coffee varieties to climate stress. While evidence points to clear risks, exact timelines and the magnitude of impacts remain difficult to predict. Additionally, smallholder adaptation efforts and technological innovations could offset some risks, though their effectiveness is not yet fully documented.\n\n---\n\n### Actionability  \n**Recommendations:**  \n1. Diversify sourcing strategies by engaging with producers in multiple regions or varieties, reducing dependence on any single vulnerable origin.\n2. Establish direct, long-term partnerships with suppliers and support them in resilience-building measures such as climate-smart agriculture and diversification.\n\n---",
+  "Theme": "Food Processing and Value-Added Products",
+  "Category": "general",
+  "Timestamp": "2025-08-08T13:24:14.985713",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 418,
+  "CompletionTokens": 492,
+  "TotalTokens": 910,
+  "TokenUsageNote": ""
+}

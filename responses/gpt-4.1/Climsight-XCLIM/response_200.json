@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 200,
+  "Lat": 43.2965,
+  "Lon": 5.3698,
+  "QuestionText": "How might climate change affect the overall appeal and seasonality of agri-tourism businesses in the Provence region of France, famous for its lavender fields and vineyards, by 2040?",
+  "ResponseText": "Errore nell'elaborazione della domanda con Climsight-XCLIM: Error during Climsight execution: list index out of range",
+  "Theme": "Agri-Tourism and Rural Recreation",
+  "Category": "general",
+  "Timestamp": "2025-08-08T12:23:00.551342",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 535,
+  "Lat": -18.2861,
+  "Lon": 147.7088,
+  "QuestionText": "What are the implications of rising sea temperatures for the long-term sustainability of the Great Barrier Reef and its tourism industry in Australia by 2040?",
+  "ResponseText": "Errore nell'elaborazione della domanda con Climsight-XCLIM: Error during Climsight execution: cannot access local variable 'output' where it is not associated with a value",
+  "Theme": "Long-Term Sustainability",
+  "Category": "specific",
+  "Timestamp": "2025-08-11T10:36:53.813168",
+  "Agent": "Climsight-XCLIM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

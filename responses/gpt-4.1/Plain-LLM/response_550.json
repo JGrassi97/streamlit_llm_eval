@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 550,
+  "Lat": 41.9028,
+  "Lon": 12.4964,
+  "QuestionText": "How is the geographic range for the Aedes aegypti mosquito, a vector for dengue fever, expected to change in southern Europe due to rising average winter temperatures by 2035, for example near Rome, Italy?",
+  "ResponseText": "---\n\n### Executive summary\nBy 2035, rising average winter temperatures in southern Europe, including areas near Rome, Italy, are expected to increase the geographic range and year-round survival of the Aedes aegypti mosquito. Warmer winters make it possible for this dengue virus vector to expand northward, persist through winter, and establish more stable populations near Rome.\n\n**Key relevance points**:  \n- Directly addresses how climate change will affect Aedes aegypti's ability to survive and spread near Rome, a location on the edge of its current range.  \n- This information matters for public health planning and mosquito control in the Rome region and broader southern Europe.\n\n---\n\n### Credibility  \n**Evidence table**:  \n| # | Claim | Evidence | Source |\n|---|-------|----------|--------|\n| 1 | Aedes aegypti's range is driven by minimum winter temperatures. | Studies show survival is limited where winter averages drop below 10°C. | Proestos et al. (2015), Parasites & Vectors |\n| 2 | Climate models project warmer winters in southern Europe by 2035, with Rome becoming suitable for Aedes aegypti year-round. | Model projections show Rome’s minimum winter temperatures rising above 10°C, increasing suitability. | Kraemer et al. (2015), eLife |\n| 3 | Recent observations and models confirm northward spread of Aedes species with warming trends. | Ae. albopictus (related species) has already spread in Italy and Europe following temperature trends. | Medlock et al. (2012), Vector-Borne and Zoonotic Diseases |\n\n**Source quality**:  \n- All key sources are peer-reviewed scientific journal articles using climate and species distribution models or expert-reviewed synthesis.\n- Evidence is model-based and/or supported by surveillance data.\n\n---\n\n### Uncertainty  \nPredictions rely on current climate models and known ecological limits, which carry uncertainty due to variables such as local adaptation, mosquito control measures, and potential land use changes. While warming winters are strongly linked to expanded ranges, microclimates or unanticipated extreme events could limit local establishment. Long-term projections always carry some uncertainty, though current trends are robust.\n\n---\n\n### Actionability  \n**Recommendations**:  \n1. Begin targeted mosquito surveillance and control near Rome, especially tracking Aedes aegypti.  \n2. Integrate climate projections into regional public health planning to anticipate and manage potential outbreaks of mosquito-borne diseases.\n\n---",
+  "Theme": "Public Health and Climate",
+  "Category": "specific",
+  "Timestamp": "2025-08-11T10:02:44.034742",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 434,
+  "CompletionTokens": 502,
+  "TotalTokens": 936,
+  "TokenUsageNote": ""
+}

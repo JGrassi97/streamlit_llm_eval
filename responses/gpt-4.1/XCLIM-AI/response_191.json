@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 191,
+  "Lat": 25.2048,
+  "Lon": 55.2708,
+  "QuestionText": "How will an increase in the number of days with average temperatures exceeding 40°C affect the energy costs for cooling high-tech greenhouses growing cucumbers in the United Arab Emirates by 2035?",
+  "ResponseText": "ERROR: Error generating XCLIM-AI response: 1 validation error for TgDaysAboveInput\nop\n  Input should be '<', 'lt', '<=' or 'le' [type=literal_error, input_value='>', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error",
+  "Theme": "Controlled Environment Agriculture (CEA) and Climate",
+  "Category": "specific",
+  "Timestamp": "2025-08-08T11:58:00.974720",
+  "Agent": "XCLIM-AI",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

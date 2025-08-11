@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 680,
+  "Lat": 31.2001,
+  "Lon": 29.9187,
+  "QuestionText": "How might projected climate changes influence urban development policies in Alexandria, Egypt throughout the 2030-2050 period?",
+  "ResponseText": "ERROR: Failed to generate Climsight response - Error during Climsight execution: OPENAI_API_KEY missing for Climsight",
+  "Theme": "Urban and Community Planning",
+  "Category": "general",
+  "Timestamp": "2025-08-11T13:45:35.354689",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

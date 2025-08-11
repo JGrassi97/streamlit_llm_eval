@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 776,
+  "Lat": 25.6872,
+  "Lon": 32.6396,
+  "QuestionText": "What effect will increased temperatures have on the comfort levels for tourists visiting Luxor, Egypt (25.6872N, 32.6396E) by 2040?",
+  "ResponseText": "ERROR: Failed to generate Climsight response - Error during Climsight execution: OPENAI_API_KEY missing for Climsight",
+  "Theme": "Tourism and Recreation",
+  "Category": "specific",
+  "Timestamp": "2025-08-11T13:45:35.366651",
+  "Agent": "Climsight",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 0,
+  "CompletionTokens": 0,
+  "TotalTokens": 0,
+  "TokenUsageNote": ""
+}

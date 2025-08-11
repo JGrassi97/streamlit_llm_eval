@@ -1,0 +1,16 @@
+{
+  "QuestionIdx": 579,
+  "Lat": 35.0116,
+  "Lon": 135.7681,
+  "QuestionText": "Will the cherry blossom viewing season (sakura) in Kyoto, Japan, shift to earlier dates due to rising spring temperatures over the next 20 years?",
+  "ResponseText": "---\n\n### Executive summary\nYes, it is very likely that the cherry blossom (sakura) viewing season in Kyoto will continue to shift to earlier dates over the next 20 years due to rising spring temperatures. This trend has already been observed in recent decades and is linked to climate change and increasing average springtime temperatures in the Kyoto region.\n\n**Key relevance points**:  \n- Studies show a strong correlation between warmer spring temperatures and earlier flowering of cherry blossoms, directly affecting seasonal tourism and local traditions in Kyoto.  \n- Understanding this shift helps in planning festivals, tourism strategies, and environmental management.\n\n---\n\n### Credibility  \n**Evidence table**:  \n| # | Claim | Evidence | Source |\n|---|-------|----------|--------|\n| 1 | Kyoto’s cherry blossom dates have shifted earlier over the past decades. | Long-term historical records show peak bloom dates advancing, especially in recent years. | Aono & Kazui, \"Phenological data series of cherry tree flowering in Kyoto, Japan, and its application to reconstruction of springtime temperatures since the 9th century\", International Journal of Climatology, 2008 |\n| 2 | Rising temperatures are causing earlier blooming in Kyoto. | Studies demonstrate a direct link between increased average temperatures and earlier phenological events. | Parmesan & Yohe, \"A globally coherent fingerprint of climate change impacts across natural systems\", Nature, 2003 |\n| 3 | Continued warming is projected for Kyoto over the next decades, likely causing further shifts. | Climate models forecast continued warming trends in central Japan. | Japan Meteorological Agency, \"Climate Change Monitoring Report 2023\" |\n\n**Source quality**:  \n- The sources include peer-reviewed research articles and official climate monitoring reports from established agencies.\n- Citations are from high-quality journals and government agencies, ensuring reliability.\n\n---\n\n### Uncertainty  \nWhile there is high confidence in the overall warming trend and its impact on cherry blossom timing, precise year-to-year variations will still be influenced by natural climate variability. Other factors, such as urbanization or localized weather patterns, can also affect bloom timing. However, the overall trend toward earlier blooming is well supported by historical observation and climate projections.\n\n---\n\n### Actionability  \n**Recommendations**:  \n1. Local authorities and event organizers in Kyoto should plan for possible shifts in festival dates and adjust tourism campaigns and logistics accordingly.\n2. Monitor annual bloom data closely to provide real-time updates to the public, and consider research partnerships to refine predictions.\n\n---",
+  "Theme": "Tourism and Recreation",
+  "Category": "specific",
+  "Timestamp": "2025-08-11T11:13:28.398107",
+  "Agent": "Plain-LLM",
+  "GeneratorModel": "gpt-4.1",
+  "PromptTokens": 421,
+  "CompletionTokens": 501,
+  "TotalTokens": 922,
+  "TokenUsageNote": ""
+}
