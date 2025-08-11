@@ -203,6 +203,9 @@ cython_debug/
 
 
 SECRETS_SETUP.md
+GOOGLE_SHEET_UPDATE.md
+ADMIN_REVIEW_SETUP.md
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
@@ -211,3 +214,9 @@ __marimo__/
 responses_b/
 .gitignore
 /.streamlit
+
+test_*
+pages/Statistics_new.py
+ai-scores
+
+.devcontainer
