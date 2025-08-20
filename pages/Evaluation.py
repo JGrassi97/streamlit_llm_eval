@@ -141,7 +141,7 @@ if not st.session_state.user_username:
         
         with col2:
             st.markdown("### ✨ Welcome!")
-            st.markdown(f"Great choice with username **{st.session_state.new_username}**!")
+            st.markdown(f"Username: **{st.session_state.new_username}**!")
             
             # Banner informativo
             st.info(
