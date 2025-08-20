@@ -1,9 +1,9 @@
 import streamlit as st
 
-st.set_page_config(page_title="AI for Climate Adaptation – Evaluation", layout="wide")
+st.set_page_config(page_title="climaiscore", layout="wide")
 
 # Hero
-st.title("AI for Climate Adaptation – Evaluation Platform")
+st.title("AI for Climate-related Information – Expert Evaluation")
 st.caption("Evaluate AI-generated answers to climate adaptation questions.")
 
 st.markdown("---")
