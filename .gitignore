@@ -216,8 +216,7 @@ responses_b/
 /.streamlit
 
 test_*
-pages/Statistics_new.py
-pages/Review_new.py
+prev_pages/
 ai-scores
 
 .devcontainer
