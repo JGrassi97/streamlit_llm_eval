@@ -217,6 +217,7 @@ responses_b/
 
 test_*
 pages/Statistics_new.py
+pages/Review_new.py
 ai-scores
 
 .devcontainer
