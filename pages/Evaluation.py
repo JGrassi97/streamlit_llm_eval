@@ -2,6 +2,7 @@ import streamlit as st
 import gspread
 import pandas as pd
 from google.oauth2.service_account import Credentials
+import uuid
 
 import json
 import os
@@ -74,6 +75,31 @@ credentials = Credentials.from_service_account_info(st.secrets["gspread"], scope
 gc = gspread.authorize(credentials)
 sh = gc.open_by_url(st.secrets["gspread"]["sheet_url"])
 eval_ws = sh.worksheet("evaluations")
+user_ws = sh.worksheet("users")
+
+# === Funzioni di gestione utenti ===
+def check_user_exists(username):
+    """Controlla se l'username esiste già nel Google Sheet"""
+    users = pd.DataFrame(user_ws.get_all_records())
+    if users.empty:
+        return False, None
+    user_row = users[users["username"] == username]
+    if user_row.empty:
+        return False, None
+    return True, user_row.iloc[0]["user_id"]
+
+def create_new_user(username, background, role, institution):
+    """Crea un nuovo utente nel Google Sheet"""
+    user_id = str(uuid.uuid4())[:8]  # Usa solo i primi 8 caratteri per semplicità
+    user_ws.append_row([
+        user_id,
+        username,
+        "",  # password vuota (non più usata)
+        background,
+        role,
+        institution
+    ])
+    return user_id
 
 def save_evaluation(user_id, question_id, agent, relevance, credibility, uncertainty, actionability):
     eval_ws.append_row([user_id, question_id, agent, relevance, credibility, uncertainty, actionability])
@@ -81,11 +107,103 @@ def save_evaluation(user_id, question_id, agent, relevance, credibility, uncerta
 # === UI iniziale ===
 st.title("Evaluation")
 
-if "user_username" not in st.session_state or not st.session_state.user_username:
-    st.warning("Please log in first on the 'Account Management' page.")
+# Inizializza le variabili di sessione
+if "user_username" not in st.session_state:
+    st.session_state.user_username = None
+if "user_id" not in st.session_state:
+    st.session_state.user_id = None
+if "show_registration_form" not in st.session_state:
+    st.session_state.show_registration_form = False
+
+# === Sistema di autenticazione semplificato ===
+if not st.session_state.user_username:
+    st.markdown("### 👤 Access to Evaluation")
+    st.markdown("Please enter your username to start evaluating:")
+    
+    username = st.text_input("Username", key="login_username")
+    
+    if st.button("Continue", key="login_button"):
+        if username.strip():
+            # Controlla se l'utente esiste
+            user_exists, user_id = check_user_exists(username.strip())
+            
+            if user_exists:
+                # Utente esistente, procedi alla valutazione
+                st.session_state.user_username = username.strip()
+                st.session_state.user_id = user_id
+                st.session_state.show_registration_form = False
+                st.success(f"Welcome back, {username}!")
+                st.rerun()
+            else:
+                # Nuovo utente, mostra form di registrazione
+                st.session_state.show_registration_form = True
+                st.session_state.new_username = username.strip()
+                st.rerun()
+        else:
+            st.error("Please enter a valid username.")
+    
+    # Form di registrazione per nuovo utente
+    if st.session_state.show_registration_form:
+        st.markdown("---")
+        st.markdown("### ✨ New User Registration")
+        st.markdown(f"Username **{st.session_state.new_username}** is not found. Please provide some additional information:")
+        
+        with st.form("registration_form"):
+            background = st.text_area(
+                "Tell us a bit about your background (e.g. research field, interest)",
+                help="This helps us understand the diverse perspectives in our evaluation"
+            )
+            role = st.selectbox(
+                "Your current role", 
+                ["Student", "Researcher", "Policymaker", "NGO", "Private Sector", "Other"]
+            )
+            institution = st.text_input(
+                "Institution/Organization (e.g. University, Company, Government Agency)",
+                help="Optional but helpful for research analysis"
+            )
+            
+            submitted = st.form_submit_button("Complete Registration")
+            
+            if submitted:
+                if background.strip():
+                    # Crea nuovo utente
+                    user_id = create_new_user(
+                        st.session_state.new_username,
+                        background.strip(),
+                        role,
+                        institution.strip() if institution.strip() else "Not specified"
+                    )
+                    
+                    # Imposta sessione
+                    st.session_state.user_username = st.session_state.new_username
+                    st.session_state.user_id = user_id
+                    st.session_state.show_registration_form = False
+                    
+                    st.success(f"Registration completed! Welcome {st.session_state.new_username}!")
+                    st.success(f"Your evaluator ID is: **{user_id}**")
+                    st.info("You can now start evaluating. Refreshing page...")
+                    st.rerun()
+                else:
+                    st.error("Please provide information about your background.")
+        
+        if st.button("Cancel", key="cancel_registration"):
+            st.session_state.show_registration_form = False
+            st.session_state.new_username = None
+            st.rerun()
+    
     st.stop()
 
+# === Utente autenticato ===
 st.success(f"You are logged in as: {st.session_state.user_username} (ID: {st.session_state.user_id})")
+
+# Bottone di logout
+col1, col2 = st.columns([1, 5])
+with col1:
+    if st.button("🚪 Logout"):
+        st.session_state.user_username = None
+        st.session_state.user_id = None
+        st.session_state.show_registration_form = False
+        st.rerun()
 
 # === Carica valutazioni precedenti dell'utente ===
 @st.cache_data(ttl=60)
