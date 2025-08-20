@@ -2,6 +2,7 @@ import streamlit as st
 import gspread
 import pandas as pd
 from google.oauth2.service_account import Credentials
+import uuid
 
 import json
 import os
@@ -74,6 +75,48 @@ credentials = Credentials.from_service_account_info(st.secrets["gspread"], scope
 gc = gspread.authorize(credentials)
 sh = gc.open_by_url(st.secrets["gspread"]["sheet_url"])
 eval_ws = sh.worksheet("evaluations")
+user_ws = sh.worksheet("users")
+
+# === Funzioni di gestione utenti ===
+def check_user_exists(username):
+    """Controlla se l'username esiste già nel Google Sheet"""
+    users = pd.DataFrame(user_ws.get_all_records())
+    if users.empty:
+        return False, None
+    user_row = users[users["username"] == username]
+    if user_row.empty:
+        return False, None
+    return True, user_row.iloc[0]["user_id"]
+
+def create_new_user(username, background, role, institution, climate_experience=None, education_level=None, geographic_region=None, ai_familiarity=None, motivation=None):
+    """Crea un nuovo utente nel Google Sheet"""
+    user_id = str(uuid.uuid4())[:8]  # Usa solo i primi 8 caratteri per semplicità
+    
+    # Se non vengono forniti i nuovi parametri, usa valori di default per compatibilità
+    if climate_experience is None:
+        climate_experience = "Not specified"
+    if education_level is None:
+        education_level = "Not specified"
+    if geographic_region is None:
+        geographic_region = "Not specified"
+    if ai_familiarity is None:
+        ai_familiarity = "Not specified"
+    if motivation is None:
+        motivation = "Not specified"
+    
+    user_ws.append_row([
+        user_id,
+        username,
+        background,
+        role,
+        institution,
+        climate_experience,
+        education_level,
+        geographic_region,
+        ai_familiarity,
+        motivation
+    ])
+    return user_id
 
 def save_evaluation(user_id, question_id, agent, relevance, credibility, uncertainty, actionability):
     eval_ws.append_row([user_id, question_id, agent, relevance, credibility, uncertainty, actionability])
@@ -81,11 +124,183 @@ def save_evaluation(user_id, question_id, agent, relevance, credibility, uncerta
 # === UI iniziale ===
 st.title("Evaluation")
 
-if "user_username" not in st.session_state or not st.session_state.user_username:
-    st.warning("Please log in first on the 'Account Management' page.")
+# Inizializza le variabili di sessione
+if "user_username" not in st.session_state:
+    st.session_state.user_username = None
+if "user_id" not in st.session_state:
+    st.session_state.user_id = None
+if "show_registration_form" not in st.session_state:
+    st.session_state.show_registration_form = False
+
+# === Sistema di autenticazione semplificato ===
+if not st.session_state.user_username:
+    
+    # Form di registrazione per nuovo utente
+    if st.session_state.show_registration_form:
+        col1, col2, col3 = st.columns([1, 2, 1])
+        
+        with col2:
+            st.markdown("### ✨ Welcome!")
+            st.markdown(f"Great choice with username **{st.session_state.new_username}**!")
+            
+            # Banner informativo
+            st.info(
+                "📝 **Help us understand our evaluators better**\n\n"
+                "These questions help us analyze the diversity of perspectives in our research. "
+                "**All fields are optional** - you can skip any question you prefer not to answer."
+            )
+            
+            with st.form("registration_form"):
+                st.markdown("#### About You")
+                
+                background = st.text_area(
+                    "Professional background or field of interest",
+                    help="e.g., Environmental science, Policy analysis, Climate research, Engineering...",
+                    placeholder="Optional - Tell us about your professional background or areas of interest"
+                )
+                
+                role = st.selectbox(
+                    "Current role", 
+                    ["Prefer not to say", "Student", "Researcher", "Policymaker", "NGO", "Private Sector", "Consultant", "Journalist", "Other"],
+                    help="Optional - Select your current professional role"
+                )
+                
+                institution = st.text_input(
+                    "Institution/Organization",
+                    help="e.g., University, Company, Government Agency, NGO...",
+                    placeholder="Optional - Your current institution or organization"
+                )
+                
+                # Nuove domande per profilazione
+                st.markdown("#### Experience & Expertise")
+                
+                climate_experience = st.selectbox(
+                    "Experience with climate change topics",
+                    ["Prefer not to say", "No specific experience", "Basic knowledge", "Some experience", "Experienced", "Expert level"],
+                    help="Optional - Your level of experience with climate change and adaptation topics"
+                )
+                
+                education_level = st.selectbox(
+                    "Highest education level",
+                    ["Prefer not to say", "High school", "Bachelor's degree", "Master's degree", "PhD", "Other"],
+                    help="Optional - Your highest completed education level"
+                )
+                
+                geographic_region = st.selectbox(
+                    "Geographic region",
+                    ["Prefer not to say", "Europe", "North America", "South America", "Asia", "Africa", "Oceania", "Other"],
+                    help="Optional - The region where you are based"
+                )
+                
+                ai_familiarity = st.selectbox(
+                    "Familiarity with AI/LLMs",
+                    ["Prefer not to say", "Not familiar", "Basic understanding", "Regular user", "Professional user", "AI researcher/developer"],
+                    help="Optional - Your level of familiarity with AI and Large Language Models"
+                )
+                
+                motivation = st.text_area(
+                    "What interests you about this evaluation?",
+                    help="Optional - What motivated you to participate in this research?",
+                    placeholder="Optional - e.g., Interest in climate science, AI research, contributing to research..."
+                )
+                
+                st.markdown("")
+                submitted = st.form_submit_button("Continue", use_container_width=True)
+                
+                if submitted:
+                    # Crea nuovo utente (tutti i campi sono opzionali tranne username)
+                    user_id = create_new_user(
+                        st.session_state.new_username,
+                        background.strip() if background.strip() else "Not specified",
+                        role if role != "Prefer not to say" else "Not specified",
+                        institution.strip() if institution.strip() else "Not specified",
+                        climate_experience if climate_experience != "Prefer not to say" else "Not specified",
+                        education_level if education_level != "Prefer not to say" else "Not specified", 
+                        geographic_region if geographic_region != "Prefer not to say" else "Not specified",
+                        ai_familiarity if ai_familiarity != "Prefer not to say" else "Not specified",
+                        motivation.strip() if motivation.strip() else "Not specified"
+                    )
+                    
+                    # Imposta sessione
+                    st.session_state.user_username = st.session_state.new_username
+                    st.session_state.user_id = user_id
+                    st.session_state.show_registration_form = False
+                    
+                    st.success(f"Welcome aboard, {st.session_state.new_username}! 🎉")
+                    st.success(f"Your evaluator ID is: **{user_id}**")
+                    st.info("Starting your evaluation session...")
+                    st.rerun()
+            
+            st.markdown("")  # Spazio
+            if st.button("← Back to username", key="cancel_registration", use_container_width=True):
+                st.session_state.show_registration_form = False
+                st.session_state.new_username = None
+                st.rerun()
+    
+    else:
+        # Sezione di login (solo se NON siamo nel form di registrazione)
+        # Centrare il form di login
+        col1, col2, col3 = st.columns([1, 2, 1])
+        
+        with col2:
+            st.markdown("### Enter your username")
+            st.markdown("")
+            
+            username = st.text_input(
+                "Username", 
+                key="login_username",
+                placeholder="Choose a unique username...",
+                help="This will be your identifier for this evaluation session"
+            )
+            
+            st.markdown("**New to the platform?** Choose any username you like and write it down somewhere safe - you'll need it to access your evaluations later.")
+            st.markdown("**Returning user?** Enter the same username you used before.")
+            
+            st.markdown("")
+            
+            if st.button("Continue", key="login_button", use_container_width=True):
+                if username.strip():
+                    # Controlla se l'utente esiste
+                    user_exists, user_id = check_user_exists(username.strip())
+                    
+                    if user_exists:
+                        # Utente esistente, procedi alla valutazione
+                        st.session_state.user_username = username.strip()
+                        st.session_state.user_id = user_id
+                        st.session_state.show_registration_form = False
+                        st.success(f"Welcome back, {username}!")
+                        st.rerun()
+                    else:
+                        # Nuovo utente, mostra form di registrazione
+                        st.session_state.show_registration_form = True
+                        st.session_state.new_username = username.strip()
+                        st.rerun()
+                else:
+                    st.error("Please enter a valid username.")
+            
+            st.markdown("---")
+            
+        # Info box centrato
+        st.info(
+            "ℹ️ **Why do we need a username?**\n\n"
+            "We need to track how many people participate in the evaluation and which responses each person evaluates "
+            "to ensure the quality and validity of our research. However, **your individual responses remain completely anonymous** "
+            "and will only be used for scientific research purposes."
+        )
+    
     st.stop()
 
+# === Utente autenticato ===
 st.success(f"You are logged in as: {st.session_state.user_username} (ID: {st.session_state.user_id})")
+
+# Bottone di logout
+col1, col2 = st.columns([1, 5])
+with col1:
+    if st.button("🚪 Logout"):
+        st.session_state.user_username = None
+        st.session_state.user_id = None
+        st.session_state.show_registration_form = False
+        st.rerun()
 
 # === Carica valutazioni precedenti dell'utente ===
 @st.cache_data(ttl=60)
