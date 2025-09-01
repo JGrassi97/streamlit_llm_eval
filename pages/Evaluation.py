@@ -353,6 +353,10 @@ question_text = load_response("Plain-LLM", idx)["QuestionText"]
 
 st.markdown(f"### Question {response_id}")
 st.markdown(f"**{question_text}**")
+st.info(
+    "Please focus strictly on the four defined criteria. Do not try to do exhaustive fact checking or detect AI model identity. "
+    "If a response includes a claim you suspect might be wrong but you are not sure, do not penalize heavily unless it clearly undermines credibility in context."
+)
 st.markdown("---")
 
 # Ottieni le sezioni per entrambe le risposte
@@ -425,6 +429,15 @@ def render_actionability_sliders():
 # === RELEVANCE SECTION ===
 st.header("📊 Relevance")
 st.markdown("*How well does each response address the given question?*")
+with st.expander("Scoring guide (1–10)"):
+    st.markdown(
+        """
+**1–3**: Largely off-topic or misses key intent  
+**4–6**: Partially addresses the question; gaps or unnecessary digressions  
+**7–8**: Mostly focused and covers main aspects  
+**9–10**: Fully focused, concise, and covers all essential aspects
+        """
+    )
 
 col1, col2, col3 = st.columns([8, 1, 8])
 
@@ -448,6 +461,15 @@ st.markdown("---")
 # === CREDIBILITY SECTION ===
 st.header("🔬 Credibility")
 st.markdown("*Scientific accuracy and plausibility of the information*")
+with st.expander("Scoring guide (1–10)"):
+    st.markdown(
+        """
+**1–3**: Clear inaccuracies or misleading framing  
+**4–6**: Mixed: plausible core but some weak / vague / slightly dubious parts  
+**7–8**: Generally sound and reasonable  
+**9–10**: Scientifically robust, well-framed, internally consistent
+        """
+    )
 
 col1, col2, col3 = st.columns([8, 1, 8])
 
@@ -471,6 +493,15 @@ st.markdown("---")
 # === UNCERTAINTY SECTION ===
 st.header("❓ Uncertainty Communication")
 st.markdown("*Clarity in expressing limitations or confidence levels*")
+with st.expander("Scoring guide (1–10)"):
+    st.markdown(
+        """
+**1–3**: No acknowledgment where it clearly matters OR misleading certainty  
+**4–6**: Some generic caveats; limited specificity  
+**7–8**: Clear, context-aware indication of limits or ranges  
+**9–10**: Precise, proportionate communication of uncertainty without overload
+        """
+    )
 
 col1, col2, col3 = st.columns([8, 1, 8])
 
@@ -494,6 +525,15 @@ st.markdown("---")
 # === ACTIONABILITY SECTION ===
 st.header("🎯 Actionability")
 st.markdown("*Usefulness of the response for decision-making or planning*")
+with st.expander("Scoring guide (1–10)"):
+    st.markdown(
+        """
+**1–3**: Abstract / generic; no usable guidance  
+**4–6**: Some practical elements but fragmented or vague  
+**7–8**: Concrete, context-relevant indications  
+**9–10**: Clear, structured, decision-supportive guidance
+        """
+    )
 
 col1, col2, col3 = st.columns([8, 1, 8])
 
