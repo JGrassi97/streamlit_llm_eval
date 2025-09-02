@@ -153,57 +153,53 @@ if not st.session_state.user_username:
             with st.form("registration_form"):
                 st.markdown("#### About You")
                 
-                background = st.text_area(
-                    "Professional background or field of interest",
-                    help="e.g., Environmental science, Policy analysis, Climate research, Engineering...",
-                    placeholder="Optional - Tell us about your professional background or areas of interest"
-                )
-                
+
+                # Domande chiuse prima
                 role = st.selectbox(
                     "Current role", 
-                    ["Prefer not to say", "Student", "Researcher", "Policymaker", "NGO", "Private Sector", "Consultant", "Journalist", "Other"],
+                    [
+                        "Prefer not to say", "Student", "PhD Student", "Postdoc", "Researcher", "Professor", "Policymaker", "NGO", "Private Sector", "Consultant", "Journalist", "Engineer", "Data Scientist", "Medical Professional", "Teacher", "Retired", "Unemployed", "Other"
+                    ],
                     help="Optional - Select your current professional role"
                 )
-                
-                institution = st.text_input(
-                    "Institution/Organization",
-                    help="e.g., University, Company, Government Agency, NGO...",
-                    placeholder="Optional - Your current institution or organization"
-                )
-                
-                # Nuove domande per profilazione
-                st.markdown("#### Experience & Expertise")
-                
+
                 climate_experience = st.selectbox(
                     "Experience with climate change topics",
                     ["Prefer not to say", "No specific experience", "Basic knowledge", "Some experience", "Experienced", "Expert level"],
                     help="Optional - Your level of experience with climate change and adaptation topics"
                 )
-                
+
                 education_level = st.selectbox(
                     "Highest education level",
                     ["Prefer not to say", "High school", "Bachelor's degree", "Master's degree", "PhD", "Other"],
                     help="Optional - Your highest completed education level"
                 )
-                
-                geographic_region = st.selectbox(
-                    "Geographic region",
-                    ["Prefer not to say", "Europe", "North America", "South America", "Asia", "Africa", "Oceania", "Other"],
-                    help="Optional - The region where you are based"
-                )
-                
+
                 ai_familiarity = st.selectbox(
                     "Familiarity with AI/LLMs",
                     ["Prefer not to say", "Not familiar", "Basic understanding", "Regular user", "Professional user", "AI researcher/developer"],
                     help="Optional - Your level of familiarity with AI and Large Language Models"
                 )
-                
+
+                # Domande aperte dopo
+                background = st.text_area(
+                    "Professional background or field of interest",
+                    help="e.g., Environmental science, Policy analysis, Climate research, Engineering...",
+                    placeholder="Optional - Tell us about your professional background or areas of interest"
+                )
+
+                institution = st.text_input(
+                    "Institution/Organization",
+                    help="e.g., University, Company, Government Agency, NGO...",
+                    placeholder="Optional - Your current institution or organization"
+                )
+
                 motivation = st.text_area(
                     "What interests you about this evaluation?",
                     help="Optional - What motivated you to participate in this research?",
                     placeholder="Optional - e.g., Interest in climate science, AI research, contributing to research..."
                 )
-                
+
                 st.markdown("")
                 submitted = st.form_submit_button("Continue", use_container_width=True)
                 
@@ -216,7 +212,7 @@ if not st.session_state.user_username:
                         institution.strip() if institution.strip() else "Not specified",
                         climate_experience if climate_experience != "Prefer not to say" else "Not specified",
                         education_level if education_level != "Prefer not to say" else "Not specified", 
-                        geographic_region if geographic_region != "Prefer not to say" else "Not specified",
+                        # geographic_region removed
                         ai_familiarity if ai_familiarity != "Prefer not to say" else "Not specified",
                         motivation.strip() if motivation.strip() else "Not specified"
                     )

@@ -6,8 +6,6 @@ st.set_page_config(page_title="climaiscore", layout="wide")
 st.title("AI for Climate Information – Expert Evaluation")
 st.caption("Evaluate AI-generated answers to climate adaptation questions.")
 
-
-
 st.markdown("---")
 
 with st.container(border=1):
