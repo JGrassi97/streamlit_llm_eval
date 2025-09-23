@@ -95,6 +95,34 @@ def load_user_data():
 st.title("📊 Evaluation Statistics")
 st.success("✅ Authenticated successfully")
 
+# === System Evaluation Balance ===
+st.markdown("### 📊 System Evaluation Balance")
+df = load_evaluation_data()
+if not df.empty:
+    # Conta valutazioni per sistema (escludendo Plain-LLM che è sempre presente)
+    agent_counts = df[df["agent"] != "Plain-LLM"]["agent"].value_counts().to_dict()
+    
+    if agent_counts:
+        col1, col2, col3 = st.columns(3)
+        total_evaluations = sum(agent_counts.values())
+        
+        for i, (system, count) in enumerate(sorted(agent_counts.items())):
+            percentage = (count / total_evaluations * 100) if total_evaluations > 0 else 0
+            with [col1, col2, col3][i % 3]:
+                st.metric(
+                    label=system,
+                    value=f"{count} evaluations",
+                    delta=f"{percentage:.1f}% of total"
+                )
+        
+        st.markdown(f"**Total evaluations:** {total_evaluations}")
+    else:
+        st.info("No evaluations yet for non-baseline systems")
+else:
+    st.info("No evaluation data available")
+
+st.markdown("---")
+
 # Logout button
 if st.button("🚪 Logout"):
     st.session_state["password_correct"] = False

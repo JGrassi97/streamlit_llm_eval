@@ -53,20 +53,48 @@ def load_response(agent_name, idx):
 def get_available_indices():
     return [f.split("_")[1].split(".")[0] for f in os.listdir(os.path.join(RESPONSE_BASE_PATH, "Plain-LLM"))]
 
+@st.cache_data(ttl=30)  # Cache breve per aggiornare conteggi
+def count_global_evaluations():
+    """Conta il numero totale di valutazioni per ogni sistema AI"""
+    try:
+        df = pd.DataFrame(eval_ws.get_all_records())
+        if df.empty:
+            return {}
+        
+        # Conta escludendo Plain-LLM (sempre presente come baseline)
+        agent_counts = df[df["agent"] != "Plain-LLM"]["agent"].value_counts().to_dict()
+        return agent_counts
+    except:
+        return {}
+
 def get_random_evaluation_pair(already_done):
+    """
+    Seleziona una coppia bilanciando il numero globale di valutazioni per sistema
+    """
     indices = get_available_indices()
-    random.shuffle(indices)
+    
+    # Conta valutazioni globali per sistema (escludendo Plain-LLM che è sempre presente)
+    global_counts = count_global_evaluations()
+    
+    # Ordina sistemi per numero crescente di valutazioni (meno valutato prima)
     others = ["Climsight", "Climsight-XCLIM", "XCLIM-AI"]
-
-    for idx in indices:
-        plain = load_response("Plain-LLM", idx)
-        alt_agent = random.choice(others)
-        alt = load_response(alt_agent, idx)
-
-        pair = [("Q" + idx, "Plain-LLM"), ("Q" + idx, alt["Agent"])]
-        if not any(p in already_done for p in pair):
-            return idx, plain, alt
-
+    others_sorted = sorted(others, key=lambda x: global_counts.get(x, 0))
+    
+    # Prova prima il sistema meno valutato, poi gli altri
+    for target_agent in others_sorted:
+        random.shuffle(indices)  # Randomizza le domande
+        
+        for idx in indices:
+            plain = load_response("Plain-LLM", idx)
+            try:
+                alt = load_response(target_agent, idx)
+                pair = [("Q" + idx, "Plain-LLM"), ("Q" + idx, alt["Agent"])]
+                
+                if not any(p in already_done for p in pair):
+                    return idx, plain, alt
+            except FileNotFoundError:
+                continue  # Skip se non esiste risposta per questo sistema
+    
     return None, None, None  # Nessuna nuova combinazione trovata
 
 # === Setup Google Sheet ===
